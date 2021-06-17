@@ -10,11 +10,15 @@ This guide explains how to update your SCANeR license
 *Having troubles
 
 >**Important notes:**
->Updates are incremental, so you must apply each delivered ones.
->The license update procedure is the same for a Nomadic or a Fixed license.
->If you install a license update on a machine where SCANeR is installed an internet connection is not required, otherwise it is.
->For Nomadic license only: We recommend to apply a dongle update on a machine where SCANeR is installed. If you need to apply a license update from a computer where SCANeR is not installed then you must first make sure that the license’s driver is installed. To do so, try to access to the [SACC](http://localhost:1947) on the machine. If you cannot access to the SACC then the dongle’s driver must be installed on the machine before to start (administrator privileges are required). [Click here to download the Physical dongle driver](http://stockage.scanersimulation.com/license/HASP/HASPUserSetupW7.zip) **Le lien ne marche pas**.
->For Fixed license only: The dongle update procedure must be followed on the software licenses’ server where the software license has been installed
+>Updates are incremental, so you must apply each delivered ones.  
+
+>The license update procedure is the same for a Nomadic or a Fixed license.  
+
+>If you install a license update on a machine where SCANeR is installed an internet connection is not required, otherwise it is.  
+
+>For Nomadic license only: We recommend to apply a dongle update on a machine where SCANeR is installed. If you need to apply a license update from a computer where SCANeR is not installed then you must first make sure that the license’s driver is installed. To do so, try to access to the [SACC](http://localhost:1947) on the machine. If you cannot access to the SACC then the dongle’s driver must be installed on the machine before to start (administrator privileges are required). [Click here to download the Physical dongle driver](http://stockage.scanersimulation.com/license/HASP/HASPUserSetupW7.zip) **Le lien ne marche pas**.  
+
+>For Fixed license only: The dongle update procedure must be followed on the software licenses’ server where the software license has been installed.  
 
 #### Step 1. Receive the new license 
 
@@ -44,7 +48,7 @@ If you have several dongle plugged in your computer, you can make them blink to 
 2. Then click on 'Apply File'.
 ![](./assets/UpdateLicense.png)
 
-Congratulations ! 💪 
+Congratulations ! 💪  
 Your license is now updated, you can ejoy your new SCANeR products ! 😊
 
 #### Having troubles
