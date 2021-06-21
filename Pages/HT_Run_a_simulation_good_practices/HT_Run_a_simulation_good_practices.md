@@ -27,7 +27,7 @@ Modules can be checked directly on `Simulator Status` but the state is not saved
 ![](./assets/LaunchModules.png)  
 
 2. Verify the status of the modules thanks to symbol in the green circle next to the modules.  
-![](./assets/ModuleStates.png)
+![](./assets/ModuleStates.png)  
 The correct status of the module should be `Loaded`  
 
 >Would you like to create your own module, and learn more about their states? [How to? API creation]()
