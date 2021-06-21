@@ -40,7 +40,7 @@ If you have several dongle plugged in your computer, you can make them blink to 
 #### Step 3. Apply the update to your license
 
 1. Click on `Browse` button, and selected the previously saved V2C file.
-2. Then click on `Apply File`.
+2. Then click on `Apply File`
 ![](./assets/UpdateLicense.png)
 
 Congratulations ! 💪  
@@ -61,7 +61,7 @@ If for any reason you have applied a license update and the `Update/Attach` page
 ###### Step 1. Launch the tool
 Find in `%STUDIO_PATH%/third party/` the service `RUS_QAKOG.exe`. You must launch it as **Administrator**
 ###### Step 2. Create your C2V file
-Go to tab `Collect Key Status Information` and click on `Collect information` button.
+Go to tab `Collect Key Status Information` and click on `Collect information` button
 ![](./assets/GenerateC2V.png)
 ###### Step 3. Share it!
-Once the C2V is generated, rename it (e.g. `Your_Company.C2V`) and send it to [support-scaner](mailto:support-scaner@avsimulation.fr)
+Once the C2V is generated, rename it (e.g. `Your_Company.C2V`) and send it to [support-scaner](mailto:support-scaner@avsimulation.fr).
