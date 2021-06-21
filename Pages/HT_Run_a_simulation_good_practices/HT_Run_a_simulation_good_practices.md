@@ -24,7 +24,7 @@ Modules can be checked directly on `Simulator Status` but the state is not saved
 #### Step 2. Run modules
 
 1. Click on the `Start Simulator` button (double blue triangles) to launch all the previously selected modules
-![](./assets/LaunchModules.png)
+![](./assets/LaunchModules.png)  
 
 2. Verify the status of the modules thanks to symbol in the green circle next to the modules.  
 ![](./assets/ModuleStates.png)
@@ -51,4 +51,5 @@ Click on the `Stop Simulator` button (white cross in a red circle)
 ![](./assets/StopModules.png)
 
 This button close, and kill the SCANeR modules in a clean way. If you stop the simulation with this button inconsistencies can appear (e.g. at the reload of the next simulation).  
+  
 We rely on you to run your simulation as it should be 😉
