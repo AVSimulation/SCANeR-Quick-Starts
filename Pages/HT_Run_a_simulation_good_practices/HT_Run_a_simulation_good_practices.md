@@ -33,8 +33,8 @@ The correct status of the module should be `Loaded`
 >Would you like to create your own module, and learn more about their states? [How to? API creation]()
 
 #### Step 3. Run the simulation
-Click on the `Play Scenario` button (black triangle in a green circle) to launch the simulation
-![](./assets/LaunchSimu.png)
+Click on the `Play Scenario` button (black triangle in a green circle) to launch the simulation  
+![](./assets/LaunchSimu.png)  
 The correct status of the module should be `Running`  
 
 >If you have set parameters in your scenario you can set the value of these parameters at the start of the simulation. Click on the grey triangle next to the `Play Scenario` button and choose `Play Scenario with Parameters`. Would you like to design parametric simulation? [How to? Design scenario for SCANeR Explore]()
