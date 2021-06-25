@@ -1,4 +1,4 @@
-### HOW TO? Run a SCANeR simulation, the good practices
+### HOW TO? Download the Trial version of SCANeR studio
 
 You are using SCANeR everyday to manage your experimentation but do you use it in the proper way ? 🤔
 
