@@ -11,18 +11,30 @@ This guide explains how to download the trial version of SCANeR studio
 
 1. Open your favorite Web browser and go to `avsimulation.com`
 
-2. Go to the SCANeR section - Free downloads 
-![](./assets/ConfigManager.png)
+2. Go to the SCANeR section - Free Downloads 
+![](./assets/FreeDownload_SCANeR.png)
 
-This field allows you to quickly launch several modules. (needed for the Step 2.)  
->The field `Auto Start` can launch automaticly your module. 
+3. On the Free Downloads page, you can ask for your trial version
+![](./assets/Ask_Trial_Version.png)
+>**Note:**
+>You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level 2 
 
-Modules can be checked directly on `Simulator Status` but the state is not saved. 
+4. Just enter your informations, click on `SEND` and you are ready to move to the next step! :clap:
+![](./assets/Request_for_the_trial.png)
+>**Note:**
+>In addition, you will also receive our `Samples Pack` which includes a ready to use set of demonstrations of SCANeR features.
 
-#### Step 2. Run modules
+#### Step 2. Receive a link to download the trial
 
-1. Click on the `Start Simulator` button (double blue triangles) to launch all the previously selected modules
-![](./assets/LaunchModules.png)  
+1. Open your favorite mail service, you should receive and email from your AVsimulation sales excecutive
+![](./assets/mail_download_SCANeR.png)
+
+2. Click on the Donwload link and click on `Download` on the file transfer website
+>**Note:**
+>You have one week to use this link to download the trial :watch:
+
+3. The download begins!  
+![](./assets/Download_Begins.png)
 
 2. Verify the status of the modules thanks to symbol in the green circle next to the modules.  
 ![](./assets/ModuleStates.png)  
