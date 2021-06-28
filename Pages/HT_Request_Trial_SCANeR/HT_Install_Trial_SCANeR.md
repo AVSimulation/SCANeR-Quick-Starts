@@ -19,15 +19,22 @@ This guide explains how to download the trial version of SCANeR studio
 >**Note:**
 >You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level 2 
 
-4. Just enter your informations, click on `SEND` and you are ready to move to the next step !
+4. Just enter your informations, click on `SEND` and you are ready to move to the next step! :clap:
 ![](./assets/Request_for_the_trial.png)
 >**Note:**
 >In addition, you will also receive our `Samples Pack` which includes a ready to use set of demonstrations of SCANeR features.
 
 #### Step 2. Receive a link to download the trial
 
-1. Click on the `Start Simulator` button (double blue triangles) to launch all the previously selected modules
-![](./assets/LaunchModules.png)  
+1. Open your favorite mail service, you should receive and email from your AVsimulation sales excecutive
+![](./assets/mail_download_SCANeR.png)
+
+2. Click on the Donwload link and click on `Download` on the file transfer website
+>**Note:**
+>You have one week to use this link to download the trial :watch:
+
+3. The download begins!  
+![](./assets/Download_Begins.png)
 
 2. Verify the status of the modules thanks to symbol in the green circle next to the modules.  
 ![](./assets/ModuleStates.png)  
