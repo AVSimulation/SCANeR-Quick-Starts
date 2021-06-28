@@ -9,9 +9,9 @@ This guide explains how to download the trial version of SCANeR studio
 
 #### Step 1. Request a trial version
 
-1. Open SCANeR studio on your system and go to `CONFIGURATION\Configuration Manager...`
+1. Open your favorite Web browser and go to `avsimulation.com`
 
-2. Tick (or untick) the `Selected` field next to each modules.
+2. Go to the SCANeR section - Free downloads 
 ![](./assets/ConfigManager.png)
 
 This field allows you to quickly launch several modules. (needed for the Step 2.)  
