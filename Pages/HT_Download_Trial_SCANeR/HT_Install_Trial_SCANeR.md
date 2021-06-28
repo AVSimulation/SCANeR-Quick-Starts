@@ -21,7 +21,7 @@ The trial version gives you access to all software `Packs` including [Foundation
 >**Note:**
 >You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level 2 
 
-4. Just enter your informations, click on `SEND` and you are ready to move to the next step! :clap:
+4. Just enter your information, click on `SEND` and you are ready to move to the next step! :clap:
 ![](./assets/Request_for_the_trial.png)
 >**Note:**
 >In addition, you will also receive our `Samples Pack` which includes a ready to use set of demonstrations of SCANeR features. For the details on how to install this Samples-Pack, it is here: [How to? Install Samples-Pack]()
