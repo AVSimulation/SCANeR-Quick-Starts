@@ -14,7 +14,7 @@ This chapter explains how to install a nomadic SCANeR license
 - Step 2. Plug the USB dongle to the computer
 
 ##### Step 1. Receive the physical USB dongle
-AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to us.
+AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to [support-scaner](mailto:support-scaner@avsimulation.fr).
 
 ##### Step 2. Plug the USB dongle to the computer
 You can directly plug the USB dongle to a computer with SCANeR installed. The license is already installed in the dongle.
