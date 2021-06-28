@@ -28,7 +28,7 @@ The trial version gives you access to all software `Packs` including [Foundation
 
 #### Step 2. Receive a link to download the trial
 
-1. Open your favorite mail service, you should receive and email from your AVsimulation sales excecutive
+1. Open your favorite mail service, you should receive an email from your AVSimulation sales excecutive
 ![](./assets/mail_download_SCANeR.png)
 
 2. Click on the Donwload link and click on `Download` on the file transfer website
