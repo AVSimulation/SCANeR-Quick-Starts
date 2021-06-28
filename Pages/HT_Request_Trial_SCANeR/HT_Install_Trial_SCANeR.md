@@ -7,7 +7,7 @@ This guide explains how to download the trial version of SCANeR studio
 - Step 2. Receive a link to download the trial
 - Step 3. Install the trial
 
-The trial version gives you access to all software `Packs` including [Foundation](https://www.avsimulation.com/pack-foundation/), [AD/ADAS]https://www.avsimulation.com/pack-ad-adas/, [Headlights] https://www.avsimulation.com/pack-headlights/, etc.
+The trial version gives you access to all software `Packs` including [Foundation](https://www.avsimulation.com/pack-foundation/), [AD/ADAS](https://www.avsimulation.com/pack-ad-adas/), [Headlights](https://www.avsimulation.com/pack-headlights/), etc.
 
 #### Step 1. Request a trial version
 
