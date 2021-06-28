@@ -1,6 +1,6 @@
 ### HOW TO? Download the Trial version of SCANeR studio
 
-You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR studio is a first step to achieve this goal :)
+You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR studio is a first step to achieve this goal :smiley:
 
 This guide explains how to download the trial version of SCANeR studio
 - Step 1. Request a trial version
