@@ -39,8 +39,11 @@ The trial version gives you access to all software `Packs` including [Foundation
 ![](./assets/Download_Begins.png)
 
 #### Step 3. Install the trial
->To install SCANeR, follow the instructions here: [How to? Install SCANeR]()
+
+To install SCANeR, follow the instructions here: [How to? Install SCANeR]()
+
+Congratulations ! You are now ready to use the trial version of SCANeR studio :raised_hands:
 
 >**Note:**
->In addition, you will also receive our `Samples Pack` which includes a ready to use set of demonstrations of SCANeR features.
-Once installed, SCANeR Trial Version will expire after 45 days (but can be extended for an additional 30 days).
+>Once installed, SCANeR Trial Version will expire after 45 days (but can be extended for an additional 30 days).
+
