@@ -12,7 +12,7 @@ This guide explains how to download the trial version of SCANeR studio
 1. Open your favorite Web browser and go to `avsimulation.com`
 
 2. Go to the SCANeR section - Free downloads 
-![](./assets/ConfigManager.png)
+![](./assets/FreeDownload_SCANeR.png)
 
 This field allows you to quickly launch several modules. (needed for the Step 2.)  
 >The field `Auto Start` can launch automaticly your module. 
