@@ -37,6 +37,7 @@ Find in `%STUDIO_PATH%/third party/` the service `RUS_QAKOG.exe`. You must launc
 1. Go to tab `Collect Key Status Information`
 2. Select the option `installation of new protection key`
 3. Click on `Collect information` button
+
 ![](./assets/GenerateC2V.png)
 ###### Step 2.3. Share it!
 Once the C2V is generated, rename it (e.g. `Your_Company.C2V`) and send it to [support-scaner](mailto:support-scaner@avsimulation.fr).
