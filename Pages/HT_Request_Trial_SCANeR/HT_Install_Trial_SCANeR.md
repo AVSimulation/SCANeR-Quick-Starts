@@ -1,15 +1,13 @@
 ### HOW TO? Download the Trial version of SCANeR studio
 
-You are using SCANeR everyday to manage your experimentation but do you use it in the proper way ? 🤔
+You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR studio is a first step to achieve this goal :)
 
-This guide explains how to manage the execution of your simulation
-- Step 1. Prepare the configuration
-- Step 2. Run modules
-- Step 3. Run the simulation
-- Step 4. Stop the simulation
-- Step 5. Stop modules 
+This guide explains how to download the trial version of SCANeR studio
+- Step 1. Request a trial version
+- Step 2. Receive a link to download the trial
+- Step 3. Install the trial
 
-#### Step 1. Prepare the configuration
+#### Step 1. Request a trial version
 
 1. Open SCANeR studio on your system and go to `CONFIGURATION\Configuration Manager...`
 
