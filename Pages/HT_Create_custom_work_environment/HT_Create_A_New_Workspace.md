@@ -27,10 +27,15 @@ Enough chatter, let's jump into the guide! 😁
 ##### Step 2. Create a new Configuration
 
 1.  To create a new configuration you have to click on the "New Configuration" button located in the bottom left of  the Configuration Manager. The window that appears is the Configuration Creation Wizard. The first thing you have to choose is the source configuration, meaning the settings files that will be copied to create your new configuration. If you don't have specific configuration yet, you can use the **DEFAULT** configuration as source.
+
 ![Configuration Creation Wizard 1](./assets/configCreationWizard-1.png)
+
 2.  After that, you can name the configuration you are creating and choose its path. If do not modify it it will be the name of your Configuration in the "config" folder of your SCANeR install path.
+
 ![Configuration Creation Wizard 2](./assets/configCreationWizard-2.png)
+
 3.  The last thing you have to choose is the path of the data for your configuration. If do not modify it it will be the name of your Configuration in the "data" folder of your SCANeR install path.
+
 ![Configuration Creation Wizard 3](./assets/configCreationWizard-3.png)
 
 ##### Step 3. Switch to your Configuration
