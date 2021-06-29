@@ -20,10 +20,6 @@ Ready? [Let's start with tutorials and guides!](https://sphilippe-avs.github.io/
 
 Want to learn more? [Register to one or more of our technical online session](https://www.avsimulation.com/events/)
 
-### Tutorials
-
-[How To ? evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
-
 ### Support or Contact
 
 Having trouble with Samples-Pack? Check out our [FAQ](http://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_Evaluation_FAQ.pdf) or [contact support](support-scaner@avsimulation.fr) and we’ll help you sort it out.
