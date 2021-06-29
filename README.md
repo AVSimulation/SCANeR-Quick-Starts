@@ -1,6 +1,35 @@
 # Pages Edition Manual
 
-## 2. First time installation
+## 1. Good practices
+
+* Follow the file tree below
+* New pages go into ```(root)/Pages/(page_title).md```
+* Images go into ```(root)/Pages/assets/```
+* Avoid blank spaces in folder or file names, as they require '\%20' when referenced in markdown
+* Reference new pages in ```(root)/index.md```
+
+![](./assets/PagesFileTree.PNG)
+
+## 2. Using GitHub web editor
+
+The GitHub interface includes the necessary editors.  
+https://github.com/AVSGuillaume/Samples-Pack/tree/Pages
+
+### Markdown editor
+
+```Add file > Create new file```
+
+Set the file name with ```.md``` extention to activate syntax colouring, and correct result in the ```Preview``` tab.  
+In the file name, add a ```/``` to create a new folder
+
+### Upload images
+
+```Add file > Upload files```  
+
+To create the ```assets``` folder, create a new file called ```folder/deleteme```  
+Then delete the ```deleteme``` file and upload your images in it.
+
+## 3. Using a local Git repo
 
 ### Set up the Git local repo
 
@@ -20,15 +49,15 @@ git checkout Pages
 This creates a new local branch "Pages" that with upstream "origin/Pages"
 Now your working tree has the latest version of the Pages files.
 
-## 3. Publish a modification
+### Publish a modification
 
-### Get the latest version from GitHub
+#### Get the latest version from GitHub
 
 ```
 git pull
 ```
 
-### Start working
+#### Start working
  
 ```
 git status
@@ -40,18 +69,8 @@ git add Pages/HT_Something/*
 git commit -m "Created or modified some page"
 ```
 
-### Publish your modifications
+#### Publish your modifications
 
 ```
 git push
 ```
-
-## 4. Good practices
-
-* Follow the file tree below
-* New pages go into ```(root)/Pages/(page_title).md```
-* Images go into ```(root)/Pages/assets/```
-* Avoid blank spaces in folder or file names, as they require '\%20' when referenced in markdown
-* Reference new pages in ```(root)/index.md```
-
-![](./assets/PagesFileTree.PNG)
