@@ -16,8 +16,7 @@ If you've never used SCANeR Software before, we recommend that you also watch on
 ## Get started
 
 * [How to? Start SCANeR studio for the first time]
-* [How to? Create your custom work environment](./Pages/HT_Create_custom_work_environment/
-HT_Create_A_New_Workspace.md)
+* [How to? Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 * [How to? Switch between work environments]
 * [How to? Run a SCANeR simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
