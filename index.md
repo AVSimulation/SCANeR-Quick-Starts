@@ -16,7 +16,7 @@ Our Trial version includes:
 - Last official release of SCANeR Software (including studio, explore and compute) with full features
 - A fixed workstation license valid for 45-days (convertible into perpetual)
 
-Ready? [Let's start with tutorials and guides!](https://sphilippe-avs.github.io/Samples-Pack/GettingStarted)
+Ready? [Let's start with tutorials and guides!](./gettingstarted.md)
 
 Want to learn more? [Register to one or more of our technical online session](https://www.avsimulation.com/events/)
 
