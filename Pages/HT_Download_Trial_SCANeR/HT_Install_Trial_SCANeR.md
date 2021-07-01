@@ -40,7 +40,7 @@ The trial version gives you access to all software `Packs` including [Foundation
 
 #### Step 3. Install the trial
 
-To install SCANeR, follow the instructions here: [How to? Install SCANeR]()
+To install SCANeR, follow the instructions here: [How to? Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
 Congratulations ! You are now ready to use the trial version of SCANeR studio :raised_hands:
 
