@@ -9,7 +9,7 @@ If you've never used SCANeR Software before, we recommend that you also watch on
 ## Installation
 
 * [How to? Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md)
-* [How to? Install SCANeR studio]
+* [How to? Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 * [How to? Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [How to? Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
 
