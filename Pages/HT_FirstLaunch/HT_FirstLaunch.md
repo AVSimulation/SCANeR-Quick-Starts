@@ -16,7 +16,7 @@ This guide explains how to navigate through the basic interfaces to be ready to 
 
 Once the software is launched, you will arrive in an interface with a toolbar. This is where you will find the 5 modes of SCANeR studio, each of which has specific functions.
 
-![Toolbar](./assets/Toolbar.png)
+![Toolbar](./assets/Toolbar.PNG)
 
 
 
