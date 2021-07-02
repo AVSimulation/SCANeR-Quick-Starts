@@ -30,7 +30,7 @@ There are several ways to build a terrain:
 
 - Import in the Terrain mode an existing 3D database (created by a computer graphic team) and use the Terrain interface to turn its database into a SCANeR studio compliant terrain.
 
-![TERRAIN](./assets/TERRAIN.png)
+![TERRAIN](./assets/TERRAIN.PNG)
 
 
 
@@ -42,7 +42,7 @@ By default, several dynamics model are available in SCANeR studio, their complex
 
 External models can also be plugged into SCANeR studio.
 
-![VEHICULE](./assets/VEHICULE.png)
+![VEHICULE](./assets/VEHICULE.PNG)
 
 
 
@@ -52,7 +52,7 @@ The Scenario mode has been designed to prepare the simulation. Choose a terrain,
 
 SCANeR studio has libraries of terrains, vehicles, pedestrians, 3D objects and has a specific language to make elements interact together.
 
-![SCENARIO](./assets/SCENARIO.png)
+![SCENARIO](./assets/SCENARIO.PNG)
 
 
 
@@ -60,7 +60,7 @@ SCANeR studio has libraries of terrains, vehicles, pedestrians, 3D objects and h
 
 The Simulation mode is where you will run your simulation. Your simulation will use your own scenari or the default ones in the SCANeR studio libraries. The Simulation mode is made to monitor and control functions such as recorder, tracking, motion, sound, visual, etc. These functions are called modules.
 
-![SIMULATION](./assets/SIMULATION.png)
+![SIMULATION](./assets/SIMULATION.PNG)
 
 
 
@@ -68,7 +68,7 @@ The Simulation mode is where you will run your simulation. Your simulation will 
 
 The Analysis mode is made to view again an exercise of a driving simulation and to extract information as graphics, spreadsheet data or video.
 
-![ANALYSIS](./assets/ANALYSIS.png)
+![ANALYSIS](./assets/ANALYSIS.PNG)
 
 
 
@@ -76,7 +76,7 @@ The Analysis mode is made to view again an exercise of a driving simulation and 
 
 As seen previously, the Simulation mode includes modules. The modules are used to define what capabilities the simulator has. For example, add MOTION module if a motion platform had to manage dynamic movements. There are a lot of pre-existing modules, the ones in the bottom section of the Simulation mode are just the ones present in the default configuration. You can also create your own modules through the SCANeR API.
 
-![MoreModules](./assets/MoreModules.png)
+![MoreModules](./assets/MoreModules.PNG)
 
 
 
