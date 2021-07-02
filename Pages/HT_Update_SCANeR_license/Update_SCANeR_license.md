@@ -32,7 +32,6 @@ This webpage is where you can manage SCANeR license, you can visualize which lic
 
 2. If your license is a Nomadic one, plug the USB dongle in your computer. You can check if your dongle is plugged by clicking on `Sentinel Keys`
 ![](./assets/DonglePlugged.png)
-
 If you have several dongle plugged in your computer, you can make them blink to identify which is which 🤩
 
 3.  Click on `Update/Attach`, you`ll be redirected on the following page:
