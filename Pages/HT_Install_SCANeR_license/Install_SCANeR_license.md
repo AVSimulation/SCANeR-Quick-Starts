@@ -1,12 +1,12 @@
 ### HOW TO? Install your SCANeR license
 
-You recently purchased a new SCANeR license. 
+You recently purchased a new SCANeR license. 🥳
 
 AVSimulation provides 2 kinds of licenses:
 - Nomadic licenses 
 - Fixed licenses
 
-Details can be found in the [software catalogue](https://www.avsimulation.com/pack-foundation/)
+>Details can be found in the [software catalogue](https://www.avsimulation.com/pack-foundation/)
 
 #### Nomadic Licenses
 This chapter explains how to install a nomadic SCANeR license
@@ -24,19 +24,18 @@ You can enjoy your new SCANeR products ! 😊
 
 #### Fixed Licenses
 
-This guide explains how to install a fixed SCANeR license
+This chapter explains how to install a fixed SCANeR license
 - Step 1. Install SCANeR studio
 - Step 2. Generate C2V file
 - Step 3. Install the license
-- Having troubles
 
 >**Important notes:**  
->Fixed license cannot be moved once installed. Each of the steps below should be done on the computer that will run SCANeR 
+>Fixed license cannot be moved once installed. Each step below should be done on the computer that will run SCANeR.  
 >Administrator rights are required for the installation of the license. 
 
 ##### Step 1. Install SCANeR studio
 
-The installation of SCANeR studio is described in [SCANeR studio installation](https://github.com/AVSGuillaume/Samples-Pack/blob/3182d60806769b3ba844f12e6597bad8b0606352/Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
+The installation of SCANeR studio is described in [SCANeR studio installation](https://github.com/AVSGuillaume/Samples-Pack/blob/f28f5d542a36b8e49dad3d010664a31e77e89578/Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
 ##### Step 2. Generate C2V file
 
