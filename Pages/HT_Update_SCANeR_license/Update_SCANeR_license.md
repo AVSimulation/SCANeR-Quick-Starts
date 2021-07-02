@@ -28,7 +28,7 @@ First step is done, pretty easy 👍
 
 1. Open your favorite internet browser, and write the following address: [http://localhost:1947](http://localhost:1947). You should be on the license service : Sentinel Admin Control Center
 ![](./assets/SACC.png)
-This webpage is where you can manage SCANeR license, you can visualize which licenses are recognize by your computer and if they`re used.
+This webpage is where you can manage SCANeR license, you can visualize which licenses are recognize by your computer and if they are used.
 
 2. If your license is a Nomadic one, plug the USB dongle in your computer. You can check if your dongle is plugged by clicking on `Sentinel Keys`
 ![](./assets/DonglePlugged.png)
