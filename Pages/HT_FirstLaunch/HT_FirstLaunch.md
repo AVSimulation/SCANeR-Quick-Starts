@@ -34,11 +34,11 @@ There are several ways to build a terrain:
 
 
 
-##### VEHICULE
+##### VEHICLE
 
 The Vehicle Mode is the dynamic part of SCANeR studio software that analyses the behaviour of vehicles, in 3 dimensions, coupled and non-linear. It describes their behaviour until the limit of adhesion.
 
-By default, several dynamics model are available in SCANeR studio, their complexity level depends on how they are used in the simulation. From a basic behaviour for surrounding traffic vehicles, to a complex high level dynamic model for the driven vehicle, or for vehicle dynamics engineering studies with Callas dynamic model.
+By default, several dynamics models are available in SCANeR studio, their complexity level depends on how they are used in the simulation. From a basic behaviour for surrounding traffic vehicles, to a complex high level dynamic model for the driven vehicle, or for vehicle dynamics engineering studies with Callas dynamic model.
 
 External models can also be plugged into SCANeR studio.
 
@@ -66,7 +66,7 @@ The Simulation mode is where you will run your simulation. Your simulation will 
 
 ##### ANALYSIS
 
-The Analysis mode is made to view again an exercise of a driving simulation and to extract information as graphics, spreadsheet data or video.
+The Analysis mode is made to view again an exercise of a driving simulation and to extract information as charts, spreadsheet data or video.
 
 ![ANALYSIS](./assets/ANALYSIS.PNG)
 
