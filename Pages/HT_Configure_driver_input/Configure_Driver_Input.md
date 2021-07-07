@@ -1,6 +1,6 @@
 ### HOW TO? Configure drinver's input
 
-SCANeR can be deployed on many different platforms (workstation, driving simulator, cloud, etc.). SCANeR can be used with autonomous driving as well as with a human driver in the loop. Having an accurate acquisition of the driver's input is very important in order to have a more immersive experience.
+SCANeR can be deployed on many different platforms (workstation, driving simulator, cloud, etc.). SCANeR can be used with autonomous driving as well as with a human driver in the loop. Having an accurate acquisition of the driver's input is very important in order to have a more immersive driving experience.
 
 
 This guide explains how to configure driver's input in SCANeR studio.
