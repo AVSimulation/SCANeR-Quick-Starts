@@ -9,6 +9,8 @@ If you don't have a *SCANeR studio installer* yet, check out [How to? Download t
 ## Install SCANeR studio
 >**Important note:**
 >The installation of SCANeR studio requires full administrator rights.
+
+
 ![Installer: Welcome](./assets/i1.PNG)
 * Click ```Next```
 
