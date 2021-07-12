@@ -7,7 +7,8 @@ This guide walks you through the installation process for SCANeR studio.
 If you don't have a *SCANeR studio installer* yet, check out [How to? Download the Trial version of SCANeR studio](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md).
 
 ## Install SCANeR studio
-
+>**Important note:**
+>The installation of SCANeR studio requires full administrator rights.
 ![Installer: Welcome](./assets/i1.PNG)
 * Click ```Next```
 
@@ -45,7 +46,7 @@ If you don't have a *SCANeR studio installer* yet, check out [How to? Download t
 
 ## Install the license or Get started.
 
-The SCANeR studio Trial installer includes an automatic 30 days license. You can [Start SCANeR studio for the first time](../HT_FirstLaunch/HT_FirstLaunch.html).
+The SCANeR studio Trial installer includes an automatic 45 days license. You can [Start SCANeR studio for the first time](../HT_FirstLaunch/HT_FirstLaunch.html).
 
 If you are a customer, see [How to? Install your SCANeR license](../HT_Install_SCANeR_license/Install_SCANeR_license.md)
 
