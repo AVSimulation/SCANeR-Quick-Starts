@@ -9,7 +9,9 @@ If you don't have a *SCANeR studio installer* yet, check out [How to? Download t
 ## Install SCANeR studio
 * Launch SCANeR studio installer ```SCANeRstudio-2021.2r14.exe```
 
-> If you are using the trial version, please unzip the folder to find the SCANeR studio installer
+> **Note:** If you are using the trial version, please unzip the folder to find the SCANeR studio installer.
+
+
 > **Important note:**
 > The installation of SCANeR studio requires full administrator rights.
 
