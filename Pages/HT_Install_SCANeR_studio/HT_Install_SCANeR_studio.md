@@ -7,8 +7,11 @@ This guide walks you through the installation process for SCANeR studio.
 If you don't have a *SCANeR studio installer* yet, check out [How to? Download the Trial version of SCANeR studio](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md).
 
 ## Install SCANeR studio
->**Important note:**
->The installation of SCANeR studio requires full administrator rights.
+* Launch SCANeR studio installer ```SCANeRstudio-2021.2r14.exe```
+
+> If you are using the trial version, please unzip the folder to find the SCANeR studio installer
+> **Important note:**
+> The installation of SCANeR studio requires full administrator rights.
 
 
 ![Installer: Welcome](./assets/i1.PNG)
