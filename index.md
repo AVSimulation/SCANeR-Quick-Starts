@@ -2,7 +2,7 @@
 
 SCANeR Software combines tools with agile features to help teams interface XiL solutions for evaluation and validation at any level of V-cycle.
 
-Tips, if you want to evaluate and validate SCANeR Software feel free to [request our Trial version here](https://www.avsimulation.com/scaner-studio-trial/).
+If you want to evaluate and validate SCANeR Software feel free to [request our Trial version here](https://www.avsimulation.com/scaner-studio-trial/).
 
 Our Trial version includes:
 - Last official release of SCANeR Software (including studio, explore and compute) with full features
