@@ -11,7 +11,7 @@ The installation of SCANeR studio requires full administrator rights.
 ## Install SCANeR studio
 * Launch SCANeR studio installer ```SCANeRstudio-202X.XrXX.exe```
 
-> **Note:** If you are using the trial version, please unzip the folder to find the SCANeR studio installer.
+> **Note:** If you are using the trial version, please unzip ```SCANeRstudio-202X.XrXX_Trial.exe.zip``` to find the SCANeR studio installer.
 
 ![Installer: Welcome](./assets/i1.PNG)
 * Click ```Next```
