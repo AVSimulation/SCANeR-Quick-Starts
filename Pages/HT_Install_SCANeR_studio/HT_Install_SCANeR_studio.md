@@ -6,15 +6,12 @@ This guide walks you through the installation process for SCANeR studio.
 
 If you don't have a *SCANeR studio installer* yet, check out [How to? Download the Trial version of SCANeR studio](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md).
 
+The installation of SCANeR studio requires full administrator rights.
+
 ## Install SCANeR studio
-* Launch SCANeR studio installer ```SCANeRstudio-2021.2r14.exe```
+* Launch SCANeR studio installer ```SCANeRstudio-202X.XrXX.exe```
 
 > **Note:** If you are using the trial version, please unzip the folder to find the SCANeR studio installer.
-
-
-> **Important note:**
-> The installation of SCANeR studio requires full administrator rights.
-
 
 ![Installer: Welcome](./assets/i1.PNG)
 * Click ```Next```
@@ -24,15 +21,18 @@ If you don't have a *SCANeR studio installer* yet, check out [How to? Download t
 
 ![Installer: Choose Components](./assets/i3.PNG)
 * Leave all components selected
+> **Info:** Items include simulation data, configuration files, APIs samples and dependancies for the licensing system, sound and video management.
 * Click ```Next```
 
 ![Installer: Install Location](./assets/i4.PNG)
-* We recommend to install SCANeR studio on the "D:/" disk.
+* Choose the installation folder
+> **Note:** We recommend to install SCANeR studio on a different different disk than the system (e.g. ```D:``` instead of ```C:```).
 * Click ```Next```
 
 ![Installer: Share Folder](./assets/i5b.png)
-* Sharing the installation folder is required in a multi-computer configuration.  
-  For Trial, leave unchecked.
+* Sharing the installation folder is required in a multi-computer configuration.
+> **Info:** SCANeR studio's can work in multi-machine on any architecture (workstation, simulator, HiL, Cloud) as long as all nodes (PC or VM) are on the same local network.
+> **Note:** For Trial use, leave unchecked.
 * Click ```Next```
 
 ![Installer: Environment Variable](./assets/i6.PNG)
@@ -51,7 +51,9 @@ If you don't have a *SCANeR studio installer* yet, check out [How to? Download t
 * Installation is finished
 * Cick ```Finish```
 
-## Install the license or Get started.
+_Congratulations, SCANeR studio is installed !_
+
+## Go further
 
 The SCANeR studio Trial installer includes an automatic 45 days license. You can [Start SCANeR studio for the first time](../HT_FirstLaunch/HT_FirstLaunch.html).
 
