@@ -1,4 +1,4 @@
-# HOW TO? Create a new Workspace in SCANeR Studio
+# How to? Create a new Workspace in SCANeR Studio
 
 In SCANeR Studio, the different workspaces you can have are called **Configurations**. 
 
@@ -14,7 +14,7 @@ Each **Configuration** has a specific set of settings and data that will be used
 
 Enough chatter, let's jump into the guide! 😁
 
-##### Step 1. Open the Configuration Manager
+## Step 1. Open the Configuration Manager
 
 ​	Click on **"CONFIGURATION" -> "Configuration Manager..."** and a window allowing you to manage you different Configurations will appear.
 
@@ -24,7 +24,7 @@ Enough chatter, let's jump into the guide! 😁
 
 ![Configuration Manager](./assets/configurationManager.png)
 
-##### Step 2. Create a new Configuration
+## Step 2. Create a new Configuration
 
 1.  To create a new configuration you have to click on the "New Configuration" button located in the bottom left of  the Configuration Manager. The window that appears is the Configuration Creation Wizard. The first thing you have to choose is the source configuration, meaning the settings files that will be copied to create your new configuration. If you don't have specific configuration yet, you can use the **DEFAULT** configuration as source.
 
@@ -38,7 +38,7 @@ Enough chatter, let's jump into the guide! 😁
 
 ![Configuration Creation Wizard 3](./assets/configCreationWizard-3.png)
 
-##### Step 3. Switch to your Configuration
+## Step 3. Switch to your Configuration
 
 ​	You can now select your newly created Configuration in the list and click on "Apply" in the bottom right corner of the window.
 
