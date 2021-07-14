@@ -1,1 +1,1 @@
-### HOW TO? Evaluate and validate an command law for lighting AFS
+# How to? Evaluate and validate an command law for lighting AFS
