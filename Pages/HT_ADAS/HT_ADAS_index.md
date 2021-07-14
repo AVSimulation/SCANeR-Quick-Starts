@@ -1,4 +1,4 @@
-### How to? evaluate and validate an ADAS system
+# How to? evaluate and validate an ADAS system
 
 You now have a local simulation environment configured for the SCANeR SDK and you're ready to design your first SCANeR experimentation!
 If you run SCANeR studio on your environment for the first time we advise you to read the [How to? run SCANeR studio for the 1st time] ()
@@ -24,9 +24,9 @@ The tutorial is tested to work with the SCANeR Software 2021.1.
 > 
 > Don't have it? [Ask your SCANeR Trial now](https://www.avsimulation.com/scaner-studio-trial/)
 
-#### Step 1. Build a workspace for ADAS system evaluation and validation
+## Step 1. Build a workspace for ADAS system evaluation and validation
 
-##### 1.1 Build workspace
+### 1.1 Build workspace
 
 1. Open SCANeR studio on your system and go to `CONFIGURATION\Configuration Manager...`
 ![](./assets/configurationManager.png)
@@ -45,13 +45,13 @@ Let's add `SENSORS` module to it!
 > - [Realtime Physics (L2)](https://www.avsimulation.com/pack-physics-based-sensors/),
 > - [Full Physics (L3)](https://www.avsimulation.com/pack-physics-based-sensors/)
 
-##### 1.2 Add `SENSORS` module to workspace
+### 1.2 Add `SENSORS` module to workspace
 
 1. Click on `Add Process`, select `SENSORS` module from the `Process Editor` list, click on `Add` and `Close`
 ![](./assets/configurationManagerSENSORSResult.png)
 2. You're all set for now, click on `OK` to load your workspace and let's prepare our scenario :blush:
 
-#### Step 2. Prepare a sensor model
+## Step 2. Prepare a sensor model
 In this step, we'll use the `radar` sensor functional model (L1).
 
 SCANeR comes with a set sensor models to help you to begin. To view and edit sensor models go to `RESOURCES` tab `Sensors`.
@@ -70,7 +70,7 @@ Your `LRRS1` radar model is ready and available from SCANeR resources :thumbsup:
 
 Let's build our scenario (and use `LRRS1` radar model on EGO :wink:)
 
-#### Step 3. Build a scenario
+## Step 3. Build a scenario
 In this step, we'll design our experimentation by defining the environment/the proving ground, the actors (EGO, vehicles, pedestrian, animals, etc.), the situation(s), the models (radar, etc.) and the KPI/Metrics we would like to get for post-treatment.
 
 SCANeR comes with a set models to help you to begin. We'll use default ones:
@@ -109,7 +109,7 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 7. Let's set up the situation and define KPI (colision true or false)
 8. ...
 
-#### Step 4.
+## Step 4.
 
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
