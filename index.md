@@ -14,19 +14,34 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 
 ### SCANeR tutorials
 
-Learn how to
+> *\* starred articles are a work in progress*
+
+#### Get ready
+
 * [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+* [Install the Samples Pack]()*
+* [Install a NCAP & Regulation Pack]()*
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
+
+#### Basics
+
 * [Launch SCANeR studio for the first time](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
 * [Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
-* [Switch between work environments]()
+* [Switch between work environments]()*
 * [Run a SCANeR simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+
+#### Intermediate
+
+* [Configure the rendering engine in SCANeR studio](./Pages/HT_configure_visual/HT_configure_visual.md)
+* [Configure driver commands acquisition]()
 
 ## SCANeR Samples Pack
 
 The Samples-Pack is about 30 SCANeR configurations ready to run experimentations showing some of the best practices.
+
+Here is how to [install the Samples Pack]()*.
 
 The key points are that the Samples-Pack help you to avoid to start a new project with a white page or preview new SCANeR content and feature.
 
