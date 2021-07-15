@@ -1,6 +1,4 @@
-# How to? Launch SCANeR studio for the first time.
-
-SCANeR studio is intuitive but there are a few things you should know 😁
+# How to? Navigate in SCANeR studio.
 
 This guide explains how to navigate through the basic interfaces to be ready to run any simulation.
 
