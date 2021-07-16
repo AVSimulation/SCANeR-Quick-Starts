@@ -8,7 +8,7 @@ AVSimulation provides 2 kinds of licenses:
 
 >More information on SCANeR details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/)
 
-We will explain how to install [Nomadic licenses](#-nomadic-licenses) and [Fixed licenses](#-fixed-licenses).
+We will explain how to install [Nomadic licenses](#nomadic-licenses) and [Fixed licenses](#fixed-licenses).
 
 ## Nomadic Licenses
 This chapter explains how to install a nomadic SCANeR license
