@@ -6,7 +6,9 @@ AVSimulation provides 2 kinds of licenses:
 - Nomadic licenses 
 - Fixed licenses
 
->Details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/)
+>More information on SCANeR details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/)
+
+We will explain how to install [Nomadic licenses](#-nomadic-licenses) and [Fixed licenses](#-fixed-licenses).
 
 ## Nomadic Licenses
 This chapter explains how to install a nomadic SCANeR license
@@ -14,13 +16,14 @@ This chapter explains how to install a nomadic SCANeR license
 - Step 2. Plug the USB dongle to the computer
 
 ### Step 1. Receive the physical USB dongle
-AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to [support-scaner](mailto:support-scaner@avsimulation.fr).
+After the receipt of the PO AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to [support-scaner](mailto:support-scaner@avsimulation.fr).
 
 ### Step 2. Plug the USB dongle to the computer
 You can directly plug the USB dongle to a computer with SCANeR installed. The license is already installed in the dongle.
+>Note: The driver for the USB dongle is automatically installed with SCANeR.
 
-Congratulations ! 💪  
-You can enjoy your new SCANeR products ! 😊
+Congratulations! 💪  
+You can enjoy your new SCANeR products! 😊
 
 ## Fixed Licenses
 
