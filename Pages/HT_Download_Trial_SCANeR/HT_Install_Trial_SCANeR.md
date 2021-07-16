@@ -19,7 +19,7 @@ The trial version gives you access to all software `Packs` including [Foundation
 ![](./assets/Ask_Trial_Version.png)
 > **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level 2 
 
-3. Just enter your information, click on `SEND` and you are ready to move to the next step 👍
+3. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
 
 ## Step 2. Receive a link to download the trial
