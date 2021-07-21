@@ -38,7 +38,7 @@ Once in the Manual, you can download the Samples Pack.
 
 ![Download](./assets/Download.png)
 
-You now possess the file:![zip](./assets/zip.PNG)
+You now possess the file:![zip](./assets/zip.png)
 
 ### Step 3. Extract in “...\AVSimulation\SCANeRstudio_2021\”
 
