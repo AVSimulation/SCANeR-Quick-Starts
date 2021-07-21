@@ -20,7 +20,6 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 
 * [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
-* [Install the Samples Pack]()*
 * [Install a NCAP & Regulation Pack]()*
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
@@ -41,7 +40,7 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 
 The Samples-Pack is about 30 SCANeR configurations ready to run experimentations showing some of the best practices.
 
-Here is how to [install the Samples Pack]()*.
+Here is how to [install the Samples Pack](./Pages/HT_InstallSamplesPack/HT_InstallSamplesPack.md).
 
 The key points are that the Samples-Pack help you to avoid to start a new project with a white page or preview new SCANeR content and feature.
 
