@@ -22,7 +22,7 @@ This guide explains how to switch to a different Configuration in SCANeR Studio.
 
 ​You can now select the Configuration you want to open in the list and click on "Apply" in the bottom right corner of the window.
 
-![Configuration Manager](./assets/configurationManagerApply.png)
+![Configuration Manager](./assets/configurationManagerApply_good.png)
 > **Note:** Each Configuration has a specific set of settings and data that will be used when you switch to it. This helps you setup the environment according to the experiments you want to conduct. For instance, the Configuration you will use to make an experiment for AD/ADAS validation will not be the same than the one you will use to make experiment for Headlight validation.
 
 
