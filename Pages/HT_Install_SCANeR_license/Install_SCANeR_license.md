@@ -3,15 +3,18 @@
 You recently purchased a new SCANeR license. 🥳
 
 AVSimulation provides 2 kinds of licenses:
-- Nomadic licenses 
-- Fixed licenses
+- Nomadic licenses - This format is dedicated to the people who need to move their license from one computer to another. It may be the case if the user navigates between his desktop and test tracks. In this case, it is important not to lose or damage the dongle.
+- Fixed licenses - This is a type of license to choose if you want to install a license on computer or if you want to install multiple licenses on a computer that will act as a token server.
 
 >More information on SCANeR details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/)
 
-We will explain how to install [Nomadic licenses](#nomadic-licenses) and [Fixed licenses](#fixed-licenses).
+This guide will explain how to install [Nomadic licenses](#nomadic-licenses) and [Fixed licenses](#fixed-licenses).
 
 ## Nomadic Licenses
-This chapter explains how to install a nomadic SCANeR license
+This chapter explains how to install a nomadic SCANeR license. The license is distributed on a physical dongle.
+
+![](./assets/DongleUSB.png)
+
 - Step 1. Receive the physical USB dongle
 - Step 2. Plug the USB dongle to the computer
 
@@ -20,14 +23,15 @@ After the receipt of the PO AVSimulation will send you a physical USB containing
 
 ### Step 2. Plug the USB dongle to the computer
 You can directly plug the USB dongle to a computer with SCANeR installed. The license is already installed in the dongle.
->Note: The driver for the USB dongle is automatically installed with SCANeR.
+>Note: The driver for the USB dongle is automatically installed with SCANeR. Make sure to have SCANeR installed on the system before connecting the USB Dongle.
 
 Congratulations! 💪  
 You can enjoy your new SCANeR products! 😊
+>Note: AVSimulation will provide you with a temporary license on the physical dongle while payment is under process. Once payment is done, AVSimulation will provide you with an [license update](https://github.com/AVSGuillaume/Samples-Pack/blob/3c766a40518d1bc44ba80a01cd170c5dce867d16/Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md).
 
 ## Fixed Licenses
 
-This chapter explains how to install a fixed SCANeR license
+This chapter explains how to install a fixed SCANeR license. This license is distributed in a file.
 - Step 1. Install SCANeR studio
 - Step 2. Generate C2V file
 - Step 3. Install the license
@@ -63,5 +67,5 @@ soon as possible the license file.
 
 Once you received the license file (V2C file), the last step is to [update the license](https://github.com/AVSGuillaume/Samples-Pack/blob/3182d60806769b3ba844f12e6597bad8b0606352/Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md).
 
-Congratulations ! 💪  
-Your license is now installed, you can enjoy your new SCANeR products ! 😊
+Congratulations! 💪  
+Your license is now installed, you can enjoy your new SCANeR products! 😊
