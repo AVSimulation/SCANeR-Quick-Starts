@@ -11,6 +11,7 @@ AVSimulation provides 2 kinds of licenses:
 We will explain how to install [Nomadic licenses](#nomadic-licenses) and [Fixed licenses](#fixed-licenses).
 
 ## Nomadic Licenses
+![](./assets/DongleUSB.png)
 This chapter explains how to install a nomadic SCANeR license
 - Step 1. Receive the physical USB dongle
 - Step 2. Plug the USB dongle to the computer
