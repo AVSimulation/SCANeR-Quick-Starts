@@ -18,11 +18,11 @@ The trial version gives you access to all software `Packs` including [Foundation
 
 2. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
-> **Note:** AVSimulation then receives a request for a trial. Then, your AVSimulation sales excecutive will send you an email with the link to download SCANeR within 48 hours. When you reveive this email, go to step 2.
+> **Note:** AVSimulation then receives a request for a trial. After that, your AVSimulation sales excecutive will send you an email with the link to download SCANeR within 48 hours. When you receive this email, go to the step 2.
 
 ## Step 2. Receive a link to download the trial
 
-1. Open your favorite mail service.
+1. Open your favorite mail service, you should will receive an email from your AVSimulation sales excecutive within 48 hours
 ![](./assets/mail_download_SCANeR.png)
 
 2. Click on the first Donwload link and click on `Download` on the file transfer website
