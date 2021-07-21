@@ -6,17 +6,17 @@ As a reminder, in SCANeR Studio, the different workspaces you can have are calle
 This guide explains how to switch to a different Configuration in SCANeR Studio. You will see, it is easy :smile:
 - Step 1. Open the Configuration Manager
 - Step 2. Switch to another Configuration
-- Step 3. Check you are in the the correct configuration
+- Step 3. Check what configuration you are using
 
 ## Step 1. Open the Configuration Manager
 
 ​Click on **"CONFIGURATION" -> "Configuration Manager..."** and a window allowing you to manage you different Configurations will appear.
 
-![Configuration Manager Access](./assets/configurationManagerAccess.png)
+![](./assets/configurationManagerAccess.png)
 
 ​You can see your different available configurations here and switch between them.
 
-![Configuration Manager](./assets/configurationManager.png)
+![](./assets/configurationManager.png)
 
 # Step 2. Switch to another Configuration
 
@@ -26,6 +26,10 @@ This guide explains how to switch to a different Configuration in SCANeR Studio.
 
 Congratulations! You are now ready to use the trial version of SCANeR. 🙌
 
-# Step 3. Check you are in the the correct configuration
+# Step 3. Check what configuration you are using
 
-You want to see if you are in the correct presentation :grey_question:
+You want to see if you are in the configuration you want to be? :grey_question:
+This information is accessible in the main supervisor window of SCANeR studio :point_down:
+![](./assets/configurationManager.png)
+
+
