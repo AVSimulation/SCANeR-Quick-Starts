@@ -1,6 +1,6 @@
 # How to? Download the Trial version of SCANeR Software
 
-You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is a first step to achieve this goal 😊:
+You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is a first step to achieve this goal 😊
 
 This guide explains how to download the trial version of SCANeR:
 - Step 1. Request a trial version
@@ -12,9 +12,9 @@ The trial version gives you access to all software `Packs` including [Foundation
 
 ## Step 1. Request a trial version
 
-1. You can ask for your trial version of SCANeR here: [Trial]https://www.avsimulation.com/scaner-studio-trial/
-![](./assets/Ask_Trial_Version.png)
-> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level: https://www.avsimulation.com/free-download/
+1. You can ask for your trial version of SCANeR here: [Trial](https://www.avsimulation.com/scaner-studio-trial/)
+
+> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level: [Other Tools](https://www.avsimulation.com/free-download/)
 
 2. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
