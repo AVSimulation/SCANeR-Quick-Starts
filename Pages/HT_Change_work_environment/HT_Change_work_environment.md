@@ -30,6 +30,7 @@ This guide explains how to switch to a different Configuration in SCANeR studio.
 
 You want to see if you are in the configuration you want to be? :grey_question:
 This information is accessible in the main supervisor window of SCANeR studio :point_down:
+
 ![](./assets/configuration_YouAre.png)
 
 **Congratulations! You know now how to switch to a different work environment in SCANeR :ok_hand:!**
