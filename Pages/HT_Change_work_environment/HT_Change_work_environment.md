@@ -10,11 +10,11 @@ This guide explains how to switch to a different Configuration in SCANeR studio.
 
 ## Step 1. Open the Configuration Manager
 
-​Click on **"CONFIGURATION" -> "Configuration Manager..."** and a window allowing you to manage you different Configurations will appear.
+​1. Click on **"CONFIGURATION" -> "Configuration Manager..."** and a window allowing you to manage you different Configurations will appear.
 
 ![](./assets/configurationManagerAccess.png)
 
-​You can see your different available configurations here.
+​2. You can see your different available configurations here.
 
 ![](./assets/configurationAvailable.png)
 
