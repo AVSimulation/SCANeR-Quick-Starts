@@ -14,7 +14,7 @@ The trial version gives you access to all software `Packs` including [Foundation
 
 1. You can request your trial version of SCANeR here: [Trial](https://www.avsimulation.com/scaner-studio-trial/)
 
-> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level: [Other Tools](https://www.avsimulation.com/free-download/)
+> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors: [Other Tools](https://www.avsimulation.com/free-download/)
 
 2. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
