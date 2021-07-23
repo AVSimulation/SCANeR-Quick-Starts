@@ -8,13 +8,13 @@ This guide explains how to download the trial version of SCANeR:
 - Step 3. Install the trial
 
 The trial version gives you access to all software `Packs` including [Foundation](https://www.avsimulation.com/pack-foundation/), [AD/ADAS](https://www.avsimulation.com/pack-ad-adas/), [Headlights](https://www.avsimulation.com/pack-headlights/), [Massive Simulation](https://www.avsimulation.com/pack-massive-simulation/), etc.
-> **Note:** With this trial version, you have access to SCANeR studio (included in the Foundation pack), SCANeR explore and SCANeR compute (both included in the Massive Simulation pack)
+> **Note:** With this trial version, you have access to SCANeR studio (included in the Foundation pack), SCANeR explore and SCANeR compute (both included in the Massive Simulation pack).
 
 ## Step 1. Request a trial version
 
-1. You can ask for your trial version of SCANeR here: [Trial](https://www.avsimulation.com/scaner-studio-trial/)
+1. You can request your trial version of SCANeR here: [Trial](https://www.avsimulation.com/scaner-studio-trial/)
 
-> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors Level: [Other Tools](https://www.avsimulation.com/free-download/)
+> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors: [Other Tools](https://www.avsimulation.com/free-download/)
 
 2. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
