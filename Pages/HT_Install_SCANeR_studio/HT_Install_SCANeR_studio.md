@@ -1,5 +1,3 @@
-{% include header.html %}
-
 # How to ? Install SCANeR studio
 
 This guide walks you through the installation process for SCANeR studio.
