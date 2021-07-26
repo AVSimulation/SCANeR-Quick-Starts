@@ -1,4 +1,4 @@
-<a href="https://avsguillaume.github.io/Samples-Pack/">Home</a>
+{% include header.html %}
 
 # How to ? Install SCANeR studio
 
