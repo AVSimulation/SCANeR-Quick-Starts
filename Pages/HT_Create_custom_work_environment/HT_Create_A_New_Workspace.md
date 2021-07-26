@@ -46,6 +46,6 @@ Enough chatter, let's jump into the guide! 😁
 
 ​	You can now select your newly created Configuration in the list and click on "Apply" in the bottom right corner of the window.
 
-​	If you need more help about this step, you can check the guide about this topic [here](..\HT_Change_work_environment\HT_Change_work_environment.md).
+​	If you need more help about this step, you can check the guide about this topic [here](../HT_Change_work_environment/HT_Change_work_environment.md).
 
 **Congratulations! You now have your own custom Configuration!**
