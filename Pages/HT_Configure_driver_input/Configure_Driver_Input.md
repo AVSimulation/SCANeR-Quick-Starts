@@ -75,6 +75,7 @@ For Brake, Gas and Clutch, it is possible to use the `smooth` option to have a v
 
   - Gearbox
 In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox or sequential gearbox in the `Options` area. Once you have chosen, you can map buttons in `Function mapping` area to change the mode (e.g. Switch between Automatic and Manual) or to change the gearbox mode (e.g. from Drive to Park for an automatic gearbox).
+
 ![](./assets/Gearbox.png)
 
 
