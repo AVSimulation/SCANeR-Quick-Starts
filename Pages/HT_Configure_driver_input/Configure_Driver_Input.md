@@ -63,17 +63,16 @@ In this chapter we will see how to modify the mappings for the most common drive
 ![](./assets/EditHDRV.png)
 
 5. Modify the mapping
-  1. Steering wheel - There are 2 functions for steering wheel (Steer left and Steer right).
+  - Steering wheel - There are 2 functions for steering wheel (Steer left and Steer right).
  To change the mapping, double click on Steer left (or Steer right), you can then click on `other device...` or `Keyboard` and press the key you want to use to steer left
  ![](./assets/SteerLeft.png)
  
-  2. Pedals 
+  - Pedals 
 You can repeat the step above for Pedals function (Brake, Gas, Handbrake and Clutch).
 For Brake, Gas and Clutch, it is possible to use the smooth option to have a value that changes smoothly from 0 to 1. Custom calibration can be used to use a custom curve to create a non linear mapping between the command and the input.
 
-  4. Gearbox
+  - Gearbox
 In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox or sequential gearbox in the `Options` area. Once you have chosen, you can map buttons in `Function mapping` area to change the mode (e.g. Switch between Automatic and Manual) or to change the gearbox mode (e.g. from Drive to Park for an automatic gearbox).
-
 
 
 Congrats ! Have fun with your own steering wheel and pedals configuration ! 
