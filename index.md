@@ -29,12 +29,12 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 * [Launch SCANeR studio for the first time](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
 * [Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 * [Switch between work environments](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
-* [Navigate in the SCANeR studio interface](./Pages/HT_Navigate/HT_Navigate.md)
-* [Run a SCANeR simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+* [Navigate in the user interface](./Pages/HT_Navigate/HT_Navigate.md)
+* [Run a simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
 #### Intermediate
 
-* [Configure the visual rendering in SCANeR studio](./Pages/HT_configure_visual/HT_configure_visual.md)*
+* [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md)*
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md)
 
 ## SCANeR Samples Pack
