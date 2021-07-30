@@ -77,7 +77,7 @@ In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox 
 ![](./assets/Gearbox.png)
 
 
-##Step 4 Test the new mapping
+## Step 4 Test the new mapping
 Before finishing, you can test the new mapping by clicking on `Test...` in the bottom right of the `Human driver Editor` window.pau
 ![](./assets/Testing.png)
 
