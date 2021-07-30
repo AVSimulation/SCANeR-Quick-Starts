@@ -39,11 +39,10 @@ AVSimulation provides several driver acquisition configuration files. These are 
 
 4. Click on  `...`to see the available files provided by AVSimulation. These configuration files are ready to use for standard systems. 
 ![](./assets/ListeHDRV.png)
+
 If your system is not on the list or if you want to customize the mapping, check out step 3 !
 
 AVSimulation can also help you configure and tune your acquisition system 😀.
-
-Click on file icon next to .hrdv file name -> Interface to change the mapping and gearbox modes, add additionnal hardware, tune the force feedback etc.
 
 ## Step 3 Modify the mapping
 In this chapter we will see how to modify the mappings for the most common driver's input (Steering wheel, Pedals and Gearbox).
@@ -73,7 +72,7 @@ You can repeat the step above for Pedals function (Brake, Gas, Handbrake and Clu
 For Brake, Gas and Clutch, it is possible to use the smooth option to have a value that changes smoothly from 0 to 1. Custom calibration can be used to use a custom curve to create a non linear mapping between the command and the input.
 
   4. Gearbox
-
+In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox or sequential gearbox in the `Options` area. Once you have chosen, you can map buttons in `Function mapping` area to change the mode (e.g. Switch between Automatic and Manual) or to change the gearbox mode (e.g. from Drive to Park for an automatic gearbox).
 
 
 
