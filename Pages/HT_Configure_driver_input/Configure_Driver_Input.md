@@ -70,11 +70,17 @@ In this chapter we will see how to modify the mappings for the most common drive
   - Pedals 
 You can repeat the step above for Pedals function (Brake, Gas, Handbrake and Clutch).
 For Brake, Gas and Clutch, it is possible to use the smooth option to have a value that changes smoothly from 0 to 1. Custom calibration can be used to use a custom curve to create a non linear mapping between the command and the input.
+![](./assets/GasPedal.png)
 
   - Gearbox
 In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox or sequential gearbox in the `Options` area. Once you have chosen, you can map buttons in `Function mapping` area to change the mode (e.g. Switch between Automatic and Manual) or to change the gearbox mode (e.g. from Drive to Park for an automatic gearbox).
+![](./assets/Gearbox.png)
 
 
-Congrats ! Have fun with your own steering wheel and pedals configuration ! 
+##Step 4 Test the new mapping
+Before finishing, you can test the new mapping by clicking on `Test...` in the bottom right of the `Human driver Editor` window.pau
+![](./assets/Testing.png)
+
+Congrats ! Have fun with your own steering wheel and pedals configuration ! 🚗
 
 
