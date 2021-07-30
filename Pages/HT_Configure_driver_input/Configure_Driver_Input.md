@@ -55,7 +55,7 @@ In this chapter we will see how to modify the mappings for the most common drive
 3. In the Process Editor, click on the file icon next to .hdrv file name
 ![](./assets/FileIcon.png)
 
-4. In the Editor there are four differents areas
+4. In the Human driver editor there are four differents areas
  - Functions group in upper left - This area is used to select the driving main functions (such as steering, pedals, ignition key…) that will be controlled by the HumanDriver. The functions that are not checked can be done by another acquisition module
  - Function mapping in the right - This area is a table containing the mapping of each function of the SCANeR vehicle to a command from a hardware system.
  - Options in the middle left - This area will enable more active controls for the operator to choose more parameters related to the selected function.
@@ -68,8 +68,8 @@ In this chapter we will see how to modify the mappings for the most common drive
  ![](./assets/SteerLeft.png)
  
   - Pedals 
-You can repeat the step above for Pedals function (Brake, Gas, Handbrake and Clutch).
-For Brake, Gas and Clutch, it is possible to use the smooth option to have a value that changes smoothly from 0 to 1. Custom calibration can be used to use a custom curve to create a non linear mapping between the command and the input.
+You can repeat the step above for Pedals functions (Brake, Gas, Handbrake and Clutch).
+For Brake, Gas and Clutch, it is possible to use the `smooth` option to have a value that changes smoothly from 0 to 1. `Custom calibration` can be used to use a custom curve to create a non linear mapping between the command and the input.
 ![](./assets/GasPedal.png)
 
   - Gearbox
@@ -78,8 +78,10 @@ In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox 
 
 
 ## Step 4 Test the new mapping
-Before finishing, you can test the new mapping by clicking on `Test...` in the bottom right of the `Human driver Editor` window.pau
+Before finishing, you can test the new mapping by clicking on `Test...` in the bottom right of the `Human driver editor` window.
 ![](./assets/Testing.png)
+
+Once you are happy with the settings, click on `Save`
 
 Congrats ! Have fun with your own steering wheel and pedals configuration ! 🚗
 
