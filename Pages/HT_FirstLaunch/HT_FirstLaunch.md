@@ -11,6 +11,7 @@ This guide explains how to launch and setup your SCANeR studio for the very firs
 ### Step 1. Run SCANeR studio
 
 After installing SCANeR studio, double-click on the shortcut available on your desktop.
+
 If you don't know how to install it, all you need is here: [How to ? Install SCANeR studio.](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
 
 ![IconDesktop](./assets/IconDesktop.PNG)
