@@ -35,7 +35,11 @@ In order for the Traffic module to drive the autonomous vehicles correctly, we h
 2. In this step we will add realism to the terrain we just created by adding traffic lights. To add a traffic light, you have to select the `Select` tool. Then select the track you want to add a traffic light on by clicking on it. Click on `Insert Signal` and in the window that appears you have to check `Traffic Light`. In this first traffic light, we will create the Traffic Light group in order to synchronize all the traffic lights. Click on the dropdown menu and select `New...`. Name your group as you wish and select it for the current Traffic Ligth. When your traffic light is configured just click `OK`. Your Traffic light is now added to your Terrain, you just have to place it in the right spot on the sidewalk by draging it. Repeat this step for as many traffic light you want in your Terrain. In mine, I chose to have four of them. In the video below, you can see how I created them. (VIDEO)
    
 
-3. Now, let's synchronize our Traffic Lights. To do this, open the configuration of one of your traffic lights by double clicking on it, and in the `Animation` category click on `Edit...`. A new window appears where you can configure the colour of your lights and the amount of time between every step. In order to change the starting state of a Traffic Light, just click on the `On`, `Off` or `Blink` button in front of the colour you want to change. In my case, I want the Traffic Lights named `Traffic Light` and `Traffic Light 2` to start at the `Red` state, so I switched the first and last state of these two traffic lights, as you cas see in the video below. (VIDEO)
+3. Now, let's synchronize our Traffic Lights. To do this, open the configuration of one of your traffic lights by double clicking on it, and in the `Animation` category click on `Edit...`. A new window appears where you can configure the colour of your lights and the amount of time between every step. In order to change the starting state of a Traffic Light, just click on the `On`, `Off` or `Blink` button in front of the colour you want to change. In my case, I want the Traffic Lights named `Traffic Light` and `Traffic Light 2` to start at the `Red` state, so I switched the first and last state of these two traffic lights, as you cas see in the video below. 
+
+https://user-images.githubusercontent.com/22998298/127970707-f9fb27f0-4643-47d1-8274-13b3d45dcf74.mp4
+
+
 
 ## Step 3. Export the 3D
 
