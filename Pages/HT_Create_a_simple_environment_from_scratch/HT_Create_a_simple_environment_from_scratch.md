@@ -44,13 +44,16 @@ https://user-images.githubusercontent.com/22998298/127977645-df7f1664-7ed8-40ae-
 ## Step 3. Export the 3D
 
 1. In order to be able to see the environment in the simulation, we need to generate the 3D file representing it. But before doing this, let's make sure our Traffic Lights are oriented correctly. You can switch to the `Perspective View` by clicking on the `Camera` button on the top right corner and by selecting `Perspective View`.
-   ![Perspective View](./assets/Perspective_View.png)
+
+![Perspective View](./assets/Perspective_View.png)
 
    You can now see how the traffic lights are oriented and correct them if needed. In my case, the only one that was not oriented correctly was the one named `Traffic Light 2`. To correct the orientation just select the Traffic Light and in the `SELECTION` window search for `Heading`, then change its angle. 
 
 https://user-images.githubusercontent.com/22998298/127978181-6b1fe79d-f04c-4110-99da-50fae408c954.mp4
 
-2. Once the 3D representation is correct, we need to generate it. To do this, first save the terrain you just created by clicking on `File -> Save` and name it as you wish. Then click on `File -> Export 3D Visual` to start the 3D generation. Choose the location and the name of the file. An interface will appear allowing you to choose the objects you want to export. Simply check the object you want in the 3D and uncheck the not needed. ![Export Parameters](./assets/Export_Parameters.png)
+2. Once the 3D representation is correct, we need to generate it. To do this, first save the terrain you just created by clicking on `File -> Save` and name it as you wish. Then click on `File -> Export 3D Visual` to start the 3D generation. Choose the location and the name of the file. An interface will appear allowing you to choose the objects you want to export. Simply check the object you want in the 3D and uncheck the not needed.
+
+![Export Parameters](./assets/Export_Parameters.png)
 
 Congratulations you have created your own `Terrain`! Well done! 👍
 
