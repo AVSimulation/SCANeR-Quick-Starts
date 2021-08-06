@@ -15,7 +15,7 @@ This guide explains how to update your SCANeR license
 >For Nomadic license only: We recommend to apply a dongle update on a machine where SCANeR is installed. If you need to apply a license update from a computer where SCANeR is not installed then you must first make sure that the license’s driver is installed. To do so, try to access to the [SACC](http://localhost:1947) on the machine. If you cannot access to the SACC then the dongle’s driver must be installed on the machine before to start (administrator privileges are required).  
 >For Fixed license only: The dongle update procedure must be followed on the software licenses’ server where the software license has been installed.  
 
-## Step 1. Receive the new license 
+## Step 1. Receive the new update license 
 
 1. Open your favorite mail service, you should receive an email from [support-scaner](mailto:support-scaner@avsimulation.fr)
 ![](./assets/support-scaner_email.png)
