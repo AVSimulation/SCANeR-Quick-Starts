@@ -112,8 +112,8 @@ The *Visual Pipe* draws the window on screen. By default, it is a borderless rec
 So in order to cover a Full HD display:
 ```
 [VISUAL_SHOWSIM:1]
-Position      = 0 0
-Resolution		= 1920 1080
+Position    = 0 0
+Resolution  = 1920 1080
 ;[...]
 ```
 
@@ -135,18 +135,18 @@ Doing so ensures that the aspect ratio of the screen (e.g. 16:9) is respected.
 Example measurements:
 * Screen distance is measured at 2.0 meters
 * Horizontal FOV is measured at 30 degrees
-Computations:
-* ScreenLeft = `tan( FOV ) / ScreenDist` = `tan( 30 ) / 2.0` = 0.28868`
-* ScreenTop = `tan( FOV ) / ScreenDist / ScreenRatio` = `tan( 30 ) / 2.0 / (16:9)` = 0.16238
 
+Computations:
+* ScreenLeft = `tan( FOV ) / ScreenDist` = `tan( 30 ) / 2.0` = `0.28868`
+* ScreenTop = `tan( FOV ) / ScreenDist / ScreenRatio` = `tan( 30 ) / 2.0 / (16:9)` = `0.16238`
 
 ```
 [VISUAL_SHOWSIM:1.1]
-ScreenDist = 2.0
-ScreenTop = 0.16238
-ScreenBottom =  -0.16238
-ScreenRight = 0.28868
-ScreenLeft  =  -0.28868
+ScreenDist    = 2.0
+ScreenTop     = 0.16238
+ScreenBottom  = -0.16238
+ScreenRight   = 0.28868
+ScreenLeft    = -0.28868
 ```
 
 ## Step 4. Quality VS performance
