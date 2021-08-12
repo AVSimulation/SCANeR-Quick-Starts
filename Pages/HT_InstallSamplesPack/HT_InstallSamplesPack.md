@@ -15,7 +15,7 @@ This guide explains how to get and install the Samples Pack.
 ## Pre-requisites
 
 - Windows 10
-- SCANeR™ studio license ([Request a trial](https://www.avsimulation.com/scaner-studio-trial/))
+- SCANeR™ studio license ([request a trial](https://www.avsimulation.com/scaner-studio-trial/))
 - The latest version of SCANeR studio
 
 ### Step 1. Download
