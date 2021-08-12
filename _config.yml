@@ -3,3 +3,5 @@ title: SCANeR Software resources
 show_downloads: true
 plugins:
   - jemoji
+github:
+  last_url: https://github.com/AVSGuillaume/Samples-Pack/archive/refs/heads/2021.2.zip
