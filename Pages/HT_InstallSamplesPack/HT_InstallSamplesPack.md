@@ -18,7 +18,7 @@ This guide explains how to get and install the Samples Pack.
 - SCANeR™ studio license ([request a trial](https://www.avsimulation.com/scaner-studio-trial/))
 - The latest version of SCANeR studio
 
-### Step 1. Download
+## Step 1. Download
 
 From the top of this page, download the latest version of the Samples Pack.
 
@@ -28,15 +28,17 @@ From the top of this page, download the latest version of the Samples Pack.
 
 Extract the download ZIP in your SCANeR studio installation folder `%STUDIO_PATH%/SCANeRstudio_2021/`.
 
-> The data, configuration and source files are extracted according to the SCANeR directory tree, in `data/`, `config/` and `APIS/` respectively.
-
 ![Extract](./assets/extract.png)
+
+> **Info:** The data, configuration and source files are extracted according to the SCANeR directory tree, in `data/`, `config/` and `APIS/` respectively.
 
 ## Step 3. Install
 
-To finialize the installation, run the newly extracted `samples-pack_install.bat` by double-clicking on it.
+To finialize the installation, run the newly extracted `samples-pack-utils/updateConfigList.bat` by double-clicking on it.
 
-> This simply update `%STUDIO_PATH%/configurations.cfg` with the Samples Pack configuration paths.
+![updateConfigList.bat](./assets/install.bat.png)
+
+> **Info:** The script simply updates `%STUDIO_PATH%/configurations.cfg` with the Samples Pack configuration paths.
 
 ## Step 4. Play
 
