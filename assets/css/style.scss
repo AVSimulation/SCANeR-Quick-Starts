@@ -26,19 +26,19 @@
 
 #nav {
 	position: absolute;
-	width: 210px;
+	width: 180px;
 	z-index: 10;
-	bottom: -40px;
+	bottom: -50px;
 	left: 0;
-	height: 70px;
+	height: 60px;
 	background: none;
 }
 
 .nav_home {
 	display: block;
 	float: left;
-	width: 90px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
 	text-indent: -5000px;
 	overflow: hidden;
 	background: url(./sprite_nav.png) no-repeat bottom right
@@ -50,7 +50,7 @@
 
 #downloads {
 	position: absolute;
-	width: 210px;
+	width: 180px;
 	z-index: 10;
 	bottom: -40px;
 	right: 0;
