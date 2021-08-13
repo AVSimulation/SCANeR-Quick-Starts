@@ -36,12 +36,16 @@
 
 .nav_home {
 	display: block;
-	float: right;
+	float: left;
 	width: 90px;
 	height: 70px;
 	text-indent: -5000px;
 	overflow: hidden;
-	background: url(./sprite_links.png) no-repeat bottom right
+	background: url(./sprite_nas.png) no-repeat bottom right
+}
+
+.nav_home:hover {
+	background: url(./sprite_nav.png) no-repeat top right
 }
 
 #downloads {
