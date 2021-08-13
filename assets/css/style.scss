@@ -2,6 +2,26 @@
 ---
 @import "{{ site.theme }}";
 
+#nav {
+	position: absolute;
+	width: 210px;
+	z-index: 10;
+	bottom: -40px;
+	left: 0;
+	height: 70px;
+	background: none;
+}
+
+.home {
+	display: block;
+	float: right;
+	width: 90px;
+	height: 70px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(./sprite_links.png) no-repeat bottom right
+}
+
 #downloads {
 	position: absolute;
 	width: 210px;
