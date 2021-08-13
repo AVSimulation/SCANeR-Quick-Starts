@@ -2,6 +2,28 @@
 ---
 @import "{{ site.theme }}";
 
+.inner {
+	width: 60%;
+	max-width: 1080px;
+}
+
+#header_wrap {
+	background: none;
+	background-image:url(https://www.avsimulation.com/wp-content/uploads/2018/06/degrade_bleu_rose_small.jpg);
+	background-size: cover;
+	border: none;
+	color: none;
+}
+
+#project_title {
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 60px;
+	box-shadow: none;
+	text-shadow: none;
+}
+
 #nav {
 	position: absolute;
 	width: 210px;
