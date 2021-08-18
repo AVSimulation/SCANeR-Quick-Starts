@@ -23,4 +23,5 @@ If you've never used SCANeR Software before, we recommend that you also watch on
 
 # Use cases
 
-* [How to? evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
+* [How to? Evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
+* [How To? Define and record my KPI](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
