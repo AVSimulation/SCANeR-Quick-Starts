@@ -1,0 +1,89 @@
+---
+---
+@import "{{ site.theme }}";
+
+.inner {
+	width: 60%;
+	max-width: 1080px;
+}
+
+#header_wrap {
+	background: none;
+	background-image:url(https://www.avsimulation.com/wp-content/uploads/2018/06/degrade_bleu_rose_small.jpg);
+	background-size: cover;
+	border: none;
+	color: none;
+}
+
+#project_title {
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 60px;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#nav {
+	position: absolute;
+	width: 120px;
+	z-index: 10;
+	bottom: -20px;
+	left: 0;
+	height: 40px;
+	background: none;
+}
+
+.nav_home {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(./sprite_nav.png) no-repeat bottom right
+}
+
+.nav_home:hover {
+	background: url(./sprite_nav.png) no-repeat top right
+}
+
+#downloads {
+	position: absolute;
+	width: 210px;
+	z-index: 10;
+	bottom: -40px;
+	right: 0;
+	height: 70px;
+	background: none;
+	/*background: url("../images/icon_download.png") no-repeat 0% 90%*/
+}
+
+.zip_download_link {
+	display: block;
+	float: right;
+	width: 90px;
+	height: 70px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(./sprite_links.png) no-repeat bottom right
+}
+
+.youtube_link {
+	display: block;
+	float: right;
+	width: 90px;
+	height: 70px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(./sprite_links.png) no-repeat bottom left;
+	margin-left: 10px
+}
+
+.zip_download_link:hover {
+	background: url(./sprite_links.png) no-repeat top right
+}
+
+.youtube_link:hover {
+	background: url(./sprite_links.png) no-repeat top left
+}

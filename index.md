@@ -20,7 +20,6 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 
 * [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
-* [Install the Samples Pack]()*
 * [Install a NCAP & Regulation Pack]()*
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
@@ -29,19 +28,20 @@ Our tutorials focus on SCANeR Software, the number one tool for agile software t
 
 * [Launch SCANeR studio for the first time](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
 * [Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
-* [Switch between work environments]()*
-* [Run a SCANeR simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+* [Switch between work environments](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
+* [Navigate in the user interface](./Pages/HT_Navigate/HT_Navigate.md)
+* [Run a simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
 #### Intermediate
 
-* [Configure the rendering engine in SCANeR studio](./Pages/HT_configure_visual/HT_configure_visual.md)
-* [Configure driver commands acquisition]()
+* [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md)*
+* [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md)
 
 ## SCANeR Samples Pack
 
 The Samples-Pack is about 30 SCANeR configurations ready to run experimentations showing some of the best practices.
 
-Here is how to [install the Samples Pack]()*.
+Here is how to [install the Samples Pack](./Pages/HT_InstallSamplesPack/HT_InstallSamplesPack.md).
 
 The key points are that the Samples-Pack help you to avoid to start a new project with a white page or preview new SCANeR content and feature.
 
@@ -52,6 +52,7 @@ If you feel the need for a missing experimentation, let us know. We may have sce
 Step-by-step instructions to setup an advanced testing environment with SCANeR Software
 
 * [Evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
+* [Evaluate and validate an AFS/ADB model](./Pages/HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)*
 
 ## Support or Contact
 
