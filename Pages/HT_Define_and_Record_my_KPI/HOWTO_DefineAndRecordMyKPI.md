@@ -35,7 +35,7 @@ Once inside your new script, you will need to calculate the time between the mom
 For this:
 
 1. Right click on `Script` and insert a `Variable`.
-   ![Insert Variable](.\assets\InsertVariable.PNG)
+   ![Insert Variable](./assets/InsertVariable.PNG)
 
 2. Add a second `Variable`.
 
@@ -45,7 +45,7 @@ For this:
 
 4. With a right click on this rule, add a `isPedestrianCrossing` condition (Type: `BECOMES TRUE`).
 
-   ![isPedestrianCrossing](.\assets\isPedestrianCrossing.PNG)
+   ![isPedestrianCrossing](./assets/isPedestrianCrossing.PNG)
 
    This condition returns TRUE as soon as the pedestrian leaves the sidewalk and until it reaches the opposite sidewalk. It indicates if the pedestrian is crossing a road due to a `pedestrianCrossRoad` action.
 
@@ -53,26 +53,26 @@ For this:
 
 5. Once the condition finished, insert a THEN action in the rule. This THEN action will use the function `setVariable` to give a value to one of your variable.
 
-   ![setVariable](.\assets\setVariable.PNG)
+   ![setVariable](./assets/setVariable.PNG)
 
    In this case, use the function `getScenarioClock` to give a value to the variable. It returns the time elapsed from scenario starting, in seconds. (Precision is about 10e-7.)
 
 6. Add another THEN action to the rule to have a time marker without using a variable. That will help in the `ANALYSIS` mode to know exactly when the action occurred.
 
-   ![addTimeMarker](.\assets\addTimeMarker.PNG)
+   ![addTimeMarker](./assets/addTimeMarker.PNG)
 
 7. You finished your first rule, let's create a second one. 
 
 8. With a right click on this new rule, add a `is >` condition (Type: `BECOMES TRUE`).
    This condition will compare the function `getBrakePedal` with `0`.
 
-   ![isSupp](.\assets\isSupp.PNG)
+   ![isSupp](./assets/isSupp.PNG)
 
    The `getBrakePedal` function returns the force applied on the brake pedal (0 if released).
 
 9. Associate the `getBrakePedal` function with the car.
 
-   ![getBrakePedal](.\assets\getBrakePedal.PNG)
+   ![getBrakePedal](./assets/getBrakePedal.PNG)
 
 10. Once the condition finished, repeat the steps **5** and **6** for your second variable `t2`.
 
@@ -82,13 +82,13 @@ For this:
 
 12. Before adding an action, you must create a new `exportChannel`. To do this, click on `CONFIGURATION` above the toolbar and open the `Export channel Manager`. Thanks to the green **+**, you can add a new `exportChannel`.
 
-    ![ExportChannelsManager](.\assets\ExportChannelsManager.PNG)
+    ![ExportChannelsManager](./assets/ExportChannelsManager.PNG)
 
     > **Note:** Don't forget to add a Category and a Name.
 
 13. It is now time to add a THEN action in which we will use the `setExportChannelByName` action and the `exportChannel` you just create.
 
-    ![exportChannel](.\assets\exportChannel.PNG)
+    ![exportChannel](./assets/exportChannel.PNG)
 
     This action is used to exchange data (one float value per channel) on the SCANeR network.
 
@@ -98,7 +98,7 @@ For this:
 
 At the end, the script should look like this:
 
-![Script_KPI](.\assets\Script_KPI.PNG)
+![Script_KPI](./assets/Script_KPI.PNG)
 
 > **Note:** You can rename the script and the rules to have a better understanding of it.
 
@@ -108,7 +108,7 @@ At the end, the script should look like this:
 
 You will need the `ACQUISITION` and `MODELHANDLER` modules to drive the vehicle, `SCENARIO` to read the scripts, `VISUAL` to find your way in the scene, `WALKERTRAFFIC` to activate the pedestrian's artificial intelligence, and last but not least, the `RECORD` module. The `RECORD` module is used to record all the simulation data like the SCANeR network messages, where you can find your `exportChannel`. If the RECORD module is not run, it will be impossible to analyze the data later.
 
-![Modules](.\assets\Modules.PNG)
+![Modules](./assets/Modules.PNG)
 
 You can now run the simulation. Be sure to brake in time! :innocent:
 
@@ -118,11 +118,11 @@ You can now run the simulation. Be sure to brake in time! :innocent:
 
 Here you can find the replay of your simulation, your time markers and the graph containing the values of your `exportChannel`. 
 
-![Analysis](.\assets\Analysis.PNG)
+![Analysis](./assets/Analysis.PNG)
 
 To display the graph, go to `GRAPH` > `New graph...` and select your graph under `Environment` > `ExportChannel`.
 
-![Graph](.\assets\Graph.PNG)
+![Graph](./assets/Graph.PNG)
 
 > **Note:** If the graph is not display, check behind the time markers.
 
@@ -130,7 +130,7 @@ To display the graph, go to `GRAPH` > `New graph...` and select your graph under
 
 To come back to our example, the driver's reaction time to brake when a pedestrian crosses the road is the value available after the T2 time marker. 
 
-![TimeReaction](.\assets\TimeReaction.PNG)
+![TimeReaction](./assets/TimeReaction.PNG)
 
 Here, the driver brakes after 0.400331s.
 
