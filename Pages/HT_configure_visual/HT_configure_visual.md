@@ -151,25 +151,8 @@ ScreenLeft    = -0.28868
 
 ## Step 4. Quality VS performance
 
-## Step 5. Add a mirror
+## Go further
 
-### View port
+Congratulations for setting your first custom Visual!
+If you want to go further and add mirrors and multi-screens, check the [Advanced Visual rendering configuration guide](./HT_configure_visual_advanced.md)*
 
-## Step 6. Multi-screen
-
-### Camera position
-
-The camera position by default is the drivers' head position defined in the ego vehicle's properties. It is possible to add a position offset relative to this position:
-* *PositionOffset = X Y Z*
-* *RotationOffset = H P R*
-```
-[VISUAL_SHOWSIM:1.1]
-PositionOffset			= 0.0 0.0 0.0
-RotationOffset			= 0.0 0.0 0.0
-;[...]
-```
-> **Note:** This is useful in multi-display configuration in order to change the direction of the camera (RotationOffset) for screens that are left and right.  
-> If your goal is to adjust the driver's head position, you should change it in the ego vehicle's properties. This way you don't have to repeat the offset for all channels.  
-> So for a single display, this offset should remain null in principle.
-
-## Hint : Use a sample configuration
