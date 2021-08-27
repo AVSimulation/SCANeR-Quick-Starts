@@ -30,12 +30,12 @@ Visual rendering has three levels of hierarchy:
 We recommend using one *Visual Module* per *GPU*.
 
 One *Visual Module* can handle multi-windows (and therefore multi-displays) thanks to *Visual Pipes*.  
-This is useful for mirrors screens, because they are usually smaller and thus lower resolution ; they can be handled by a single GPU.  
-However for high definition, high framerate displays, one GPU may not be able to handle more than one. In this case, use one *Visual Module* per display with the matching amount of GPUs.
+This is useful for mirror displays, because they are usually smaller and lower resolution ; several of them can be handled by a single GPU.  
+However for high definition, high framerate displays, one GPU will not be able to handle more than one. In this case, use one *Visual Module* per display with the matching amount of GPUs.
 
 ### License
 
-One *Visual License* is required for each *Visual Module*.
+One *Visual License* is required for each *Visual Module* (i.e. each *GPU* as per our recommendation).
 * *Foundation Pack* includes one *Visual License*
 
 Additional *Visual Licenses* can be acquired as options:
