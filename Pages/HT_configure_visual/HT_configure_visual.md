@@ -9,8 +9,7 @@ This guide helps you configure the visual rendering for your display system.
 * Step 2. Initiate the configuration
 * Step 3. View geometry
 * Step 4. Quality VS performance
-* Step 5. Add a mirror
-* Step 6. Multi-screen
+* Step 5. Go further (advanced guide)
 
 ## Important considerations
 
@@ -154,5 +153,5 @@ ScreenLeft    = -0.28868
 ## Go further
 
 Congratulations for setting your first custom Visual!
-If you want to go further and add mirrors and multi-screens, check the [Advanced Visual rendering configuration guide](./HT_configure_visual_advanced.md)*
+If you want to go further and add mirrors and multi-screens, check the [Advanced visual rendering configuration guide](./HT_configure_visual_advanced.md)*
 
