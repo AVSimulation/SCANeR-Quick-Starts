@@ -9,7 +9,7 @@ This guide helps you configure the visual rendering for your display system.
 * Step 2. Initiate the configuration
 * Step 3. View geometry
 * Step 4. Quality VS performance
-* Step 5. Go further (advanced guide)
+* Go further (advanced guide)
 
 ## Important considerations
 
