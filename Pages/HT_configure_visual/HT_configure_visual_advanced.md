@@ -11,6 +11,7 @@ This guide is for advanced configuration of the visual rendering in SCANeR. It f
 As mentioned in the *Important considerations* of the [basic guide](./HT_configure_visual.md), it is recommended to use one Visual module per high definition screen.
 
 For a three-display configuration, you are therefore likely to end up with 3 Visual modules, and 3 configuration sections accordingly.
+
 ```
 [VISUAL_SHOWSIM_MIDDLE]
 ;[...]
@@ -25,14 +26,17 @@ For a three-display configuration, you are therefore likely to end up with 3 Vis
 The camera position by default is the drivers' head position defined in the ego vehicle's properties. It is possible to add a position offset relative to this position:
 * *PositionOffset = X Y Z*
 * *RotationOffset = H P R*
+
 ```
 [VISUAL_SHOWSIM:1.1]
 PositionOffset			= 0.0 0.0 0.0
 RotationOffset			= 0.0 0.0 0.0
 ;[...]
 ```
+
 For multi-displays, left and right screens should have a *RotationOffset* in order to match their actual angle in front of the user.
 For instance if the FOV of each screen is 30 degrees, rotating the left and right screens by 30 degrees will ensure continuity between the screens:
+
 ```
 [VISUAL_SHOWSIM_LEFT:1.1]
 PositionOffset			= 0.0 0.0 0.0
