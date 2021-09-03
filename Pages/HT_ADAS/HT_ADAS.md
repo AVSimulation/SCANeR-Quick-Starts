@@ -168,6 +168,90 @@ Now by connecting the AEB, we can avoid the collision.
 
 ## Step 2. ADAS model
 
+To implement the ADAS model, we will develop a *SCANeR custom module*.
+Such module uses the *SCANeR API* to read from and write to the SCANeR simulation data buses: *Network* and *Shared Memory*.
+
+> **Note:** The current demostration is using C++, but the same can be done with any other programming interface like Simulink, Python, etc...
+
+### C++ project
+
+SCANeR API projects should be compiled with **Microsoft Visual Studio C++ 2019**
+
+You can initialize the C++ project with the following SDK package.
+* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/bin/x64/vs2019/**SCANeR_API_C.2021.dll**`
+* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/lib/x64/vs2019/**SCANeR_API_C.lib**`
+* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/include/ScanerAPI/**scanerAPI_DLL_C.h**`
+
+> **Note:** For ease of use, we recommend to clone the SCANeR API sample projects that can be found in `%STUDIO_PATH%/SCANeRstudio_2021/APIs/samples/complete.sln` with Visual Studio 2019. For the current purpose, `%STUDIO_PATH%/SCANeRstudio_2021/APIs/samples/ScanerAPI/SampleCom/Radar/scanerAPISampleRadar.vcxproj` is a good candidate to duplicate and start modifying.
+
+> **Note:** For demonstration purpose, we will include the simulation data interface and the simple AEB algorithm in the same project code. But for a larger project, we recommend dividing the project in two parts: the interface (SCANeR API) and the algorithm.
+
+### Declare interfaces
+
+The first step is to declare the interface handles to SCANeR simulation data. This is to be done once at the launch of the custom module.
+
+The ADAS model takes inputs from and outputs to SCANeR:
+* Input: distance to collision
+* Output: pression on the brake pedal
+
+```C
+// read access to radar and ExportChannel
+DataInterface* radar_300000 = Com_declareInputData(NETWORK_ISENSOR_SENSORMOVABLETARGETS, 300000); //connect to "ISensor/SensorMovableTargets" with radar ID 300000 (default number for the first
+// write access to Shared Memory for longitudinal control
+DataInterface* CabToModelCorrective_0	= Com_declareOutputData(SHM_MODELCABIN_CABTOMODELCORRECTIVE, 0); //connect to "ModelCabin/CabToModelCorrective" of vehicle ID 0 (Ego)
+```
+
+> **Note: ** The manual documents `Network.html` and `Shared Memory` found under the `HELP` menu of SCANeR lists all the available messages. Use it to find the name of the message that you need.
+
+> *Network* and *Shared Memory* act and are use in the same way. But *Shared Memory* messages are only exchanged on the same computer, when *Network* messages can be exchanged on any computer of the [simulator's network](../HT_multi-machine/HT_multi-machine.md).
+
+* The Radar ID is set to 300000 because this is the default ID of the first radar sensor added to the scenario. To confirm your radar ID in SCANeR, check 
+
+### Read & write
+
+Now the values can actually be read from and written to SCANeR simulation buses using the handles. This is typically done in a main loop.
+
+```C
+short targetsCount = Com_getShortData(radar_300000, "targetsArrayCount"); //read member "targetsArrayCount" of "ISensor/SensorMovableTargets"
+if (targetsCount > 0)
+{
+  char distanceToCollisionTmp[50];
+  sprintf_s(distanceToCollisionTmp, "targetsArray[%d]/distanceToCollision", Com_getShortData(radar_300000, "nearestTarget"));
+  distanceToCollision = Com_getFloatData(radar_300000, distanceToCollisionTmp);
+}
+```
+
+### Frame
+
+```C
+//scaner project includes
+#include "scanerAPI/scanerAPI_DLL_C.h"
+#include "scanerAPI/ScanerAPImessagesNetwork.h"
+#include "scanerAPI/ScanerAPImessagesShm.h"
+
+int main(int argc, char* argv[])
+{
+  Process_Init(argc, argv);
+  APIProcessState status = PS_DAEMON;
+
+  /* INITIALIZE HERE */
+
+  while (status != PS_DEAD) // main loop
+  {
+    Process_Wait(); // syncrhonization
+    Process_Run(); // step
+
+    status = Process_GetState();
+    
+    if (status == PS_RUNNING) // simulation is running
+    {
+      /* RUN HERE */
+    }
+  }
+  Process_Close();
+}
+```
+
 ## Conclusion
 
 Congratulations in connecting your ADAS model.
