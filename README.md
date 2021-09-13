@@ -1,4 +1,4 @@
-# Pages Edition Manual
+# Articles Edition Manual
 
 ## 1. Good practices
 
