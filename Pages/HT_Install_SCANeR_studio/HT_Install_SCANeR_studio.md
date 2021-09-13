@@ -44,7 +44,7 @@ The installation of SCANeR studio requires full administrator rights.
 
 > **Info:** SCANeR studio can work in multi-machine on any architecture (workstation, simulator, HiL, Cloud) as long as all nodes (PC or VM) are on the same local network.
 
-> **Note:** For Trial use, leave unchecked. The version doesn't include multi-machine use.
+> **Note:** With the Trial installer, leave unchecked. The Trial version doesn't include multi-machine use.
 
 * Click ```Next```
 
