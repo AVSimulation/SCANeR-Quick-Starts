@@ -1,4 +1,4 @@
-# How to? Download the Trial version of SCANeR Software
+# How to download the Trial version of SCANeR Software
 
 You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is a first step to achieve this goal 😊
 
@@ -47,4 +47,4 @@ Congratulations! You are now ready to use the Trial version of SCANeR. 🙌
 
 Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it !
 
-:arrow_right: (../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+:arrow_right: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
