@@ -13,7 +13,7 @@
 ### Links
 
 Links between articles can use relative paths.  
-`[How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`
+`[How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
 [How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 
 At the beginning of the article, add links to the articles with informations necessary prior.  
