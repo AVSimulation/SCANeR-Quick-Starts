@@ -45,5 +45,5 @@ Congratulations! You are now ready to use the Trial version of SCANeR. 🙌
 
 > **Note:** The SCANeR Trial Version will expire after is valid for 45 days, counted from the first installation.
 
-Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, or a Trial extension if you need it !
+Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it !
 
