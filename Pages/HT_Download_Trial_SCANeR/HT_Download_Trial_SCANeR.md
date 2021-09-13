@@ -16,9 +16,9 @@ After installing the Trial, the software can be used for 45 days.
 
 ## Step 1. Request a Trial version
 
-1. You can request your Trial version of SCANeR here: [Trial](https://www.avsimulation.com/scaner-studio-trial/)
+1. You can request your Trial version of SCANeR here: [Request a Trial](https://www.avsimulation.com/scaner-studio-trial/)
 
-> **Note:** You can also request a trial for our other tools: UTAC Ceram scenarios & Physics Based Sensors: [All our Trials](https://www.avsimulation.com/free-download/)
+> **Note:** You can also request a trial for our other tools: NCAP & Regulation scenarios & Physics Based Sensors: [All our Trials](https://www.avsimulation.com/free-download/)
 
 2. Just enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
