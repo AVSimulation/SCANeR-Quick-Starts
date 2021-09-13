@@ -1,4 +1,4 @@
-Welcome to the SCANeR Guides website, where you can find resources for beginner to advanced use of SCANeR solutions.
+**Welcome** to the SCANeR Guides website, where you can find resources for beginner to advanced use of SCANeR solutions.
 
 SCANeR Software combines tools with agile features to help teams interface XiL solutions for evaluation and validation at any level of V-cycle.
 
@@ -18,7 +18,6 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 
 * [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
-* [Install a NCAP & Regulation Pack]()
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
 
