@@ -23,7 +23,7 @@ The current guide is for *Open Scene Graph*.
 Visual rendering has three levels of hierarchy:
 * *Visual Module*: Defined by one instance of the *Visual.exe* executable. One Visual Module runs on one graphic processing unit (GPU).
 * *Visual Pipe*: Defined by a rendering window on screen. Each *Visual Module* can handle several *Visual Pipes*.
-* *Visual Channel*: Devined by a rendering sub-surface on the window. Each *Visual Pipe* can handle several *Visual Pipes*.
+* *Visual Channel*: Defined by a rendering sub-surface on the window. Each *Visual Pipe* can handle several *Visual Channels*.
 
 ### Performance
 
@@ -108,7 +108,7 @@ The *Visual Pipe* draws the window on screen. By default, it is a borderless rec
 * *Position*: The coordinates of the *bottom left* corner in pixels, from the *bottom left* corner of the screen.
 * *Resolution*: The size in pixels.
 
-So in order to cover a Full HD display:
+So in order to cover a Full HD display, use the following settings:
 ```
 [VISUAL_SHOWSIM:1]
 Position    = 0 0
