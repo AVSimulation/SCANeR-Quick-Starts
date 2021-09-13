@@ -1,5 +1,3 @@
-# SCANeR Software resources
-
 Welcome to the SCANeR Guides website, where you can find resources for beginner to advanced use of SCANeR solutions.
 
 SCANeR Software combines tools with agile features to help teams interface XiL solutions for evaluation and validation at any level of V-cycle.
