@@ -16,7 +16,7 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 
 #### Get ready
 
-* [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md)
+* [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 * [Install a NCAP & Regulation Pack]()
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
