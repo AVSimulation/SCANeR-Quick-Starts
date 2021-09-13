@@ -1,4 +1,4 @@
-# How to? Configure the visual rendering : Advanced
+# How to? Configure the visual rendering: Advanced
 
 This guide is for advanced configuration of the visual rendering in SCANeR. It follows the guide for [basic configuration of the visual rendering in SCANeR](./HT_configure_visual.md).
 
