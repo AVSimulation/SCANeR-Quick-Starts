@@ -56,6 +56,18 @@ The Samples Pack give you use cases demonstration, and also a starting point/tem
 
 Please let us know if you need another demonstration to be added in the list. We may have scenarios not yet included in the Samples-Pack that we could share or we may take your feedback into account for the next version of the Samples-Pack.
 
+### Samples Manuals
+
+The samples are referenced in the SCANeR tutorials above. Here are the samples documentation for Samples that don't have a dedicated tutorial yet.
+
+* [CAMERACAPTURE](./PDF/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf)
+* [FMI](./PDF/SCANeRstudio_EVAL_FMI_Presentation.pdf)
+* [HEADLIGHTS](./PDF/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf)
+* [PIXEL_LIGHTING](./PDF/SCANeRstudio_EVAL_PIXEL_LIGHTING_Manual.pdf)
+* [SCENARIO_IMPORTER](./PDF/SCANeRstudio_EVAL_SCENARIO_IMPORTER_Presentation.pdf)
+* [VEHICLE_PLAYER](./PDF/SCANeRstudio_EVAL_VEHICLE_PLAYER_Manual.pdf)
+* [ROS](./PDF/SCANeRstudio_EVAL_ROS_Tutorial.pdf)
+
 ## Support or Contact
 
 Having trouble? Check out our [FAQ](http://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_Evaluation_FAQ.pdf) or [contact support](support-scaner@avsimulation.fr) and we’ll help you sort it out.
