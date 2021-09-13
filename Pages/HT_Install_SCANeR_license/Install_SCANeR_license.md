@@ -75,5 +75,5 @@ Congratulations! 💪
 Your license is now installed, you can enjoy your new SCANeR products! 😊  
 [Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.html)
 
-:arrow_forward: [How to update the license](../HT_Update_SCANeR_license/Update_SCANeR_license.md)
+:arrow_forward: [How to update the license](../HT_Update_SCANeR_license/Update_SCANeR_license.md)  
 :arrow_forward: [Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.html)
