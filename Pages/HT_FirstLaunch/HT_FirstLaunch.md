@@ -1,4 +1,7 @@
-# HOW TO? Launch SCANeR studio for the first time.
+:arrow:left: [How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+:arrow:left: [How to install a SCANeR license](../HT_Install_SCANeR_license/Install_SCANeR_license.md)
+
+# How to launch SCANeR studio for the first time.
 
 This guide explains how to launch and setup your SCANeR studio for the very first time.
 
@@ -12,7 +15,7 @@ This guide explains how to launch and setup your SCANeR studio for the very firs
 
 After installing SCANeR studio, double-click on the shortcut available on your desktop.
 
-If you don't know how to install it, all you need is here: [How to ? Install SCANeR studio.](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
+If you don't know how to install it, all you need is here: [How to ? Install SCANeR studio.](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
 
 ![IconDesktop](./assets/IconDesktop.PNG)
 
@@ -44,5 +47,6 @@ The path to the data folder of your `Configuration` will also be found by defaul
 
 You're all set! You can now run your first simulations.
 
-If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Navigate/HT_Navigate.md) 😊
+If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](../HT_Navigate/HT_Navigate.md) 😊
 
+:arrow_right: [How to navigate in SCANeR studio.](..s/HT_Navigate/HT_Navigate.md)
