@@ -49,4 +49,4 @@ You're all set! You can now run your first simulations.
 
 If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](../HT_Navigate/HT_Navigate.md) 😊
 
-:arrow_right: [How to navigate in SCANeR studio.](..s/HT_Navigate/HT_Navigate.md)
+:arrow_right: [How to navigate in SCANeR studio.](../HT_Navigate/HT_Navigate.md)
