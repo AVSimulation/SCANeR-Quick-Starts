@@ -12,16 +12,14 @@ Our step-by-step guides for greater agility with SCANeR Software.
 
 The tutorials focus on SCANeR Software, the number one tool for agile software teams. No matter what you want to test and validate, SCANeR has you covered. The tutorials below share the tips and tricks your team needs to stay agile with SCANeR Software.
 
-### SCANeR tutorials
-
-#### Get ready
+### Get ready
 
 * [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 * [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
 * [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
 
-#### Basics
+### Basics
 
 * [Launch SCANeR studio for the first time](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
 * [Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
@@ -30,7 +28,7 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 * [Run a simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
-#### Intermediate
+### Intermediate
 
 * [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md)
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md)
