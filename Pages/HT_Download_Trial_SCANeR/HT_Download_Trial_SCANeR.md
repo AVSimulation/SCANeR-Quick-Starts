@@ -14,8 +14,6 @@ After installing the Trial, the software can be used for 45 days.
 
 > **Important:** The Trial version of SCANeR studio is intended for workstations without prior SCANeR installation. Windows remote desktop and multi-computer configurations are not available with this version.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/joE1Fi09eEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Step 1. Request a Trial version
 
 1. You can request your Trial version of SCANeR here: [Request a Trial](https://www.avsimulation.com/scaner-studio-trial/)
@@ -38,6 +36,8 @@ After installing the Trial, the software can be used for 45 days.
 ![](./assets/Download_Begins.png)
 
 > **Note:** In addition, the email also include a link to the [Samples Pack](../HT_InstallSamplesPack/HT_InstallSamplesPack.html).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/joE1Fi09eEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step 3. Install the Trial
 
