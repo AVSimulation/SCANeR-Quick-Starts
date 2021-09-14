@@ -5,11 +5,11 @@
 
 This guide explains how to launch and setup your SCANeR studio for the very first time.
 
-**Step 1.** Launch SCANeR studio
+* **Step 1.** Launch SCANeR studio
+* **Step 2.** Create a new `Configuration`
+* **Step 3.** Enter the software
 
-**Step 2.** Create a new `Configuration`
-
-**Step 3.** Enter the software
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pnq0vsR74Xw?start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Step 1. Run SCANeR studio
 
