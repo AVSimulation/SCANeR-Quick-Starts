@@ -36,7 +36,7 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 
 ### Advanced
 
-Some of the following guides make use of the Samples Pack demo. Feel free to download the Samples Pack from below, and follow along the advanced tutorials.
+Some of the following guides make use of the Samples Pack demo. Feel free to download the [Samples Pack](#scaner-samples-pack) from below, and follow along the advanced tutorials.
 
 * [Evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
 * [Evaluate and validate an AFS/ADB model](./Pages/HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
