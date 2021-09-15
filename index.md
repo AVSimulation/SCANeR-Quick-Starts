@@ -33,6 +33,7 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 * [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md)
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md)
 * [Create a simple environment from scratch](./Pages/HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+* [Define KPI/Metrics](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
 
 ### Advanced
 
