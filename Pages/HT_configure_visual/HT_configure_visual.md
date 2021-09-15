@@ -27,11 +27,9 @@ Visual rendering has three levels of hierarchy:
 
 ### Performance
 
-We recommend using one *Visual Module* per *GPU*.
-
 One *Visual Module* can handle multi-windows (and therefore multi-displays) thanks to *Visual Pipes*.  
 This is useful for mirror displays, because they are usually smaller and lower resolution ; several of them can be handled by a single GPU.  
-However for high definition, high framerate displays, one GPU will not be able to handle more than one. In this case, use one *Visual Module* per display with the matching amount of GPUs.
+However for high definition, high framerate displays, one GPU will not be able to handle more than one. In this case, we recommend to use one *Visual Module* per display with the matching amount of GPUs.
 
 ### License
 
