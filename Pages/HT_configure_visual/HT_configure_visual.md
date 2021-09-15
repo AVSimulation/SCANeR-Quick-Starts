@@ -1,6 +1,6 @@
 # How to? Configure the visual rendering
 
-SCANeR studio is able to render the simulated scene on any display configuration, including single or multiple screens, projection system or head-mounted display.
+SCANeR studio is able to render the simulated scene on any display configuration, including single, multiple screens, projection system with or without warping/blending or head-mounted display (VR).
 
 This guide helps you configure the visual rendering for your display system.
 
@@ -15,8 +15,8 @@ This guide helps you configure the visual rendering for your display system.
 
 ### Rendering engines
 
-In SCANeR studio it is possible to render using *Open Scene Graph* and *Unreal* rendering engines.  
-The current guide is for *Open Scene Graph*.
+In SCANeR studio it is possible to render using **Open Scene Graph** and **Unreal** rendering engines.  
+The current guide is based on **Open Scene Graph**.
 
 ### Hierarchy
 
