@@ -1,4 +1,4 @@
-**Welcome** to the SCANeR Guides website, where you can find resources for beginner to advanced use of SCANeR solutions.
+**Welcome** to the SCANeR Guides website, where you can find resources to learn more how to benefits of SCANeR Software solutions.
 
 SCANeR Software combines tools with agile features to help teams interface XiL solutions for evaluation and validation at any level of V-cycle.
 
@@ -8,7 +8,7 @@ SCANeR Software combines tools with agile features to help teams interface XiL s
 
 ## SCANeR tutorials: Learn agile with SCANeR Software
 
-Our step-by-step guides for greater agility with SCANeR Software.
+Our step-by-step guides you for greater agility with SCANeR Software.
 
 The tutorials focus on SCANeR Software, the number one tool for agile software teams. No matter what you want to test and validate, SCANeR has you covered. The tutorials below share the tips and tricks your team needs to stay agile with SCANeR Software.
 
