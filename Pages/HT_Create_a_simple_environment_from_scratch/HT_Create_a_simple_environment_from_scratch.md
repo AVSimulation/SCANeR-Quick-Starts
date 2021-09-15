@@ -2,9 +2,9 @@
 
 In SCANeR studio, the simulation is composed of `actors` (light vehicles, trucks, buses, motorbikes, pedestrians, etc...) performing actions according to a `scenario` that has been created by the user. This `scenario` has to take place in an environement we call the `terrain` of the `scenario`. There are default environments present in SCANeR studio that you can use, but you can also create your own.
 
-> Note: If you already have specific environments, you can import them in SCANeR studio, or we can help you import them. We also propose complete and realistic environments sur as the [N118 around Paris](https://www.avsimulation.com/a86-n118/) or [the Europe 2.0 environment](https://www.avsimulation.com/europe-2-0/). If you are interested in such services, feel free to contact us.
+> Note: If you already have specific environments, you can import them in SCANeR studio, or we can help you import them. We also propose complete and realistic environments as the [N118 around Paris](https://www.avsimulation.com/a86-n118/) or [the Europe 2.0 environment](https://www.avsimulation.com/europe-2-0/). If you are interested in such services, feel free to contact us.
 
-A `terrain` is composed of the logical road network, used by the Traffic module to control all the autonomous vehicles in the scenario, and of a 3D representation of the road, the intersections and the decorative elements.
+A `terrain` is composed of the logical road network, used by the actors to take their own decision (thanks to SCANeR Traffic A.I.), and of a 3D representation of the road, the intersections and the decorative elements.
 
 In this guide, I will explain how to create a new environment composed of a simple intersection with traffic lights, and use it in the simulation.
 
@@ -24,8 +24,6 @@ Let's jump into the guide!
    ![New terrain 1](./assets/New_terrain1.png) ![New terrain 2](./assets/New_terrain2.png)
 
 ## Step 2. Create the road network and the 3D
-
-In order for the Traffic module to drive the autonomous vehicles correctly, we have to create a logical road network in our terrain.
 
 1. To create a new road, simply click on the `Insert Segment` tool on the left side of the window, and click and drag your mouse to create the road you want in the main window. After you have drawn the tro segments composing your intersection, select one of them, rightclick and select `Detect Intersection`. You now have an intersetion between two roads 👍. 
 
