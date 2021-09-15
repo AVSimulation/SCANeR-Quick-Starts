@@ -8,7 +8,7 @@ This guide explains how to download the Trial version of SCANeR:
 - Step 3. Install the Trial
 
 The Trial version gives you access to all software `Packs` including [Foundation](https://www.avsimulation.com/pack-foundation/), [AD/ADAS](https://www.avsimulation.com/pack-ad-adas/), [Headlights](https://www.avsimulation.com/pack-headlights/), [Massive Simulation](https://www.avsimulation.com/pack-massive-simulation/), etc.
-> **Note:** With this Trial version, you get access to SCANeR studio, SCANeR explore and SCANeR compute (both included in the Massive Simulation pack).
+> **Note:** With this Trial version, you get access to SCANeR studio (included in the [Foundation Pack](https://www.avsimulation.com/pack-foundation/)), SCANeR explore and SCANeR compute (both included in the [Massive Simulation pack](https://www.avsimulation.com/pack-massive-simulation/)).
 
 After installing the Trial, the software can be used for 45 days.
 
