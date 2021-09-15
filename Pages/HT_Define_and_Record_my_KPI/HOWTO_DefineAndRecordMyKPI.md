@@ -21,6 +21,7 @@ We will not explain here how to do it but here are the screenshots of the Top vi
 ##### Define your KPI:
 
 ​	To define your KPI in order to be accessible in the `ANALYSIS` mode, you need to send the information you want on an `exportChannel`.
+> **Note:** An export channel is a range of open channels on SCANeR simulation bus for end-users to easily exchange custom I/O with SCANeR environments.
 
 To do so, you need to create a script:
 
