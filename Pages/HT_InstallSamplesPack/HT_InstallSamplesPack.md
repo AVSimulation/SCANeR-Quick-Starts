@@ -1,3 +1,5 @@
+:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+
 # HOW TO? Install the Samples Pack.
 
 The Sample Pack includes specific samples of SCANeR configuration, scenario and dependencies. Once loaded, the sample is *click to run*. In addition the sample manual explains exactly what happens during the scenario. It also explains how it was made, so you can quickly *understand*, and *make changes* to match your own application. The *source code* for API-based samples is included often using several of the programming languages.
@@ -45,3 +47,5 @@ To finialize the installation, run the newly extracted `samples-pack-utils/updat
 You have successfully installed the Samples Pack. 🎉
 
 You can launch SCANeR studio and start using the samples. Documentation for each sample can be accessed from the [home page](../../index.md).
+
+:arrow_right: [Advanced guides](../../index.md#advanced)
