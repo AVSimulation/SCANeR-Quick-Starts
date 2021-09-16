@@ -1,6 +1,6 @@
 :arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
 
-# How to create a new Workspace in SCANeR studio
+# How to create a new workspace
 
 In SCANeR studio, the different workspaces you can have are called `Configurations`.  In the context of simulation, these different `Configurations` will help you organize your data and simulation parameters between your different projects. For instance, if you run the simulation on a Workstation, the running modules will not be exactly the same as in a large Simulator environment. That's why you can use different `Configurations` in order to save your parameters and data according to the use case.
 
