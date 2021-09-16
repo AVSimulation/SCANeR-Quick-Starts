@@ -27,6 +27,7 @@ Enough chatter, let's jump into the guide! 😁
 ​	You can see your different available configurations here and switch between them.
 
 ![Configuration Manager](./assets/configurationManager.png)
+> Tips, When a module has its "Selected" checkbox ticked it'll start when the supervisor will click on the run simulator button. When a module has its "Auto Start" checkbox ticked it'll automatically start when the configuration is loaded (click on OK).
 
 ## Step 2. Create a new Configuration
 
