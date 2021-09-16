@@ -1,4 +1,4 @@
-:arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
+:arrow_left: [How to switch between workspaces](../HT_Change_work_environment/HT_Change_work_environment.md)
 
 # How to navigate in SCANeR studio.
 
@@ -70,4 +70,4 @@ As seen previously, the Simulation mode includes modules. The modules are used t
 
 😊
 
-:arrow_right: [How to switch between environments](../HT_Change_work_environment/HT_Change_work_environment.md)
+:arrow_right: [How to run a simulation: good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
