@@ -1,18 +1,20 @@
-# HOW TO? Launch SCANeR studio for the first time.
+:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+
+# How to launch SCANeR studio for the first time.
 
 This guide explains how to launch and setup your SCANeR studio for the very first time.
 
-**Step 1.** Launch SCANeR studio
+* **Step 1.** Launch SCANeR studio
+* **Step 2.** Create a new `Configuration`
+* **Step 3.** Enter the software
 
-**Step 2.** Create a new `Configuration`
-
-**Step 3.** Enter the software
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pnq0vsR74Xw?start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Step 1. Run SCANeR studio
 
 After installing SCANeR studio, double-click on the shortcut available on your desktop.
 
-If you don't know how to install it, all you need is here: [How to ? Install SCANeR studio.](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
+If you don't know how to install it, all you need is here: [How to ? Install SCANeR studio.](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
 
 ![IconDesktop](./assets/IconDesktop.PNG)
 
@@ -44,5 +46,6 @@ The path to the data folder of your `Configuration` will also be found by defaul
 
 You're all set! You can now run your first simulations.
 
-If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Navigate/HT_Navigate.md) 😊
+If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](../HT_Navigate/HT_Navigate.md) 😊
 
+:arrow_right: [How to create a new workspace.](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)

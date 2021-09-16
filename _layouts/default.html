@@ -7,26 +7,8 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
     <style>
-      .inner {
-        width: 60%;
-        max-width: 1080px;
-      }
-      #header_wrap {
-        background: none;
-        background-image:url(https://www.avsimulation.com/wp-content/uploads/2018/06/degrade_bleu_rose_small.jpg);
-        background-size: cover;
-        border: none;
-        color: none;
-      }
-      #project_title {
-        font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 60px;
-        box-shadow: none;
-        text-shadow: none;
-      }
       #menu {
         display: block;
         width: 50%;
@@ -57,11 +39,15 @@
           <p id="menu">
             <a href="{{site.baseurl}}/">Home</a>
           </p>
-
+          
+          <!--<section id="nav">
+            <a class="nav_home" href="{{site.baseurl}}/">Home</a>
+          </section>-->
+          
           {% if site.show_downloads %}
             <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download the Samples Pack</a>
+              <a class="youtube_link" href="{{ site.github.youtube_url }}">AVSimulation on Youtube</a>
             </section>
           {% endif %}
         </header>
@@ -77,9 +63,11 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
+        <p>:arrow_heading_up: <a href="{{site.baseurl}}/">Home</a></p>
         <h3 style="color: white;">Links</h3>
-        <p><a href="https://www.avsimulation.com/">AVSimulation.com</a></p>
-        <p><a href="https://support.avsimulation.fr/">Support SCANeR</a></p>
+        <p>&#128279 <a href="https://www.avsimulation.com/">AVSimulation.com</a></p>
+        <p>&#128279 <a href="https://support.avsimulation.fr/">Support SCANeR</a></p>
+        <p>&#128279 <a href="{{ site.github.youtube_url }}">AVSimulation on Youtube</a></p>
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

@@ -1,4 +1,6 @@
-# How to? Install your SCANeR license
+:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+
+# How to install your SCANeR license
 
 You recently purchased a new SCANeR license. 🥳
 
@@ -6,7 +8,7 @@ AVSimulation provides 2 kinds of licenses:
 - Nomadic licenses - This format is dedicated to the people who need to move their license from one computer to another. It may be the case if the user navigates between his desktop and test tracks. In this case, it is important not to lose or damage the dongle.
 - Fixed licenses - This is a type of license to choose if you want to install a license on computer or if you want to install multiple licenses on a computer that will act as a token server.
 
->More information on SCANeR details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/)
+> More information on SCANeR details can be found in the [software catalog](https://www.avsimulation.com/pack-foundation/).
 
 This guide will explain how to install [Nomadic licenses](#nomadic-licenses) and [Fixed licenses](#fixed-licenses).
 
@@ -19,15 +21,17 @@ This chapter explains how to install a nomadic SCANeR license. The license is di
 - Step 2. Plug the USB dongle to the computer
 
 ### Step 1. Receive the physical USB dongle
-After the receipt of the PO AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to [support-scaner](mailto:support-scaner@avsimulation.fr).
+After the receipt of the Purchase Order (PO), AVSimulation will send you a physical USB containing your nomadic SCANeR license. Once you received it, please sign the attached acknowledge receipt and send it back to [support-scaner](mailto:support-scaner@avsimulation.fr).
 
 ### Step 2. Plug the USB dongle to the computer
 You can directly plug the USB dongle to a computer with SCANeR installed. The license is already installed in the dongle.
->Note: The driver for the USB dongle is automatically installed with SCANeR. Make sure to have SCANeR installed on the system before connecting the USB Dongle.
+> **Note:** The driver for the USB dongle is automatically installed with SCANeR. Make sure to have SCANeR installed on the system before connecting the USB Dongle.
 
 Congratulations! 💪  
-You can enjoy your new SCANeR products! 😊
->Note: AVSimulation will provide you with a temporary license on the physical dongle while payment is under process. Once payment is done, AVSimulation will provide you with an [license update](https://github.com/AVSGuillaume/Samples-Pack/blob/3c766a40518d1bc44ba80a01cd170c5dce867d16/Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md).
+You can enjoy your new SCANeR products! 😊  
+[Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.md)
+
+> **Note:** AVSimulation will provide you with a temporary license on the physical dongle while payment is under process. Once payment is done, AVSimulation will provide you with an [license update](../HT_Update_SCANeR_license/Update_SCANeR_license.md).
 
 ## Fixed Licenses
 
@@ -36,13 +40,13 @@ This chapter explains how to install a fixed SCANeR license. This license is dis
 - Step 2. Generate C2V file
 - Step 3. Install the license
 
->**Important notes:**  
->Fixed license cannot be moved once installed. Each step below should be done on the computer that will run SCANeR.  
->Administrator rights are required for the installation of the license. 
+> **Important notes:**  
+> Fixed license cannot be moved once installed. Each step below should be done on the computer that will run SCANeR.  
+> Administrator rights are required for the installation of the license. 
 
 ### Step 1. Install SCANeR studio
 
-The installation of SCANeR studio is described in [SCANeR studio installation](https://github.com/AVSGuillaume/Samples-Pack/blob/f28f5d542a36b8e49dad3d010664a31e77e89578/Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+The installation of SCANeR studio is described in [SCANeR studio installation](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
 ### Step 2. Generate C2V file
 
@@ -65,7 +69,11 @@ soon as possible the license file.
 
 ### Step 3. Install the license
 
-Once you received the license file (V2C file), the last step is to [update the license](https://github.com/AVSGuillaume/Samples-Pack/blob/3182d60806769b3ba844f12e6597bad8b0606352/Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md).
+Once you received the license file (V2C file), the last step is to [update the license](../HT_Update_SCANeR_license/Update_SCANeR_license.md).
 
 Congratulations! 💪  
-Your license is now installed, you can enjoy your new SCANeR products! 😊
+Your license is now installed, you can enjoy your new SCANeR products! 😊  
+[Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.md)
+
+:arrow_right: [How to update the license](../HT_Update_SCANeR_license/Update_SCANeR_license.md)  
+:arrow_right: [Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.md)

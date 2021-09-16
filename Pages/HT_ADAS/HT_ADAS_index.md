@@ -119,3 +119,5 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 
 
 > **Note:** The **Publish now** button is disabled if your file has not been published yet.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ldsQqeoovZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

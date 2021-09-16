@@ -1,4 +1,4 @@
-# Pages Edition Manual
+# Articles Edition Manual
 
 ## 1. Good practices
 
@@ -9,6 +9,33 @@
 * Reference new pages in ```(root)/index.md```
 
 ![](./assets/PagesFileTree.PNG)
+
+### Links
+
+Links between articles can use relative paths.  
+`[How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+[How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+
+At the beginning of the article, add links to the articles with informations necessary prior.  
+`:arrow_left: [How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+:arrow_left: [How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+
+At the end of the article, add links to the articles that may interest the reader after.  
+`:arrow_right: [How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+:arrow_right: [How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+
+### Videos
+
+Don't push videos onto the repository itself. It is too heavy.
+
+Youtube videos can be embedded in the article.  
+On the Youtube page of the video:
+* Button "Share"
+* Icon "Embed"
+* Copy the html code provided
+* Paste as is in the markdown article
+
+```<iframe width="560" height="315" src="https://www.youtube.com/embed/ldsQqeoovZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>```
 
 ## 2. Using GitHub web editor
 

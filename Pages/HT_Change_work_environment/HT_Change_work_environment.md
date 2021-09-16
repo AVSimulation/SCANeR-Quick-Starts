@@ -1,12 +1,16 @@
-# How to? Switching from one SCANeR workspace to another one
+:arrow_left: [Create your workspace](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 
-As a reminder, in SCANeR studio, the different workspaces you can have are called Configurations. 
+# How to switch between workspaces
+
+As a reminder, in SCANeR studio, the different workspaces you can have are called Configurations.
+
+> **Tips** If you run SCANeR for the 1st time and you just follow the [Create your workspace](https://avsguillaume.github.io/Samples-Pack/Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.html) Guide then you can skip this one. Indeed, this one is necessary to SCANeR users who already have an existing SCANeR environment on their machine and wants to evaluate a new SCANeR feature.
 > **Note:** To create a new SCANeR Configuration, follow the instructions here: [How to? Create a new Workspace in SCANeR studio](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 
 This guide explains how to switch to a different Configuration in SCANeR studio. You will see, it is easy :smile::
-- Step 1. Open the Configuration Manager
-- Step 2. Switch to another Configuration
-- Step 3. Check which configuration you are using
+* Step 1. Open the Configuration Manager
+* Step 2. Switch to another Configuration
+* Step 3. Check which configuration you are using
 
 ## Step 1. Open the Configuration Manager
 
@@ -34,3 +38,5 @@ This information is accessible in the main supervisor window of SCANeR studio :p
 ![](./assets/configuration_YouAre.png)
 
 **Congratulations! You know now how to switch to a different work environment in SCANeR :ok_hand:!**
+
+:arrow_right: [Navigate in the user interface](../HT_Navigate/HT_Navigate.md)

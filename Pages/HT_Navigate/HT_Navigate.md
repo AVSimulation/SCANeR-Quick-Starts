@@ -1,22 +1,18 @@
-# How to? Navigate in SCANeR studio.
+:arrow_left: [Switch between workspaces](../HT_Change_work_environment/HT_Change_work_environment.md)
+
+# How to navigate in SCANeR studio.
 
 This guide explains how to navigate through the basic interfaces to be ready to run any simulation.
 
-- Step 1. The different modes
-
-- Step 2. The modules
-
-- Step 3. Start ~~working~~ playing
-
-
+* Step 1. The different modes
+* Step 2. The modules
+* Step 3. Start ~~working~~ playing
 
 ## Step 1. The different modes
 
 Once the software is launched, you will arrive in an interface with a toolbar. This is where you will find the 5 modes of SCANeR studio, each of which has specific functions.
 
 ![Toolbar](./assets/Toolbar.PNG)
-
-
 
 ### TERRAIN
 
@@ -42,8 +38,6 @@ External models can also be plugged into SCANeR studio.
 
 ![VEHICULE](./assets/VEHICULE.PNG)
 
-
-
 ### SCENARIO
 
 The Scenario mode has been designed to prepare the simulation. Choose a terrain, a vehicle to drive, add other vehicles, pedestrians, 3D objects, etc. Then manage events (thanks to a script editor) in order to create situations. Prepare the debriefing of exercises by defining data to be recorded.
@@ -52,15 +46,11 @@ SCANeR studio has libraries of terrains, vehicles, pedestrians, 3D objects and h
 
 ![SCENARIO](./assets/SCENARIO.PNG)
 
-
-
 ### SIMULATION
 
 The Simulation mode is where you will run your simulation. Your simulation will use your own scenari or the default ones in the SCANeR studio libraries. The Simulation mode is made to monitor and control functions such as recorder, tracking, motion, sound, visual, etc. These functions are called modules.
 
 ![SIMULATION](./assets/SIMULATION.PNG)
-
-
 
 ### ANALYSIS
 
@@ -68,18 +58,16 @@ The Analysis mode is made to view again an exercise of a driving simulation and 
 
 ![ANALYSIS](./assets/ANALYSIS.PNG)
 
-
-
 # Step 2. The modules
 
 As seen previously, the Simulation mode includes modules. The modules are used to define what capabilities the simulator has. For example, add MOTION module if a motion platform had to manage dynamic movements. There are a lot of pre-existing modules, the ones in the bottom section of the Simulation mode are just the ones present in the default configuration. You can also create your own modules through the SCANeR API.
 
 ![MoreModules](./assets/MoreModules.PNG)
 
-
-
 # Step 3. Start ~~working~~ playing
 
 **Congratulations!** Now that you know more about the different interfaces and how SCANeR studio works, it's time to start playing. But before you start anything, we strongly recommend that you create your own workspace. Don’t worry, everything is explained here: [HOW TO? Create a new Workspace in SCANeR Studio](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
 
 😊
+
+:arrow_right: [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
