@@ -19,27 +19,23 @@ Let's jump into the guide!
 ## Step 1. Start TERRAIN mode and create a new terrain
 
 1. When you start SCANeR studio, it will start in `SIMULATION` mode by default. To switch to the `TERRAIN` mode, just click on the `TERRAIN` button in the top menu. A separate window will open, showing the `TERRAIN` mode UI.
+   
    ![SCANeR modes](./assets/SCANeR_modes.png)
+   
 2. Once the TERRAIN mode is loaded, you can click on `File -> New` or simply click on the Blank Page icon to create a new `terrain`
+   
    ![New terrain 1](./assets/New_terrain1.png) ![New terrain 2](./assets/New_terrain2.png)
 
 ## Step 2. Create the road network and the 3D
 
 1. To create a new road, simply click on the `Insert Segment` tool on the left side of the window, and click and drag your mouse to create the road you want in the main window. After you have drawn the tro segments composing your intersection, select one of them, rightclick and select `Detect Intersection`. You now have an intersetion between two roads 👍. 
-
 <video src="https://user-images.githubusercontent.com/22998298/127977584-23603bda-3850-4720-bc1d-3eef40cb08a5.mp4" controls="controls" style="max-width: 730px;"></video> 
-
    > Note: You can change the profile of the road, which means the number of lanes and their disposition, through the `PROFILE` workroom, but that's for another guide 😉.
 
 2. In this step we will add realism to the terrain we just created by adding traffic lights. To add a traffic light, you have to select the `Select` tool. Then select the track you want to add a traffic light on by clicking on it. Click on `Insert Signal` and in the window that appears you have to check `Traffic Light`. In this first traffic light, we will create the Traffic Light group in order to synchronize all the traffic lights. Click on the dropdown menu and select `New...`. Name your group as you wish and select it for the current Traffic Ligth. When your traffic light is configured just click `OK`. Your Traffic light is now added to your Terrain, you just have to place it in the right spot on the sidewalk by draging it. Repeat this step for as many traffic light you want in your Terrain. In mine, I chose to have four of them. In the video below, you can see how I created them. 
-
 <video src="https://user-images.githubusercontent.com/22998298/127977612-ba466420-2367-4e43-b754-901f318521f5.mp4" controls="controls" style="max-width: 730px;"></video> 
-
-
 3. Now, let's synchronize our Traffic Lights. To do this, open the configuration of one of your traffic lights by double clicking on it, and in the `Animation` category click on `Edit...`. A new window appears where you can configure the colour of your lights and the amount of time between every step. In order to change the starting state of a Traffic Light, just click on the `On`, `Off` or `Blink` button in front of the colour you want to change. In my case, I want the Traffic Lights named `Traffic Light` and `Traffic Light 2` to start at the `Red` state, so I switched the first and last state of these two traffic lights, as you cas see in the video below. 
-
 <video src="https://user-images.githubusercontent.com/22998298/127977645-df7f1664-7ed8-40ae-a5db-6cab2a4a9e0f.mp4" controls="controls" style="max-width: 730px;"></video> 
-
 
 ## Step 3. Export the 3D
 
