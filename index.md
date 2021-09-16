@@ -24,6 +24,7 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 * [Create your workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 * [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
 * [Navigate in the user interface](./Pages/HT_Navigate/HT_Navigate.md)
+* [Open an existing scenario](./Pages/HT_Open_a_scenario/HT_Open_a_scenario.md)
 * [Run a simulation](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
