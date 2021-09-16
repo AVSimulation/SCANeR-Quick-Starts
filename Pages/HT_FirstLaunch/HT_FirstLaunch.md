@@ -1,4 +1,4 @@
-:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/Install_SCANeR_studio.md)
+:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
 # How to launch SCANeR studio for the first time.
 
