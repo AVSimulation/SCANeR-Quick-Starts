@@ -14,18 +14,18 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 
 ### Get ready
 
-* [Download the Trial version of SCANeR studio](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+* [Download the SCANeR studio Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
-* [Install your SCANeR license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
-* [Update your SCANeR license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
+* [Install your license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
+* [Update your license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
 
 ### Basics
 
-* [Launch SCANeR studio for the first time](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
-* [Create your custom work environment](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
-* [Switch between work environments](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
+* [First launch](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
+* [Create your workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
+* [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
 * [Navigate in the user interface](./Pages/HT_Navigate/HT_Navigate.md)
-* [Run a simulation, the good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+* [Run a simulation: good practices](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
 ### Intermediate
