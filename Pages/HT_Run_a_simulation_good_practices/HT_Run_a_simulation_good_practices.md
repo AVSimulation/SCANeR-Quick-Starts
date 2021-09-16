@@ -1,4 +1,4 @@
-:arrow_left: [Navigate in the user interface](../HT_Navigate/HT_Navigate.md)
+:arrow_left: [Navigate in the user interface](../HT_Open_a_scenario/HT_Open_a_scenario.md)
 
 # How to run a SCANeR simulation: the good practices
 
