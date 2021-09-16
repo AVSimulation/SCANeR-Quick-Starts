@@ -1,12 +1,10 @@
-# HOW TO? Define and record my KPI.
+# How to define and record my KPI.
 
-​	In this guide we will see how to define and record a Key Performance Indicator (KPI). The KPI we will analyze for this example is the driver's reaction time to brake when a pedestrian crosses the road. To do this, we will follow some simple steps. We will first see how to define the KPI in the `SCENARIO` mode, record the `SIMULATION`, and then analyze it using the `ANALYSIS` mode.
+​	In this guide we will see how to define and record a **Key Performance Indicator** (KPI). The KPI we will analyze for this example is the driver's reaction time to brake when a pedestrian crosses the road. To do this, we will follow some simple steps. We will first see how to define the KPI in the `SCENARIO` mode, record the `SIMULATION`, and then analyze it using the `ANALYSIS` mode.
 
-**Step 1.** Setup your scenario
-
-**Step 2.** Record your simulation
-
-**Step 3.** Access KPI data
+* **Step 1.** Setup your scenario
+* **Step 2.** Record your simulation
+* **Step 3.** Access KPI data
 
 ### Step 1. Setup your scenario
 
@@ -140,4 +138,3 @@ Here, the driver brakes after 0.400331s.
 ​	To sum up, thanks to the `SCENARIO` mode and the scripts, you can define your KPI and send it to an `exportChannel`. This will allow you, if the `RECORD` module is started during the simulation, to analyze your KPI in the `ANALYSIS` mode.
 
 I hope you enjoy this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
-
