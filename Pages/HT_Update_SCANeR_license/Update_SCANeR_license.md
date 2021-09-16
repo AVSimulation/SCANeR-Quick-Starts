@@ -1,3 +1,5 @@
+:arrow_left: [How to install your SCANeR license](../HT_Install_SCANeR_license/Install_SCANeR_license.md)
+
 # How to? Update your SCANeR license
 
 You already have a SCANeR license and you have purchased new packs, or a modification on your license has been recommended. 
@@ -46,3 +48,5 @@ This webpage is where you can manage SCANeR license, you can visualize which lic
 
 Congratulations! 💪  
 Your license is now updated, you can ejoy your new SCANeR products ! 😊
+
+:arrow_right: [Start using SCANeR studio](../HT_FirstLaunch/HT_FirstLaunch.md)
