@@ -14,12 +14,11 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 
 ### Get ready
 
-* [Download the SCANeR studio Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+* [Download the SCANeR Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 * [Install SCANeR studio](./Pages/HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
-* [Install your license](./Pages/HT_Install_SCANeR_license/Install_SCANeR_license.md)
-* [Update your license](./Pages/HT_Update_SCANeR_license/Update_SCANeR_license.md)
+* [Install the Samples Pack](./Pages/HT_InstallSamplesPack/HT_InstallSamplesPack.md)
 
-### Basics
+### Get started
 
 * [First launch](./Pages/HT_FirstLaunch/HT_FirstLaunch.md)
 * [Create your workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
@@ -28,11 +27,14 @@ The tutorials focus on SCANeR Software, the number one tool for agile software t
 * [Run a simulations](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
+### Create your first test case
+
+* [Create a road network from scratch](./Pages/HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+
 ### Intermediate
 
 * [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md)
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md)
-* [Create a simple environment from scratch](./Pages/HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
 * [Define KPI/Metrics](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
 
 ### Advanced
