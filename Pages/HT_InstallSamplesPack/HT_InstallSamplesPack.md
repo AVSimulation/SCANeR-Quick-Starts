@@ -48,4 +48,5 @@ You have successfully installed the Samples Pack. 🎉
 
 You can launch SCANeR studio and start using the samples. Documentation for each sample can be accessed from the [home page](../../index.md).
 
-:arrow_right: [Advanced guides](../../index.md#advanced)
+:arrow_right: [Advanced guides](../../index.md#advanced)  
+:arrow_right: [Samples manuals](../../index.md#samples-manuals)
