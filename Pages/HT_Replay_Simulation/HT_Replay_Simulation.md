@@ -1,4 +1,6 @@
-# How to? Replay a simulation in SCANeR studio
+:arrow_right: [How to run a simulation: good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+
+# How to replay a simulation
 
 In SCANeR studio, the simulation is composed of `actors` (light vehicles, trucks, buses, motorbikes, pedestrians, etc...) performing actions according to a `scenario` that has been created by the user. Depending on the way you configure these `actors`, the simulation might not produce the same results each time you play it. This is why we developed a module called `Record`. This module, as its name says it, will record your simulation, and you will be able to replay it and extract data from the record itself.
 
@@ -56,6 +58,6 @@ Let's jump into the guide!
 
    ![Export graph](./assets/Export_Graph.png)
 
-
-
 Congratulations! You now know how to record a simulation, replay it, and export data from it! 👍
+
+:arrow_right: [Intermadiate guides](../../index.md#intermediate)
