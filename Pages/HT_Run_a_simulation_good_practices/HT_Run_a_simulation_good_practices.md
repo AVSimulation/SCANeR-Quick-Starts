@@ -1,4 +1,4 @@
-:arrow_left: [How to navigate in the user interface](../HT_Navigate/HT_Navigate.md)
+:arrow_left: [Navigate in the user interface](../HT_Navigate/HT_Navigate.md)
 
 # How to run a SCANeR simulation: the good practices
 
@@ -56,4 +56,4 @@ This button close, and kill the SCANeR modules in a clean way. If you stop the s
   
 We rely on you to run your simulation as it should be 😉
 
-:arrow_right: [How to replay a simulation](../HT_Replay_Simulation/HT_Replay_Simulation.md)
+:arrow_right: [Replay a simulation](../HT_Replay_Simulation/HT_Replay_Simulation.md)
