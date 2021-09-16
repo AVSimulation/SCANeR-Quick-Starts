@@ -1,4 +1,4 @@
-**Welcome** to the SCANeR Guides website, where you can find resources to learn more how to benefits of SCANeR Software solutions.
+**Welcome** to the SCANeR Guides website, where you can find resources to learn _benefits_, _tips_ and _good practices_ of SCANeR Software solutions step by steps.
 
 SCANeR Software combines tools with agile features to help teams interface XiL solutions for evaluation and validation at any level of V-cycle.
 
