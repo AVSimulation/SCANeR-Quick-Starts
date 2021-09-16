@@ -37,4 +37,4 @@ This information is accessible in the main supervisor window of SCANeR studio :p
 
 **Congratulations! You know now how to switch to a different work environment in SCANeR :ok_hand:!**
 
-:arrow_right: [How to run a simulation: good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+:arrow_right: [How to navigate in the user interface](../HT_Navigate/HT_Navigate.md)
