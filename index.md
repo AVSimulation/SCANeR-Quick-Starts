@@ -6,7 +6,7 @@ SCANeR Software combines tools with agile features to help teams interface XiL s
 
 > Want to learn more about AVSimulation Software & System Products? [Register to one or more of our technical online session](https://www.avsimulation.com/events/)
 
-## SCANeR tutorials: Learn agile with SCANeR Software
+## SCANeR
 
 Our step-by-step guides you for greater agility with SCANeR Software.
 
