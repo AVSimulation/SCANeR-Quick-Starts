@@ -70,4 +70,4 @@ As seen previously, the Simulation mode includes modules. The modules are used t
 
 😊
 
-:arrow_right: [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+:arrow_right: [Open a scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
