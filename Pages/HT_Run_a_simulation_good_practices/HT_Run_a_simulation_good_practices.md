@@ -19,6 +19,7 @@ This guide explains how to manage the execution of your simulation
 ![](./assets/ModuleStates.png)  
 The correct status of the module should be `Loaded`  
 
+>All selected modules will automatically start (some of these have GUI, as ACQUISITION, VISUAL, etc.)
 >Would you like to create your own module, and learn more about their states? [How to? API creation]()
 
 ## Step 2. Run the simulation
@@ -26,6 +27,7 @@ Click on the `Play Scenario` button (black triangle in a green circle) to launch
 ![](./assets/LaunchSimu.png)  
 The correct status of the module should be `Running`  
 
+>When you run a scenario for the first time SCANeR creates information into cache memory to accelarate the futur runs. The first it'll take a bit more time, thank you for your patience 
 >If you have set parameters in your scenario you can set the value of these parameters at the start of the simulation. Click on the grey triangle next to the `Play Scenario` button and choose `Play Scenario with Parameters`. Would you like to design parametric simulation? [How to? Design scenario for SCANeR Explore]()
 
 ## Step 3. Stop the simulation
