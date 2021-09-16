@@ -1,4 +1,6 @@
-# How to? Run a SCANeR simulation, the good practices
+:arrow_left: [How to navigate in the user interface](../HT_Navigate/HT_Navigate.md)
+
+# How to run a SCANeR simulation: the good practices
 
 You are using SCANeR everyday to manage your experimentation but do you use it in the proper way ? 🤔
 
@@ -53,3 +55,5 @@ Click on the `Stop Simulator` button (white cross in a red circle)
 This button close, and kill the SCANeR modules in a clean way. If you stop the simulation with this button inconsistencies can appear (e.g. at the reload of the next simulation).  
   
 We rely on you to run your simulation as it should be 😉
+
+:arrow_right: [How to replay a simulation](../HT_Replay_Simulation/HT_Replay_Simulation.md)
