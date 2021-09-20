@@ -30,11 +30,20 @@ The correct status of the module should be `Running`
 >When you run a scenario for the first time SCANeR creates information into cache memory to accelarate the futur runs. The first it'll take a bit more time, thank you for your patience 
 >If you have set parameters in your scenario you can set the value of these parameters at the start of the simulation. Click on the grey triangle next to the `Play Scenario` button and choose `Play Scenario with Parameters`. Would you like to design parametric simulation? [How to? Design scenario for SCANeR Explore]()
 
+The execution of this scenario looks like this:
+
+<video src="https://user-images.githubusercontent.com/22998298/133973267-9e959c8e-1b0e-4c2b-8668-5a05809cc749.mp4"></video>
+
+>In this video you see that you are able to switch views between different actors of the scenario by selecting them.
+>You can also switch the camera angle on the top right corner, as well as choose to be focused on the selected actor or not.
+>Keep in mind that this is the `SUPERVIOR` view. In order to see the `VISUAL` view, you need to configure and start the module (check out our tutorial about this: [How to? Configure the visual rendering](../HT_configure_visual/HT_configure_visual.md)).
+>On the bottom right corner of SCANeR, you have some informations about the vehicule you have currently selected.
+
 ## Step 3. Stop the simulation
 Click on the `Stop Simulation` button (black square in a red circle)  
 ![](./assets/StopSimu.png)
 
-⚠ This is the right way to stop the simulation, any others button should be used to stop the simulation. ⚠  
+⚠ This is the right way to stop the simulation, any others button should not be used to stop the simulation. ⚠  
 Pause the simulation is also possible, click on the `Pause Simulation` button while while the simulation is running 😊
 
 ## Step 4. Stop modules
