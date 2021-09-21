@@ -32,7 +32,7 @@ The correct status of the module should be `Running`
 
 The execution of this scenario looks like this:
 
-<video src="https://user-images.githubusercontent.com/22998298/133973267-9e959c8e-1b0e-4c2b-8668-5a05809cc749.mp4"></video>
+<video src="https://user-images.githubusercontent.com/22998298/133973267-9e959c8e-1b0e-4c2b-8668-5a05809cc749.mp4" controls="controls" style="max-width: 730px;"></video>
 
 >In this video you see that you are able to switch views between different actors of the scenario by selecting them.
 >You can also switch the camera angle on the top right corner, as well as choose to be focused on the selected actor or not.
