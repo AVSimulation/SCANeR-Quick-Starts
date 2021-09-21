@@ -1,12 +1,12 @@
+<p align="center">
+  <img src="./assets/SCANeRGuide_icon_50.png">
+</p>
+
 Welcome to the SCANeR Guides page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we will accompany you step by step.
 
 Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: [Get a Trial version](https://www.avsimulation.com/scaner-studio-trial/)
 
 If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA). 
-
-<p align="center">
-  <img src="./assets/SCANeRGuide_icon_50.png">
-</p>
 
 ## SCANeR
 
@@ -57,7 +57,7 @@ Below you will find the documentation (.pdf) for the examples of the Samples Pac
 * [Camera capture](./PDF/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf): fetch and sort camera ouputs
 * [FMI](./PDF/SCANeRstudio_EVAL_FMI_Presentation.pdf): exchange I/O between SCANeR and a MiL with FMI
 * [Headlights](./PDF/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf): interface an Adaptive Frontlight System (AFS)
-* [Pixel_Lighting](./PDF/SCANeRstudio_EVAL_PIXEL_LIGHTING_Manual.pdf): modify in real time projectors photometry
+* [Pixel lighting](./PDF/SCANeRstudio_EVAL_PIXEL_LIGHTING_Manual.pdf): modify in real time projectors photometry
 * [Scenario importer](./PDF/SCANeRstudio_EVAL_SCENARIO_IMPORTER_Presentation.pdf): import real world data and generate your SCANeR template scenario
 * [Vehicle player](./PDF/SCANeRstudio_EVAL_VEHICLE_PLAYER_Manual.pdf): ask your vehicles to follow a recorded trajectory
 
