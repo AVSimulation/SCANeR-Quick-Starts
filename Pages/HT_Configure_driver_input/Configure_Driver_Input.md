@@ -12,7 +12,7 @@ This guide explains how to configure driver's input in SCANeR studio.
   - Step 3.3 Gearbox
 - Step 4. Test the new mapping
 
-## Step 1 Add the driver's acquisition module to your SCANeR workspace
+## Step 1. Add the driver's acquisition module to your SCANeR workspace
 1.1 Open SCANeR studio on your system and go to `CONFIGURATION/Configuration Manager...`.
 ![](./assets/ConfigurationManager.png)
 
@@ -27,7 +27,7 @@ This guide explains how to configure driver's input in SCANeR studio.
 
 You have now the Acquisition module in your configuration ! Let's move to step 2.
 
-## Step 2 Driver acquisition configuration file 
+## Step 2. Driver acquisition configuration file 
 AVSimulation provides several driver acquisition configuration files. These are preconfigured in order to work with standard systems (Logitech, Fanatec, Sensodrive steering wheels, etc.). The user is able to use these configuration files or tune them to fits its need.
 
 1. In order to change the configuration file, go to `CONFIGURATION/Configuration Manager...`.
@@ -46,7 +46,7 @@ If your system is not on the list or if you want to customize the mapping, check
 
 AVSimulation can also help you configure and tune your acquisition system 😀.
 
-## Step 3 Modify the mapping
+## Step 3. Modify the mapping
 In this chapter we will see how to modify the mappings for the most common driver's input (Steering wheel, Pedals and Gearbox).
 1. In order to change the configuration file, go to `CONFIGURATION/Configuration Manager...`.
 ![](./assets/ConfigurationManager.png)
@@ -84,7 +84,7 @@ In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox 
 ![](./assets/Gearbox.png)
 
 
-## Step 4 Test the new mapping
+## Step 4. Test the new mapping
 
 Before finishing, you can test the new mapping by clicking on `Test...` in the bottom right of the `Human driver editor` window.
 ![](./assets/Testing.png)
