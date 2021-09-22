@@ -1,3 +1,5 @@
+:arrow_left: [How to? Configure the visual rendering](../HT_configure_visual.md)
+
 # How to? Configure driver's input
 
 SCANeR can be deployed on many different platforms (workstation, driving simulator, cloud, etc.) and can be used with autonomous driving as well as with a human driver in the loop. Having an accurate acquisition of the driver's input is very important in order to have a more immersive driving experience.
@@ -25,7 +27,7 @@ This guide explains how to configure driver's input in SCANeR studio.
  - Click on `Add Process`, select `DRIVERHANDLER` module from the `Process Editor` list, click on `Add` and `Close`
 ![](./assets/AddACQUISITION.png)
 
-You have now the Acquisition module in your configuration ! 💪
+You have now the Acquisition module in your configuration ! 💪  
 Let's move to step 2.
 
 ## Step 2. Driver acquisition configuration file 
@@ -89,4 +91,4 @@ Once you are happy with the settings, click on `Save`.
 
 Congrats ! Have fun with your own steering wheel and pedals configuration ! 🚗
 
-
+:arrow_right: [How to define and record my KPI](../HOWTO_DefineAndRecordMyKPI.md)
