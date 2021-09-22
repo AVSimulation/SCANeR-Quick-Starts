@@ -59,3 +59,6 @@ Let's jump into the guide!
    You can now save your scenario and execute it. If you need help for the execution, check out our article about it: [How to run a SCANeR simulation: the good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
    The execution of this scripted scenario should look like this:
+
+<video src="./assets/Crossing.mp4" controls="controls" style="max-width: 730px;"></video> 
+
