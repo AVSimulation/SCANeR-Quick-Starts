@@ -1,4 +1,4 @@
-:arrow_left: [How to Configure driver's input](../Configure_Driver_Input.md)
+:arrow_left: [How to Configure driver's input](../HT_Configure_driver_input/Configure_Driver_Input.md)
 
 # How to define and record my KPI
 
@@ -142,4 +142,5 @@ Here, the driver brakes after 0.400331s.
 I hope you enjoy this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
 
 
-:arrow_right: [How to Install the Samples Pack.](../HT_InstallSamplesPack.md )
+
+:arrow_right: [Sample Pack guides](../../index.md#SCANeRsamplespack)
