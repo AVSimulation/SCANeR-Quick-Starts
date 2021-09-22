@@ -1,3 +1,5 @@
+:arrow_left: [Create a simple environment](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+
 # How to? Create a test case
 
 In SCANeR studio, every test case has to be created as a `Scenario`. Each `Scenario` takes place on a specific `Terrain` and involves different `Actors`. In this section, you will be creating your first `Scenario`. 
@@ -40,4 +42,6 @@ In SCANeR studio, every test case has to be created as a `Scenario`. Each `Scena
 Congratulations! You have created your first `Scenario` 👍
 
 Try to execute it by following our tutorial : [How to run a SCANeR simulation: the good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+
+:arrow_right: [Create a MICE script](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
 
