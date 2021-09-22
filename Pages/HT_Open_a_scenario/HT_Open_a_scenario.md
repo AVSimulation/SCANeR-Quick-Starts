@@ -1,6 +1,6 @@
 :arrow_left: [Navigate in the user interface](../HT_Navigate/HT_Navigate.md)
 
-# How to? Open a scenario
+# How to Open a scenario
 
 You are looking for a pre-build scenario for your test case or to learn more about SCANeR features?
 
