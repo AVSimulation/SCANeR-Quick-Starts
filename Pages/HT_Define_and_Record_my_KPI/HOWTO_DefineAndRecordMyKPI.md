@@ -1,6 +1,6 @@
-:arrow_left: [How to? Configure driver's input](../Configure_Driver_Input.md)
+:arrow_left: [How to Configure driver's input](../Configure_Driver_Input.md)
 
-# How to? define and record my KPI
+# How to define and record my KPI
 
 ​	In this guide we will see how to define and record a **Key Performance Indicator** (KPI). The KPI we will analyze for this example is the driver's reaction time to brake when a pedestrian crosses the road. To do this, we will follow some simple steps. We will first see how to define the KPI in the `SCENARIO` mode, record the `SIMULATION`, and then analyze it using the `ANALYSIS` mode.
 
@@ -142,4 +142,4 @@ Here, the driver brakes after 0.400331s.
 I hope you enjoy this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
 
 
-:arrow_right: [HOW TO? Install the Samples Pack.](../HT_InstallSamplesPack.md )
+:arrow_right: [How to Install the Samples Pack.](../HT_InstallSamplesPack.md )
