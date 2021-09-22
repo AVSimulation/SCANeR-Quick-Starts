@@ -83,7 +83,5 @@ Congratulations, SCANeR studio is installed !
 The SCANeR studio Trial installer includes an automatic 45 days license. You can [Start SCANeR studio for the first time](../HT_FirstLaunch/HT_FirstLaunch.md).
 
 If you are a customer, see [How to install your SCANeR license](../HT_Install_SCANeR_license/Install_SCANeR_license.md).
-
-:arrow_right: [How to install your SCANeR license](../HT_Install_SCANeR_license/Install_SCANeR_license.md)  
-:arrow_right: [How to install the Samples Pack](../HT_InstallSamplesPack/HT_InstallSamplesPack.md)  
+ 
 :arrow_right: [Start SCANeR studio for the first time](../HT_FirstLaunch/HT_FirstLaunch.md)
