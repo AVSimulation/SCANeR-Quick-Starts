@@ -141,6 +141,7 @@ Here, the driver brakes after 0.400331s.
 
 I hope you enjoy this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
 
-
-
-:arrow_right: [Sample Pack guides](../../index.md#SCANeRsamplespack)
+You've been up to the end of SCANeR User Guides.
+We thank you very much for your interest in our Products!
+To go further go back to the main page and check our **SCANeR Samples Pack** chapter 😊
+:arrow_right: [This way](../../index.md#SCANeRsamplespack)
