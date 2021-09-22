@@ -91,4 +91,4 @@ Once you are happy with the settings, click on `Save`.
 
 Congrats ! Have fun with your own steering wheel and pedals configuration ! 🚗
 
-:arrow_right: [How to define and record my KPI](../HOWTO_DefineAndRecordMyKPI.md)
+:arrow_right: [How to? define and record my KPI](../HOWTO_DefineAndRecordMyKPI.md)
