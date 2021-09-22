@@ -10,7 +10,7 @@ This guide explains how to launch and setup your SCANeR studio for the very firs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pnq0vsR74Xw?start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Step 1. Run SCANeR studio
+#### Step 1. Run SCANeR studio
 
 After installing SCANeR studio, double-click on the shortcut available on your desktop.
 
@@ -24,7 +24,7 @@ In order to not modify the DEFAULT `Configuration`, which will be used as a base
 
 In SCANeR studio, the different workspaces you can have are called `Configurations`. In the context of simulation, these different `Configurations` will help you organize your data and simulation parameters between your different projects. For instance, if you run the simulation on a Workstation, the running modules will not be exactly the same as in a large Simulator environment. That's why you can use different `Configurations` in order to save your parameters and data according to the use case.
 
-### Step 2. Create a new `Configuration`
+#### Step 2. Create a new `Configuration`
 
 ![CreateNewConfig](./assets/CreateNewConfig.PNG)
 
@@ -42,7 +42,7 @@ The path to the folder of your `Configuration` will be found by default with the
 
 The path to the data folder of your `Configuration` will also be found by default with the other data folders of other `Configurations`. Click on "Finish".
 
-### Step 3. Enter the software
+#### Step 3. Enter the software
 
 You're all set! You can now run your first simulations.
 
