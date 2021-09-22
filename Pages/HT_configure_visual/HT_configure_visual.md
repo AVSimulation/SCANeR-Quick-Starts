@@ -151,6 +151,6 @@ ScreenLeft    = -0.28868
 ## Go further
 
 Congratulations for setting your first custom Visual!
-If you want to go further and add mirrors and multi-screens, check the [Advanced visual rendering configuration guide](./HT_configure_visual_advanced.md)*
+If you want to go further and add mirrors and multi-screens, check the [Advanced visual rendering configuration guide](./HT_configure_visual_advanced.md)
 
 :arrow_right: [How to Configure driver’s input](../HT_Driver_Input.md)
