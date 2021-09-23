@@ -1,4 +1,4 @@
-:arrow_left: [Create a simple environment](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+:arrow_left: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
 
 # How to? Create a test case
 
@@ -43,5 +43,5 @@ Congratulations! You have created your first `Scenario` 👍
 
 Try to execute it by following our tutorial : [How to run a SCANeR simulation: the good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
-:arrow_right: [Create a MICE script](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
+:arrow_right: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
 
