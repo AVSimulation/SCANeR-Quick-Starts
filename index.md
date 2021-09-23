@@ -56,7 +56,7 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 
 Below you will find the documentation (.pdf) for the examples of the Samples Pack that do not yet have a dedicated tutorial.
 
-* [Camera capture](./PDF/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf): fetch and sort camera ouputs
+* [Camera capture](./PDF/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf): fetch and sort camera outputs
 * [FMI](./PDF/SCANeRstudio_EVAL_FMI_Presentation.pdf): exchange I/O between SCANeR and a MiL with FMI
 * [Headlights](./PDF/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf): interface an Adaptive Frontlight System (AFS)
 * [Pixel lighting](./PDF/SCANeRstudio_EVAL_PIXEL_LIGHTING_Manual.pdf): modify in real time projectors photometry
