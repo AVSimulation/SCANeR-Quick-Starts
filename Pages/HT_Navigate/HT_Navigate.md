@@ -16,7 +16,7 @@ Once the software is launched, you will arrive in an interface with a toolbar. T
 
 ### TERRAIN
 
-The terrain mode has been made to build quickly a road network for driving simulation applications. It is especially designed to create more than a 3D synthetic environment because it automatically generates correlated databases: logical data needed by a driving simulator. It means data for vehicle dynamics, data for traffic vehicles (behaviour model), topological and analytic levels (road sections and their interconnections, curve parameters, profile descriptions (where lane parameters are stored), road signs and objects…).
+The terrain mode has been made to easily build quickly a road network for driving simulation applications. It is especially designed to create more than a 3D synthetic environment because it automatically generates correlated databases: logical data needed by a driving simulator. It means data for vehicle dynamics, data for traffic vehicles (behaviour model), topological and analytic levels (road sections and their interconnections, curve parameters, profile descriptions (where lane parameters are stored), road signs and objects…).
 
 There are several ways to build a terrain:
 
@@ -25,8 +25,6 @@ There are several ways to build a terrain:
 - Import in the Terrain mode an existing 3D database (created by a computer graphic team) and use the Terrain interface to turn its database into a SCANeR studio compliant terrain.
 
 ![TERRAIN](./assets/TERRAIN.PNG)
-
-
 
 ### VEHICLE
 
