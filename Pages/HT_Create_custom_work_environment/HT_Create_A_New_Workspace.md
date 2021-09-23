@@ -53,4 +53,4 @@ Enough chatter, let's jump into the guide! 😁
 
 **Congratulations! You now have your own custom Configuration!**
 
-:arrow_right: [Switch between workspaces](../HT_Change_work_environment/HT_Change_work_environment.md)
+:arrow_right: [Navigate the user interface](../HT_Navigate/HT_Navigate.html)
