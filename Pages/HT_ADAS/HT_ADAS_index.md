@@ -109,15 +109,6 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 7. Let's set up the situation and define KPI (colision true or false)
 8. ...
 
-## Step 4.
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
+## Step 4. Chapter in progress, we thank you for your understanding 😊
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ldsQqeoovZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
