@@ -2,19 +2,17 @@
 
 # How to install SCANeR
 
-This guide walks you through the installation process for SCANeR studio.
+This guide walks you through the installation process for SCANeR.
 
 ## Pre-requisites
 
 If you don't have a *SCANeR studio installer* yet, check out [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md).
 
-The installation of SCANeR studio requires full administrator rights.
+The installation of SCANeR requires full administrator rights.
 
 ## Install SCANeR
 
-* Launch SCANeR studio installer ```SCANeRstudio-202X.XrXX.exe```
-
-> **Note:** If you are using the trial version, please unzip ```SCANeRstudio-202X.XrXX_Trial.exe.zip``` to find the SCANeR studio installer.
+* Launch SCANeR studio installer ```SCANeRstudio-202X.XrXX_Trial.exe ```
 
 ![Installer: Welcome](./assets/i1.PNG)
 
@@ -46,13 +44,11 @@ The installation of SCANeR studio requires full administrator rights.
 
 > **Info:** SCANeR studio can work in multi-machine on any architecture (workstation, simulator, HiL, Cloud) as long as all nodes (PC or VM) are on the same local network.
 
-> **Note:** With the Trial installer, leave unchecked. The Trial version doesn't include multi-machine use.
-
 * Click ```Next```
 
 ![Installer: Environment Variable](./assets/i6.PNG)
 
-> The system variable is required for SCANeR studio to work.
+> The environment variable is required for SCANeR studio to work.
 
 * Check the box ```Create a STUDIO_PATH environment variable```
 
@@ -74,12 +70,12 @@ The installation of SCANeR studio requires full administrator rights.
 
 * Cick ```Finish```
 
-Congratulations, SCANeR studio is installed !
+Congratulations, SCANeR is now installed and ready to run!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joE1Fi09eEY?start=49" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## License
 
-The SCANeR studio Trial installer includes an automatic 45 days license.
+The SCANeR Trial installer includes an automatic 45 days license.
  
 :arrow_right: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
