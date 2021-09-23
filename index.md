@@ -49,8 +49,8 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 
 ### Get started
 
-* [Evaluate and validate an ADAS system](./Pages/HT_ADAS/HT_ADAS_index.md)
-* [Evaluate and validate an AFS/ADB model](./Pages/HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
+* [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS_index.md)
+* [Headlights test and validation: create your test case to validate your projectors' strategy](./Pages/HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
 
 ### Samples Manuals
 
