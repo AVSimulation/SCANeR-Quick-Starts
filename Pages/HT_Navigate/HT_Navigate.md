@@ -1,4 +1,4 @@
-:arrow_left: [Switch between workspaces](../HT_Change_work_environment/HT_Change_work_environment.md)
+:arrow_left: [Create your workspace](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
 
 # How to navigate in SCANeR studio.
 
@@ -70,4 +70,4 @@ As seen previously, the Simulation mode includes modules. The modules are used t
 
 😊
 
-:arrow_right: [Open a scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
+:arrow_right: [Open an existing scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
