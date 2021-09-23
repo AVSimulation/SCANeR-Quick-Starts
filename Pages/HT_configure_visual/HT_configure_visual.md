@@ -1,4 +1,4 @@
-# How to Configure the visual rendering
+# How to configure the visual rendering
 
 SCANeR studio is able to render the simulated scene on any display configuration, including single, multiple screens, projection system with or without warping/blending or head-mounted display (VR).
 
