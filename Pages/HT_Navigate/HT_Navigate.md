@@ -1,4 +1,4 @@
-:arrow_left: [Create your workspace](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
+:arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
 
 # How to navigate in SCANeR studio.
 
