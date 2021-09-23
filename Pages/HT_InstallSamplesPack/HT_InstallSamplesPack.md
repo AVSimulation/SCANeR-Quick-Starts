@@ -48,5 +48,5 @@ You have successfully installed the Samples Pack. 🎉
 
 You can launch SCANeR studio and start using the samples. Documentation for each sample can be accessed from the [home page](../../index.md).
 
-:arrow_right: [Advanced guides](../../index.md#advanced)  
-:arrow_right: [Samples manuals](../../index.md#samples-manuals)
+:arrow_right: [ADAS test and validation](../HT_ADAS/HT_ADAS_index.md)  
+:arrow_right: [Headlights test and validation](../HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
