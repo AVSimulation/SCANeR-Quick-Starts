@@ -24,7 +24,9 @@ If you want to go further with SCANeR, register to one of our online [technical 
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
 > Tips, you've already been working with SCANeR and want to know how to switch between SCANeR workspaces?
+> 
 > [Create a new workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
+> 
 > [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
 
 
