@@ -1,4 +1,4 @@
-:arrow_left: [Create a road network from scratch](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+:arrow_left: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
 
 # How to configure the visual rendering
 
