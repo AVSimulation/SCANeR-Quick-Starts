@@ -18,9 +18,9 @@ After installing the Trial, the software can be used for 45 days.
 
 1. You can request your Trial version of SCANeR here: [Request a Trial](https://www.avsimulation.com/scaner-studio-trial/)
 
-> **Note:** You can also request a trial for our other tools: NCAP & Regulation scenarios & Physics Based Sensors: [All our Trials](https://www.avsimulation.com/free-download/)
+> **Note:** You can also request a trial for our other tools: NCAP & Regulation scenarios, Physics Based Sensors, etc.: [Ask us](https://www.avsimulation.com/free-download/)
 
-2. Just enter your information, click on `SEND` and you are ready to move to the next step
+Simply enter your information, click on `SEND` and you are ready to move to the next step
 ![](./assets/Request_for_the_trial.png)
 > **Note:** Upon receiving your request, an AVSimulation sales excecutive will send you an email with the link to download SCANeR within 48 hours. When you receive this email, go to the step 2.
 
@@ -35,18 +35,14 @@ After installing the Trial, the software can be used for 45 days.
 3. The download begins!
 ![](./assets/Download_Begins.png)
 
-> **Note:** In addition, the email also include a link to the [Samples Pack](../HT_InstallSamplesPack/HT_InstallSamplesPack.html).
+> **Note:** In addition, the email also include a link to our [Samples Pack](../HT_InstallSamplesPack/HT_InstallSamplesPack.html).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joE1Fi09eEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step 3. Install the Trial
 
-To install SCANeR, follow the instructions here: [How to? Install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+To install SCANeR, follow the instructions in the following Guide: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
-Congratulations! You are now ready to use the Trial version of SCANeR. 🙌
-
-> **Note:** The SCANeR Trial Version will expire after is valid for 45 days, counted from the first installation.
-
-Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it !
+Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it!
 
 :arrow_right: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
