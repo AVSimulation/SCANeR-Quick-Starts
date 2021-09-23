@@ -1,6 +1,6 @@
-:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+:arrow_left: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
-# How to launch SCANeR studio for the first time.
+# How to launch SCANeR for the first time.
 
 This guide explains how to launch and setup your SCANeR studio for the very first time.
 
@@ -48,4 +48,4 @@ You're all set! You can now run your first simulations.
 
 If you need help to navigate through the basic interfaces of SCANeR studio, read this: [How to? Navigate in SCANeR studio.](../HT_Navigate/HT_Navigate.md) 😊
 
-:arrow_right: [How to create a new workspace.](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
+:arrow_right: [Create your workspace.](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
