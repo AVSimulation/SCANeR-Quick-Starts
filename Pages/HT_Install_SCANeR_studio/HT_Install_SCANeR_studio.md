@@ -1,4 +1,4 @@
-:arrow_left: [How to download the Trial version of SCANeR studio](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+:arrow_left: [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 
 # How to install SCANeR studio
 
