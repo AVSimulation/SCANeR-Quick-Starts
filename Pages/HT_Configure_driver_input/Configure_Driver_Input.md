@@ -1,4 +1,4 @@
-:arrow_left: [How to Configure the visual rendering](../HT_configure_visual/HT_configure_visual.md)
+:arrow_left: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
 
 # How to Configure driver's input
 
@@ -91,4 +91,4 @@ Once you are happy with the settings, click on `Save`.
 
 Congrats ! Have fun with your own steering wheel and pedals configuration ! 🚗
 
-:arrow_right: [How to define and record my KPI](../HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
+:arrow_right: [Define metrics: design your own Key Performance Indicators](../HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
