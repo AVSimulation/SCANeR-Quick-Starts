@@ -1,4 +1,4 @@
-:arrow_left: [How to Configure driver's input](../HT_Configure_driver_input/Configure_Driver_Input.md)
+:arrow_left: [Configure driver’s inputs: select your own commands to drive](../HT_Configure_driver_input/Configure_Driver_Input.md)
 
 # How to define and record my KPI
 
