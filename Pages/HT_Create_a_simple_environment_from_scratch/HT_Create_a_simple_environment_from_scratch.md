@@ -54,4 +54,4 @@ Let's jump into the guide!
 
 Congratulations you have created your own `Terrain`! Well done! 👍
 
-:arrow_right: [Create a test case](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+:arrow_right: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
