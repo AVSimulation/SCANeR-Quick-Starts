@@ -1,16 +1,16 @@
 :arrow_left: [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 
-# How to install SCANeR studio
+# How to install SCANeR
 
 This guide walks you through the installation process for SCANeR studio.
 
 ## Pre-requisites
 
-If you don't have a *SCANeR studio installer* yet, check out [How to download the Trial version of SCANeR studio](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md).
+If you don't have a *SCANeR studio installer* yet, check out [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md).
 
 The installation of SCANeR studio requires full administrator rights.
 
-## Install SCANeR studio
+## Install SCANeR
 
 * Launch SCANeR studio installer ```SCANeRstudio-202X.XrXX.exe```
 
