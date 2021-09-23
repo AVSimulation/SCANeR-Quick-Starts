@@ -49,4 +49,4 @@ Congratulations! You are now ready to use the Trial version of SCANeR. 🙌
 
 Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it !
 
-:arrow_right: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+:arrow_right: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
