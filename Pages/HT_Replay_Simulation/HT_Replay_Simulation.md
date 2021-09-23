@@ -60,4 +60,4 @@ Let's jump into the guide!
 
 Congratulations! You now know how to record a simulation, replay it, and export data from it! 👍
 
-:arrow_right: [Intermadiate guides](../../index.md#intermediate)
+:arrow_right: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
