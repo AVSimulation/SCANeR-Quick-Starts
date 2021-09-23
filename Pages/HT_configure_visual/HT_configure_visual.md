@@ -1,3 +1,5 @@
+:arrow_left: [Create a road network from scratch](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+
 # How to configure the visual rendering
 
 SCANeR studio is able to render the simulated scene on any display configuration, including single, multiple screens, projection system with or without warping/blending or head-mounted display (VR).
@@ -153,4 +155,4 @@ ScreenLeft    = -0.28868
 Congratulations for setting your first custom Visual!
 If you want to go further and add mirrors and multi-screens, check the [Advanced visual rendering configuration guide](./HT_configure_visual_advanced.md)
 
-:arrow_right: [How to Configure driver’s input](../HT_Configure_driver_input/Configure_Driver_Input.md)
+:arrow_right: [Configure driver’s inputs: select your own commands to drive](../HT_Configure_driver_input/Configure_Driver_Input.md)
