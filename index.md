@@ -5,7 +5,7 @@
         <img src="./assets/SCANeRGuide_icon_50.png">
       </p>
     </td>
-    <td>
+    <td valign="top">
       Welcome to the SCANeR Guides page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide
       we will accompany you step by step.
     </td>
