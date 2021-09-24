@@ -10,29 +10,39 @@ This guide explains how to navigate through the basic interfaces to be ready to 
 
 ## Step 1. The different modes
 
-Once the software is launched, you will arrive in an interface with a toolbar. This is where you will find the 5 modes of SCANeR studio, each of which has specific functions.
+Once the software is launched, you will arrive in an interface with a toolbar. This is where you will find the 5 modes of SCANeR studio, each has specific features.
 
 ![Toolbar](./assets/Toolbar.PNG)
 
 ### TERRAIN
 
-The terrain mode has been made to easily build quickly a road network for driving simulation applications. It is especially designed to create more than a 3D synthetic environment because it automatically generates correlated databases: logical data needed by a driving simulator. It means data for vehicle dynamics, data for traffic vehicles (behaviour model), topological and analytic levels (road sections and their interconnections, curve parameters, profile descriptions (where lane parameters are stored), road signs and objects…).
+SCANeR TERRAIN mode enables to easily design 3D scenes for driving simulation.
+It is especially designed to create more than a 3D synthetic environment because it automatically generates correlated databases: logical data needed by a driving simulator.
+It means data for ego, actors (cars, trucks, pedestrian, etc.), topological and analytic levels (set and configure traffic signal timing, phases, vehicle paths at intersectionsroad sections and their interconnections, road profiles, etc.).
 
-There are several ways to build a terrain:
+Key Features:
+* Create environments
+* Edit logical content, rolling surface (e.g. SOL, RDF, VS-TERRAIN, etc.), materials (e.g. BRDF, etc.) and surrounding environment
+* Import GIS (e.g. HERE, TomTom, OSM, OpenDRIVE, etc.)
+* Insert signs, signals, guardrails, road damage, buildings, etc.
+* Generate 3D background.
+* Etc.
 
-- Create the 3D terrain using Terrain mode of SCANeR studio. The interface allows the user to build a simple graphic definition of the road network. It is designed to be used by non-graphic designer users. The database (3D and data) is generated automatically.
+There are differents ways to design a terrain depending of your project, time and budget:
 
-- Import in the Terrain mode an existing 3D database (created by a computer graphic team) and use the Terrain interface to turn its database into a SCANeR studio compliant terrain.
+* Design a terrain from an existing one (e.g. from our delivered default data set)
+* Design a terrain from scracth
+* Design a terrain from GIS import
+* Ask us for a service of content creation. AVSimulation has developed its own methodology of terrain creation based on LiDAR acquisition for a high fidility rendering.
 
 ![TERRAIN](./assets/TERRAIN.PNG)
 
 ### VEHICLE
 
-The Vehicle Mode is the dynamic part of SCANeR studio software that analyses the behaviour of vehicles, in 3 dimensions, coupled and non-linear. It describes their behaviour until the limit of adhesion.
-
-By default, several dynamics models are available in SCANeR studio, their complexity level depends on how they are used in the simulation. From a basic behaviour for surrounding traffic vehicles, to a complex high level dynamic model for the driven vehicle, or for vehicle dynamics engineering studies with Callas dynamic model.
-
-External models can also be plugged into SCANeR studio.
+Thanks to SCANeR VEHICLE mode you'll be able to:
+* Interface with SCANeR your favorite vehicle dynamics model (e.g. CarSim, Vi-CRT, CarMaker, etc.) to test and validate it or to use it to validate others systems as ADAS, etc.
+* Edit CALLAS vehicle dynamics model. CALLAS is the advanced vehicle model of AVSimulation used into SCANeR. It is the premium model used for high-end driving simulators and automotive engineering. The level of detail and validation of this model enables a realistic driving experience when used in a simulator and can be used to develop, evaluate and validate vehicles and systems in an engineering environment. CALLAS covers a wide range of applications: truck, bus, cars, motorsport, machine, tractors, and military vehicles (such as tracked vehicles). 
+* Preform offline simulation (thanks to SCANeR Virtual driver to emulate commands) with standard ISO vehicle dynamics tests
 
 ![VEHICULE](./assets/VEHICULE.PNG)
 
