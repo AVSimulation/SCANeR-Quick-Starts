@@ -43,5 +43,5 @@ Congratulations! You have created your first `Scenario` 👍
 
 Try to execute it by following our tutorial : [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
-:arrow_right: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
+:arrow_right: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
 

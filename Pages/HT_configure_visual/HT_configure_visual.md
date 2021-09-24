@@ -1,8 +1,8 @@
-:arrow_left: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+:arrow_left: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
 
-# How to configure the visual rendering
+# How to configure the visual rendering?
 
-SCANeR studio is able to render the simulated scene on any display configuration, including single, multiple screens, projection system with or without warping/blending or head-mounted display (VR).
+SCANeR is able to render the simulated scene on any projection system, including single, multiple screens, projector(s) with or without warping/blending or head-mounted display (VR), flat or curved screens, etc.
 
 This guide helps you configure the visual rendering for your display system.
 
@@ -17,8 +17,13 @@ This guide helps you configure the visual rendering for your display system.
 
 ### Rendering engines
 
-In SCANeR studio it is possible to render using **Open Scene Graph** and **Unreal** rendering engines.  
-The current guide is based on **Open Scene Graph**.
+In SCANeR it is possible to render using **Open Scene Graph** and/or **Unreal** rendering engines.
+The current guide is based on SCANeR **Open Scene Graph** visual.
+SCANeR visual is defined by one instance of the *Visual.exe* executable which is commonly named VISUAL module.
+> 1 VISUAL module runs on one graphic processing unit (GPU).
+> 1 VISUAL module can be splitted into multiple channels so with 1 GPU you can have multiple displays ([as our SimEASY for example](https://www.avsimulation.com/simulators/simeasy/)
+
+PHOTO SIMEASY
 
 ### Hierarchy
 
