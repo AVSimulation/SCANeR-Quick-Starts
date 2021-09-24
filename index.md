@@ -5,16 +5,14 @@
         <img src="./assets/SCANeRGuide_icon_50.png">
       </p>
     </td>
-    <td valign="top">
+    <td>
       Welcome to the SCANeR Guides page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide
-      we will accompany you step by step.</BR></BR>
+      we will accompany you step by step.
       Everything described here can be done with the evaluation version of SCANeR.
       If you have not already done so, use the following link to request a copy: [Get a Trial version](https://www.avsimulation.com/scaner-studio-trial/).
     </td>
   </tr>
 </table>
-
-
 
 If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA). 
 
