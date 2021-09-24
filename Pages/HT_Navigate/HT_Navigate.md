@@ -1,6 +1,6 @@
 :arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
 
-# How to navigate in SCANeR studio.
+# How to navigate the user interface?
 
 This guide explains how to navigate through the basic interfaces to be ready to run any simulation.
 
