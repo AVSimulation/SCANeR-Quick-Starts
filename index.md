@@ -41,7 +41,8 @@ If you want to go further with SCANeR, register to one of our online [technical 
 ### Create your first simulation
 
 * [Create a road network from scratch](./Pages/HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
-* [Create a scenario based on your road network]()
+* [Create a scenario based on your road network](./Pages/HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+* [Create a situation](./Pages/HT_Create_a_situation/HT_Create_a_situation.md)
 
 ### Intermediate
 
