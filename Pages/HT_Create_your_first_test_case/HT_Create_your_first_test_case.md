@@ -1,15 +1,15 @@
 :arrow_left: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
 
-# How to? Create a test case
+# How to create a scenario based on your road network?
 
-In SCANeR studio, every test case has to be created as a `Scenario`. Each `Scenario` takes place on a specific `Terrain` and involves different `Actors`. In this section, you will be creating your first `Scenario`. 
+In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` takes place on a specific `Terrain` and involves different `Actors`. In this section, you will create your first `Scenario`. 
 
 - Step 1. Create the scenario
 - Step 2. Populate the scenario
 
 ## Step 1. Create the scenario
 
-1. Create a new `Scenario` by clicking on `File -> New Scenario` in SCANeR studio `SCENARIO` mode
+1. Create a new `Scenario` by clicking on `File\New Scenario` in SCANeR `SCENARIO` mode
 
    ![New Scenario](./assets/New_Scenario.png)
 
@@ -27,7 +27,7 @@ In SCANeR studio, every test case has to be created as a `Scenario`. Each `Scena
 
    ![EGO Vehicle](./assets/EGO.png)
 
-   > The type of vehicle here is a CALLAS vehicle. This is a vehicle that has a full vehicle dynamic. There are other types of vehicles, and they are all in the resources.
+   > The type of vehicle here is a CALLAS vehicle. This is a vehicle that has a full vehicle dynamics. There are other types of vehicles, and they are all in the resources.
 
 2. Add other actors is your scenario. You can add Cars, Pedestrians, Trucks, Buses, Motorcycles, and many more. Here is the result I get with my `Scenario`:
 
@@ -41,7 +41,7 @@ In SCANeR studio, every test case has to be created as a `Scenario`. Each `Scena
 
 Congratulations! You have created your first `Scenario` 👍
 
-Try to execute it by following our tutorial : [How to run a SCANeR simulation: the good practices](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+Try to execute it by following our tutorial : [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 
 :arrow_right: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
 
