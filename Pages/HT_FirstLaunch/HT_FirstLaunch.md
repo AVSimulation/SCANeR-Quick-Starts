@@ -1,6 +1,6 @@
 :arrow_left: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
-# How to launch SCANeR for the first time.
+# How to launch SCANeR for the first time?
 
 This guide explains how to launch and setup your SCANeR studio for the very first time.
 
