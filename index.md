@@ -8,7 +8,6 @@
     <td valign="top">
       Welcome to the SCANeR Guides page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide
       we will accompany you step by step.
-      
       Everything described here can be done with the evaluation version of SCANeR.
       If you have not already done so, use the following link to request a copy: [Get a Trial version](https://www.avsimulation.com/scaner-studio-trial/).
     </td>
