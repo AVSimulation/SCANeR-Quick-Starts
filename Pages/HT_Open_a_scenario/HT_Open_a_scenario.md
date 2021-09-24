@@ -1,6 +1,6 @@
 :arrow_left: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
 
-# How to Open a scenario
+# How to open an existing scenario?
 
 You are looking for a pre-build scenario for your test case or to learn more about SCANeR features?
 
@@ -14,13 +14,12 @@ Click on menu `FILE\Open Scenario...`
 
 ![](./assets/OpenScenario.png)
 
->Tips, if you cannot see the DEFAULT into the arborescence, do not forget to uncolpase the `SCANeRstudio Application` tree 😉.
-
 ## Step 2. Open your prefered scenario
 
 Select the `Studio_LakeCityHeavyTraffic` scenario and click on `OK`
 
 ![](./assets/OpenDefault.png)
+>Tips, if you cannot see the DEFAULT into the arborescence, do not forget to uncolpase the `SCANeRstudio Application` tree 😉.
 
 You'll get the following result 😊
 
@@ -29,6 +28,6 @@ You'll get the following result 😊
 You're all set and ready to run your first simulation 👍🏻
 
 >Tips, to have a quick overview about scenario storyboard and required modules you can edit the 'Simulation' parameter by double clicking on it. You'll get the following information
-![](./assets/ParameterSimulation.png)
+> ![](./assets/ParameterSimulation.png)
 
 :arrow_right: [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
