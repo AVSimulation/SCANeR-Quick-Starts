@@ -13,43 +13,20 @@ This guide helps you configure the visual rendering for your display system.
 * Step 4. Quality VS performance
 * Go further (advanced guide)
 
-## Important considerations
-
-### Rendering engines
+## Rendering engines
 
 In SCANeR it is possible to render using **Open Scene Graph** and/or **Unreal** rendering engines.
 The current guide is based on SCANeR **Open Scene Graph** visual.
 SCANeR visual is defined by one instance of the *Visual.exe* executable which is commonly named VISUAL module.
 > 1 VISUAL module runs on one graphic processing unit (GPU).
-> 1 VISUAL module can be splitted into multiple channels so with 1 GPU you can have multiple displays ([as our SimEASY for example](https://www.avsimulation.com/simulators/simeasy/)
+> 1 VISUAL module can be splitted into multiple channels so with 1 GPU you can have multiple displays ([as our SimEASY Driving Simulator for example](https://www.avsimulation.com/simulators/simeasy/)
+> 1 visual license is included with [Foundation Pack](https://www.avsimulation.com/pack-foundation/). We can add as many visual license you need, simply ask us 😉
 
-PHOTO SIMEASY
-
-### Hierarchy
-
-Visual rendering has three levels of hierarchy:
-* *Visual Module*: Defined by one instance of the *Visual.exe* executable. One Visual Module runs on one graphic processing unit (GPU).
-* *Visual Pipe*: Defined by a rendering window on screen. Each *Visual Module* can handle several *Visual Pipes*.
-* *Visual Channel*: Defined by a rendering sub-surface on the window. Each *Visual Pipe* can handle several *Visual Channels*.
-
-### Performance
-
-One *Visual Module* can handle multi-windows (and therefore multi-displays) thanks to *Visual Pipes*.  
-This is useful for mirror displays, because they are usually smaller and lower resolution ; several of them can be handled by a single GPU.  
-However for high definition, high framerate displays, one GPU will not be able to handle more than one. In this case, we recommend to use one *Visual Module* per display with the matching amount of GPUs.
-
-### License
-
-One *Visual License* is required for each *Visual Module* (i.e. each *GPU* as per our recommendation).
-* *Foundation Pack* includes one *Visual License*
-
-Additional *Visual Licenses* can be acquired as options:
-* *Additional Visual* includes one *Visual License*
-* *Additional Driver* includes one *Visual License*
+![](./assets/SimEASY.png)
 
 ## Step 1. Add a new visual module
 
-The visual rendering of the simulation is managed by the module "Visual.exe", usually called "VISUAL" when creating a new [SCANeR configuration](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.html).
+The visual rendering of the simulation is managed by the module "Visual.exe", usually called "VISUAL" when creating a new [SCANeR workspace](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.html).
 
 In order to have your own visual module configuration, start by [adding a new visual module in your configuration](../HT_Add_module/Add_module.md)*.
 * The *executable* of the module should be `${STUDIO_PATH}/SCANeRstudio_2021/bin/x64/visual.exe`
@@ -105,6 +82,8 @@ Here the first settings are added:
 * *VehicleId = 0*: The view will track the "ego" vehicle (of ID 0)
 * *NbChannels = 1*: There is only one channel in the first pipe.
 
+> Tips, the name of a section is case sensitive with the name of the visual into your SCANeR workspace.
+
 ## Step 3. View geometry
 
 ### On screen rectangle
@@ -125,7 +104,7 @@ Resolution  = 1920 1080
 
 The *Visual Channel* describes the field of view by the screen geometry relative to the eye:
 * *ScreenDist*: The distance between the human driver's eye and the display.
-* *ScreenTop*, *ScreenBottom*, *ScreenLeft*, *ScreenRight*: The display border positions relative to the human driver's eye position.
+* *ScreenTop*, *ScreenBottom*, *ScreenLeft*, *ScreenRight*: The display border positions relative to the projection of human driver's eye on the display.
 
 ![Field of view schematic](./assets/Observer_cfg.png)
 
@@ -152,8 +131,6 @@ ScreenBottom  = -0.16238
 ScreenRight   = 0.28868
 ScreenLeft    = -0.28868
 ```
-
-## Step 4. Quality VS performance
 
 ## Go further
 
