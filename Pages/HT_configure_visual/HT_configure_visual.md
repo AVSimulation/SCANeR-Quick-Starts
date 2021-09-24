@@ -1,4 +1,4 @@
-:arrow_left: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+:arrow_left: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
 
 # How to configure the visual rendering
 
