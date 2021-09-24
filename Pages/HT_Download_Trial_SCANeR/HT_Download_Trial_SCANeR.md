@@ -1,4 +1,4 @@
-# How to download the Trial version of SCANeR Software
+# How to download the evaluation version of SCANeR?
 
 You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is a first step to achieve this goal 😊
 
