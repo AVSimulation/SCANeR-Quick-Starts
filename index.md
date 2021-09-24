@@ -1,6 +1,6 @@
 <table id="welcome">
   <tr>
-    <td width="200px">
+    <td width="300px">
       <p align="center">
         <img src="./assets/SCANeRGuide_icon_50.png">
       </p>
