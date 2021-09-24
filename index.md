@@ -1,8 +1,8 @@
-<table border=0>
+<table style="border:none">
   <tr>
     <td>
       <p align="center">
-        <img src="./assets/SCANeRGuide_icon_50.png">
+        <img src="./assets/SCANeRGuide_icon_50.png" style="-webkit-box-shadow:none">
       </p>
     </td>
     <td>
