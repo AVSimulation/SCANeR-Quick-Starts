@@ -65,31 +65,39 @@ SCANeR installer includes a rich default data set to help you to begin, it inclu
 SCANeR Everywhere!
 The SIMULATION mode enables you to supervise a simulation. Thanks to its advanced features you'll be able to manage the execution of the simulation by distributing its ressources on a single computer or on multi-computers (e.g. MiL, Sil, DiL), or manage multi-driver simulations (e.g. DiL), interface with a real-time target (e.g. for HiL, ViL applications), etc.
 > Tips, SCANeR Everywhere? Indeed, thanks to SCANeR product familly you'll also be capable to run SCANeR on HPC configuration for Massive simulation application, and on the cloud if needed with or without container as docker, etc. In fact there is no limit (except your imagination 😉). SCANeR is already deployed on Azure, Alibaba, AWS, etc.
+
 In addition, thanks to SIMULATION mode you'll be able to setup your simulator by defining its properties as:
-* Image generator
+* Image generator (e.g. screen, projector, VR/Headset, etc. with or without blinding/warping solution)
 * Cockpit
 * Static or dynamics
 * Audio
+* Monitoring systems (e.g. eye tracker
 * Etc.
 
 ![SIMULATION](./assets/SIMULATION.PNG)
 
 ### ANALYSIS
 
-The Analysis mode is made to view again an exercise of a driving simulation and to extract information as charts, spreadsheet data or video.
+The ANALYSIS mode is a complete tool which enables post-treatments of SCANeR outputs but not only 😊. Thanks to its graphical interface you'll be able to review all the simulation, compare simulations, etc. How to? Analysing Tool features enable to view any type of recorded data and all synchronised! as:
+* Graph (> export a graph directly to csv)
+* Video
+* Sound
+* Specific engineering view for vehicle dynamics research
+* Etc.
 
 ![ANALYSIS](./assets/ANALYSIS.PNG)
 
 # Step 2. The modules
 
-As seen previously, the Simulation mode includes modules. The modules are used to define what capabilities the simulator has. For example, add MOTION module if a motion platform had to manage dynamic movements. There are a lot of pre-existing modules, the ones in the bottom section of the Simulation mode are just the ones present in the default configuration. You can also create your own modules through the SCANeR API.
+As seen previously, the SIMULATION mode includes modules. A module is a SCANeR program exchanging I/O with others SCANeR programs or third party software.
+SCANeR official modules are used to define what capabilities the simulator has. For example, add MOTION module if a motion platform had to manage dynamic movements. There are a lot of pre-existing modules, the ones in the bottom section of the Simulation mode are just the ones present in the default configuration.
+> Tips, Thanks to SCANeR SDK you can create your own modules 👍🏻.
+> It is available in different programming language as: C/C++, C#, Simulink, Python, LabVIEW, RTMaps, etc.
 
 ![MoreModules](./assets/MoreModules.PNG)
 
 # Step 3. Start ~~working~~ playing
 
-**Congratulations!** Now that you know more about the different interfaces and how SCANeR studio works, it's time to start playing. But before you start anything, we strongly recommend that you create your own workspace. Don’t worry, everything is explained here: [HOW TO? Create a new Workspace in SCANeR Studio](https://github.com/AVSGuillaume/Samples-Pack/blob/Pages/Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
-
-😊
+**Congratulations!** Now that you know more about the different interfaces and how SCANeR works, it's time to start playing 😊
 
 :arrow_right: [Open an existing scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
