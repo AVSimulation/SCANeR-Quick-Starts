@@ -48,15 +48,29 @@ Thanks to SCANeR VEHICLE mode you'll be able to:
 
 ### SCENARIO
 
-The Scenario mode has been designed to prepare the simulation. Choose a terrain, a vehicle to drive, add other vehicles, pedestrians, 3D objects, etc. Then manage events (thanks to a script editor) in order to create situations. Prepare the debriefing of exercises by defining data to be recorded.
+The SCENARIO mode enables to design your experimentation. Thanks to its user friendly graphical interface you'll be able to:
+* Choose your terrain,
+* Define your Ego vehicle,
+* Select surrouding actors (e.g. cars, trucks, bicycle, pedestrian, etc.)
+* Add traffic tools to automaticaly trigger events (e.g. add actors, situations, etc.)
+* Prepare your custom metrics/KPI
+* Etc.
 
-SCANeR studio has libraries of terrains, vehicles, pedestrians, 3D objects and has a specific language to make elements interact together.
+SCANeR installer includes a rich default data set to help you to begin, it includes terrains, vehicles, pedestrians, 3D objects, etc.
 
 ![SCENARIO](./assets/SCENARIO.PNG)
 
 ### SIMULATION
 
-The Simulation mode is where you will run your simulation. Your simulation will use your own scenari or the default ones in the SCANeR studio libraries. The Simulation mode is made to monitor and control functions such as recorder, tracking, motion, sound, visual, etc. These functions are called modules.
+SCANeR Everywhere!
+The SIMULATION mode enables you to supervise a simulation. Thanks to its advanced features you'll be able to manage the execution of the simulation by distributing its ressources on a single computer or on multi-computers (e.g. MiL, Sil, DiL), or manage multi-driver simulations (e.g. DiL), interface with a real-time target (e.g. for HiL, ViL applications), etc.
+> Tips, SCANeR Everywhere? Indeed, thanks to SCANeR product familly you'll also be capable to run SCANeR on HPC configuration for Massive simulation application, and on the cloud if needed with or without container as docker, etc. In fact there is no limit (except your imagination 😉). SCANeR is already deployed on Azure, Alibaba, AWS, etc.
+In addition, thanks to SIMULATION mode you'll be able to setup your simulator by defining its properties as:
+* Image generator
+* Cockpit
+* Static or dynamics
+* Audio
+* Etc.
 
 ![SIMULATION](./assets/SIMULATION.PNG)
 
