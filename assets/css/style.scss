@@ -105,6 +105,9 @@ table#welcome {
     border: none;
 }
 
-table#welcome td {
+table#welcome td, p, img {
     border: none;
+    vertical-align: middle;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
