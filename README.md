@@ -40,7 +40,7 @@ On the Youtube page of the video:
 ## 2. Using GitHub web editor
 
 The GitHub interface includes the necessary editors.  
-https://github.com/AVSGuichet/Samples-Pack/tree/Pages
+https://github.com/AVSGuichet/SCANeR-User-Guides/tree/Published
 
 ### Markdown editor
 
@@ -65,16 +65,16 @@ Then delete the ```deleteme``` file and upload your images in it.
 * In the Git Bash console, run the following commands
 ```
 git init
-git remote add origin https://github.com/AVSGuillaume/Samples-Pack.git
-git fetch origin Pages
+git remote add origin https://github.com/AVSGuichet/SCANeR-Used-Guides.git
+git fetch origin Published
 ```
 * When prompted, login to GitHub with the account linked to your company e-mail.
 * Once fetching is finished, run the following command in the Git Bash console
 ```
-git checkout Pages
+git checkout Published
 ```
-This creates a new local branch "Pages" that with upstream "origin/Pages"
-Now your working tree has the latest version of the Pages files.
+This creates a new local branch "Published" that with upstream "origin/Pages"
+Now your working tree has the latest version of the website files.
 
 ### Publish a modification
 
