@@ -40,7 +40,7 @@ On the Youtube page of the video:
 ## 2. Using GitHub web editor
 
 The GitHub interface includes the necessary editors.  
-https://github.com/AVSGuillaume/Samples-Pack/tree/Pages
+https://github.com/AVSGuichet/Samples-Pack/tree/Pages
 
 ### Markdown editor
 
