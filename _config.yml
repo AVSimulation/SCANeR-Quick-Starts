@@ -5,6 +5,6 @@ show_downloads: true
 plugins:
   - jemoji
 github:
-  repository_url: https://github.com/AVSGuillaume/Samples-Pack/tree/2021.2
-  zip_url: https://github.com/AVSGuillaume/Samples-Pack/releases/download/2021.2r1/Samples-Pack-2021.2r1.zip
+  repository_url: https://github.com/AVSGuichet/Samples-Pack/tree/2021.2
+  zip_url: https://github.com/AVSGuichet/Samples-Pack/releases/download/2021.2r1/Samples-Pack-2021.2r1.zip
   youtube_url: https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA
