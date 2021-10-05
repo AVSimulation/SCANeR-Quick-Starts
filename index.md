@@ -63,18 +63,6 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 ### Get started
 
 * [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
-* [Headlights test and validation: create your test case to validate your projectors' strategy](./Pages/HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
-
-### Samples Manuals
-
-Below you will find the documentation (.pdf) for the examples of the Samples Pack that do not yet have a dedicated tutorial.
-
-* [Camera capture](./PDF/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf): fetch and sort camera outputs
-* [FMI](./PDF/SCANeRstudio_EVAL_FMI_Presentation.pdf): exchange I/O between SCANeR and a MiL with FMI
-* [Headlights](./PDF/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf): interface an Adaptive Frontlight System (AFS)
-* [Pixel lighting](./PDF/SCANeRstudio_EVAL_PIXEL_LIGHTING_Manual.pdf): modify in real time projectors photometry
-* [Scenario importer](./PDF/SCANeRstudio_EVAL_SCENARIO_IMPORTER_Presentation.pdf): import real world data and generate your SCANeR template scenario
-* [Vehicle player](./PDF/SCANeRstudio_EVAL_VEHICLE_PLAYER_Manual.pdf): ask your vehicles to follow a recorded trajectory
 
 ## Support or Contact
 
