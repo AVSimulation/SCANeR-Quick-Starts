@@ -40,7 +40,7 @@ On the Youtube page of the video:
 ## 2. Using GitHub web editor
 
 The GitHub interface includes the necessary editors.  
-https://github.com/AVSGuichet/SCANeR-User-Guides/tree/Published
+https://github.com/AVSimulation/SCANeR-User-Guides/tree/Published
 
 ### Markdown editor
 
@@ -65,7 +65,7 @@ Then delete the ```deleteme``` file and upload your images in it.
 * In the Git Bash console, run the following commands
 ```
 git init
-git remote add origin https://github.com/AVSGuichet/SCANeR-Used-Guides.git
+git remote add origin https://github.com/AVSimulation/SCANeR-Used-Guides.git
 git fetch origin Published
 ```
 * When prompted, login to GitHub with the account linked to your company e-mail.
