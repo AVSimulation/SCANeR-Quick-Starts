@@ -6,7 +6,7 @@
       </p>
     </td>
     <td valign="top">
-      Welcome to the SCANeR Guides page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we will accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
+      Welcome to the SCANeR Quick Starts page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we will accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
     </td>
   </tr>
 </table>
@@ -14,8 +14,8 @@
 If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
 Help us to improve and enrich our content by sending us your feedback and push your own contributions to:
-* [AVSimulation GitHub Pages](https://github.com/AVSimulation/SCANeR-User-Guides)
-* [AVSimulation GitHub Samples Pack](https://github.com/AVSimulation/Samples-Pack)
+* [AVSimulation GitHub Pages](https://github.com/AVSimulation/SCANeR-Quick-Starts)
+* [AVSimulation GitHub Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack)
 
 ## SCANeR
 
@@ -54,7 +54,7 @@ Help us to improve and enrich our content by sending us your feedback and push y
 ## SCANeR Samples Pack
 
 The Samples-Pack contains about 30 ready-to-use SCANeR configurations. Created by our engineers it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
-If you would like to see new demonstrations added to the Samples-Pack please contact us or open a request on [GitHub page](https://github.com/AVSGuichet/Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the Samples-Pack
+If you would like to see new demonstrations added to the Samples-Pack please contact us or open a request on [GitHub page](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
 
 ### Get ready
 
