@@ -7,8 +7,18 @@
 * Images go into ```(root)/Pages/assets/```
 * Avoid blank spaces in folder or file names, as they require '\%20' when referenced in markdown
 * Reference new pages in ```(root)/index.md```
-
-![](./assets/PagesFileTree.PNG)
+```
+📄 index.md
+📁 Pages/
+↳ 📁 ...
+  📁 HT Download Trial/
+  ↳ 📄 HT Download Trial.md
+    📄 ...
+    📁 Assets/
+    ↳ 🖼️ image.jpg
+      🎞️ video.avi
+      🖼️ ...
+```
 
 ### Links
 
