@@ -14,8 +14,8 @@
 If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
 Help us to improve and enrich our content by sending us your feedback and push your own contributions to:
-* [AVSimulation GitHub Pages](https://github.com/AVSGuichet/SCANeR-User-Guides)
-* [AVSimulation GitHub Samples Pack](https://github.com/AVSGuichet/Samples-Pack)
+* [AVSimulation GitHub Pages](https://github.com/AVSimulation/SCANeR-User-Guides)
+* [AVSimulation GitHub Samples Pack](https://github.com/AVSimulation/Samples-Pack)
 
 ## SCANeR
 
