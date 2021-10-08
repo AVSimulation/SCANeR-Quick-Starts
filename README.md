@@ -50,7 +50,7 @@ On the Youtube page of the video:
 ## 2. Using GitHub web editor
 
 The GitHub interface includes the necessary editors.  
-https://github.com/AVSimulation/SCANeR-User-Guides/tree/Published
+https://github.com/AVSimulation/SCANeR-Quick-Starts/tree/Published
 
 ### Markdown editor
 
