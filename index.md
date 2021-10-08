@@ -13,9 +13,7 @@
 
 If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
-Help us to improve and enrich our content by sending us your feedback and push your own contributions to:
-* [AVSimulation GitHub Pages](https://github.com/AVSimulation/SCANeR-Quick-Starts)
-* [AVSimulation GitHub Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack)
+Help us to improve and enrich our content by sending us your feedback and push your own contributions: [View on GitHub](https://github.com/AVSimulation/SCANeR-Quick-Starts)
 
 ## SCANeR
 
@@ -34,9 +32,8 @@ Help us to improve and enrich our content by sending us your feedback and push y
 
 > Tips, you've already been working with SCANeR and want to know how to switch between SCANeR workspaces?
 > 
-> [Create a new workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
-> 
-> [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
+> * [Create a new workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
+> * [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
 
 
 ### Create your first simulation
