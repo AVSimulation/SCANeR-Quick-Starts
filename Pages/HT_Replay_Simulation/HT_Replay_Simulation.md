@@ -14,7 +14,7 @@ In this guide, I will explain how to record a simulation and replay it afterward
 
 Let's jump into the guide!
 
-## Step 1. Add the `Record` module to your configuration and record a simulation
+## Step 1. Add the `RECORDER` module to your configuration and record a simulation
 
 1. Open SCANeR studio and select `SIMULATION` mode.
 
@@ -24,7 +24,7 @@ Let's jump into the guide!
 
    ![Add recorder](./assets/Add_Recorder.png)
 
-3. Open a scenario you with to play, and start the `RECORD` module by double clicking on it. You can now play the simulation, and it will be recorded
+3. Open a scenario you with to play, and start the `RECORDER` module by double clicking on it (in the screenshot it appears as 'RECORD'). You can now play the simulation, and it will be recorded
 
    ![Start recorder](./assets/Start_Recorder.png)
 
