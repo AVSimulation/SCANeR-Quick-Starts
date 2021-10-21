@@ -1,4 +1,4 @@
-:arrow_left: [Guide 2. Generate test cases thanks to SCANeR explore under Windows](../HT_Prepare_SCANeR_workspace_under_Windows.md)
+:arrow_left: [Guide 2. Generate test cases thanks to SCANeR explore under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
 
 # How to? Port SCANeR workspace under Linux
 
@@ -119,4 +119,4 @@ You should have the following result if you use the configuration we deliver.
 
 ![](./assets/SCANeRWorkspaceDone.png)
 
-:arrow_right: [Follow the Guide 4: Validate the new SCANeR workspace under Linux before to run it on HPC](../HT_Validate_test_cases_under_Linux.md)
+:arrow_right: [Follow the Guide 4: Validate the new SCANeR workspace under Linux before to run it on HPC](HT_Validate_test_cases_under_Linux.md)
