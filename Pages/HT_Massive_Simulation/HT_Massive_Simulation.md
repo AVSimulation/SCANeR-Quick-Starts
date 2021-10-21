@@ -20,9 +20,7 @@ You don't have these already? [Get your Trial version of SCANeR](https://www.avs
 
 ## Principle of operations
 
-<p align="center">
-  ![](./assets/SCANeRProducts1.png "SCANeR Products")
-</p>
+![](./assets/SCANeRProducts1.png "SCANeR Products")
 
 SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on HPC architecture.  
 It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).  
