@@ -11,6 +11,8 @@ For this SCANeR application we display SCANeR results within point-&-click web i
 
 > Tips, a standard installation of Python is required, it uses specific libraries as: dash, plotly, pandas.
 
+![](./assets/Analytics.png)
+
 ## How to use it?
 
 We deliver with this sample the 60 SCANeR results, so you just have to enjoy the view 😊
