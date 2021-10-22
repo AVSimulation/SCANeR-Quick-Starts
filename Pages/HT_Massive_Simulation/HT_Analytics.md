@@ -19,16 +19,16 @@ We deliver with this sample the 60 SCANeR results, so you just have to enjoy the
 
 * Double click on `.\data\COMPUTE_LOCAL\explore\AEB\resultsAnalysis.bat`
 
-Principle: it generates a csv file next to him named “results.csv”, it fills it thanks to SCANeR standard results available in `.\data\COMPUTE_LOCAL\explore\AEB\results`. It launches the point-&-click web interface and, load and display the results.
+Principle: it generates a csv file next to him named `results.csv`, it fills it thanks to SCANeR standard results available in `.\data\COMPUTE_LOCAL\explore\AEB\results`. It launches the point-&-click web interface and, load and display the results.
 
 > Tips,
 > * If necessary do not hesitate to refresh the web interface.
-> * The web server is by default on http://127.0.0.1:8050
+> * The web server is by default on [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 ## How to make your own?
 
-* Open in your favorite text editor resultsAnalysis.bat
-* Line 2, set the arguments of get_results.py to use your data
+* Open in your favorite text editor `resultsAnalysis.bat`
+* Line 2, set the arguments of `get_results.py` to use your data
 
 ```C
 python get_results.py <path of DoE  file> <path of SCANeR results’ folder>
