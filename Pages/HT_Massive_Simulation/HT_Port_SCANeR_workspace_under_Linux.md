@@ -51,11 +51,11 @@ To make it clear we rename the `SAMPLE_COMPUTE_LOCAL` to `SAMPLE_COMPUTE_HPC` un
 
 ![](./assets/Linux2.png)
 
-2. We add its name and path into 'configurations.cfg'
+2. We add its name and path into `configurations.cfg`
 
 ![](./assets/Linux3.png)
 
-3. Let’s edit our new SCANeR workspace 'SAMPLE_COMPUTE_HPC' under Linux and update SCANeR process paths: from your shell call 'SCANeRconfigurator'
+3. Let’s edit our new SCANeR workspace `SAMPLE_COMPUTE_HPC` under Linux and update SCANeR process paths: from your shell call `SCANeRconfigurator`
 
 ![](./assets/Linux4.png)
 
@@ -63,10 +63,13 @@ It gives your access to SCANeRconfigurator HMI
 
 ![](./assets/Linux5.png)
 
-For each SCANeR module available into your SCANeR workspace update its executable path:
-In `SAMPLE_COMPUTE_LOCAL` you had
+For each SCANeR module available into your SCANeR workspace update its executable path:  
+In `SAMPLE_COMPUTE_LOCAL` you had  
+
 ![](./assets/Linux6.png)
-Update it into `SAMPLE_COMPUTE_HPC` to
+
+Update it into `SAMPLE_COMPUTE_HPC` to  
+
 ![](./assets/Linux7.png)
 
 Repeat it for all your SCANeR modules 👍🏻
@@ -83,8 +86,10 @@ In our case the sample we deliver is under: `.\APIs\samples\ScanerAPI\SUT_AEB`
 > Tips, all details you need to build up your system under Linux are available into `README-202X.Linux`
 
 To add a project into the compilation list simply:
-1. Edit '.\APIs\samples\ScanerAPI\CMakeLists.txt' and add the line
-```C ADD_SUBDIRECTORY(<your_project_name>)```
+1. Edit `.\APIs\samples\ScanerAPI\CMakeLists.txt` and add the line
+```C
+ADD_SUBDIRECTORY(<your_project_name>)
+```
 
 > Tips, `<your_project_name>` is `SUT_AEB` in our case
 
@@ -100,10 +105,17 @@ ${SCANeR_API_LIB})
 ```
 
 Your system under test is now ready to build under Linux!  
-To compile it, go to SCANeRstudio_202X/APIs and execute  
-```C cmake . ```  
+To compile it, go to `SCANeRstudio_202X/APIs` and execute  
+```C
+cmake .
+```  
+
 ![](./assets/cmake.png)
-```C make ```  
+
+```C
+make
+```  
+
 ![](./assets/make.png)
 
 The default output of the executable is under `.\APIs\bin\Linux\<distribution>\<version>\`  
@@ -114,7 +126,7 @@ Copy and paste the executable into your SCANeR workspace
 
 > Tips, this architecture is a generic one. As each IT infrastructure is different you can of course decide to implement it in another way 😉 should you have any related question please feel free to ask us! Put the system under test under SCANeR workspace is convenient for later application when running SCANeR in a container. But let’s see that later.
 
-After these steps, you can make sure that you’re all set by editing SCANeRconfigurator.  
+After these steps, you can make sure that you’re all set by editing `SCANeRconfigurator`.  
 You should have the following result if you use the configuration we deliver.  
 
 ![](./assets/SCANeRWorkspaceDone.png)
