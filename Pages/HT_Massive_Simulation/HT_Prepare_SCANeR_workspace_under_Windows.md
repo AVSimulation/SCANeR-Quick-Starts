@@ -14,9 +14,9 @@ In this guide you’ll see
 
 ## Step 1. Setup essentials SCANeR modules for Massive Simulation
 
-This guide assumes you know how to create and manage basis of a SCANeR workspace.
-Want to learn more about How to create a SCANeR workspace? [Click here](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)
-In our case we create a SCANeR workspace named `SAMPLE_COMPUTE_LOCAL`
+This guide assumes you know how to create and manage basis of a SCANeR workspace.  
+Want to learn more about How to create a SCANeR workspace? [Click here](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)  
+In our case we create a SCANeR workspace named `SAMPLE_COMPUTE_LOCAL`  
 The essentials modules are the ones using X11 server as
 * SCANeR `VISUAL` or `URENDERER`: driver view
 * SCANeR `ACQUISITION`: cockpit commands
@@ -30,7 +30,7 @@ Depending of your test case you’ll need to add essentials SCANeR modules as:
 * Etc.
 
 In this guide we’ll use an AD/ADAS test case, let’s add a `SENSORS` module to `SAMPLE_COMPUTE_LOCAL` workspace (we’ll use it to control a radar).  
-> Tips, 'SENSORS' module supports as many functional sensors as the CPU/GPU is able to process.  
+> Tips, `SENSORS` module supports as many functional sensors as the CPU/GPU is able to process.  
 > These sensors are: radars, logical cameras (generates logical information, not images), lighting sensors, E-Horizon and ultra-sonic sensors.  
 
 ### SCANeR `ACQUISITION`: cockpit commands
@@ -48,6 +48,7 @@ In our case the step period is 50 ms (1/20)
 ![](./assets/OfflineschedulerIndex.png)
 
 The synchronization method is 
+
 ![](./assets/OfflineschedulerOptions.png)
 
 Your SCANeR workspace `SAMPLE_COMPUTE_LOCAL` should now looks like this
@@ -59,8 +60,8 @@ Your SCANeR workspace `SAMPLE_COMPUTE_LOCAL` should now looks like this
 
 ## Step 2. Activate non-real-time simulation
 
-This step is easy and fast!
-In order to inform SCANeR environment that the orchestrator is the `OFFLINESCHEDULER` we need to disable the Real time mode.
+This step is easy and fast!  
+In order to inform SCANeR environment that the orchestrator is the `OFFLINESCHEDULER` we need to disable the Real time mode.  
 To do so, from the main GUI of SCANeR studio, click on menu `SIMULATION` and uncheck `Real time` option.
 
 ![](./assets/NonRealTimeMode.png)
