@@ -1,6 +1,6 @@
 :arrow_left: [Guide 3. Port SCANeR workspace under Linux](HT_Port_SCANeR_workspace_under_Linux.md)
 
-How to? Validate the new SCANeR workspace for Linux before to run it on HPC
+# How to? Validate the new SCANeR workspace for Linux before to run it on HPC
 
 Perform local test enables you to make sure that you did not miss anything before to run Massive Simulation.  
 It’s easy, simply run your test cases with SCANeR compute. To do so run  
@@ -13,7 +13,7 @@ Here is the results you should get:
 ...  
 ![](./assets/SCANeRcompute2.png)
 
-Getting this result: Execution is successful means that you did a great job and you’re now ready for Massive Simulation!  
+Getting this result: `Execution is successful` means that you did a great job and you’re now ready for Massive Simulation!  
 
 To run SCANeR compute on HPC architecture for Massive Simulation application it is exactly the same way 😊  
 
