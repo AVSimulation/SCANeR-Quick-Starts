@@ -1,35 +1,53 @@
-# How to? run a massive simulation to test and validate an ADAS
+# How to? run SCANeR simulation within Docker?
 
 Thanks to this guide you'll see how to
-* Step 1. Execute SCANeR simulations with SCANeR compute
-* Step 2. Display SCANeR results within an analytic web page
+* Step 1. Build a Docker image to run SCANeR
+* Step 2. Run the Docker container
+
+This guide assumes that you already have a clean Docker Engine isntallation.
 
 This tutorial requires
-* [Foundation Pack](https://www.avsimulation.com/pack-foundation/)
-* [AD/ADAS Pack](https://www.avsimulation.com/pack-ad-adas/)
 * [Massive Simulation Pack](https://www.avsimulation.com/pack-massive-simulation/)
 
-You don't have these already? [Get your Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md).
+You don't have it already? [Get your Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md).
 
-> Tips, If you do not have yet all of the above content no worries ;)
-> You can download and use our prepared one: [AEB test case]()
+> Tips, we provide with SCANeR installer all files you need to build and run SCANeR within Docker
 > This is the data we'll use in steps below :thumbsup:
+> Once you'll have installed SCANeR template files and README are available under `.\SCANeRstudio_202X\APIs\DockerCompute`
 
 ## Principle of operations
 
-![](./assets/SCANeRProducts1.png "SCANeR Products")
+![](./assets/docker_scaner_overall.png.png "SCANeR with Docker")
 
-SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on HPC architecture.
-It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).
-To generate known and unknow test cases use SCANeR explore.
+SCANeR compute can be easily “dockerized”.  
+The generated docker image is fully reusable and independent of the tested system.  
+By using docker mount points, SCANeR workspace (configuration, data and System Under Test) are injected at runtime.  
 
-This Quick Starts will guide you to
+The proposed method is a generic one.  
+Depending of your IT architecture feel free to customize it according to your workflow and setup.
 
-* 1.	Prepare SCANeR workspace under Windows
-* 2.	Generate test cases thanks to SCANeR studio, explore under Windows
-* 3.	Port SCANeR workspace under Linux
-* 4.	Make accessible test cases under Linux
-* 5.	Run test cases thanks to SCANeR compute under Linux
-* 6.	SCANeR Analytics
+## Build a Docker image to run SCANeR
+To build the SCANeR image, put the wanted SCANeR Standalone installer `SCANeRstudio_202X.XrXX.tar.bz2` in `.\SCANeRstudio_202X\APIs\DockerCompute\build`.  
+If using AVSimulation license server, customize the `hasp_84230.ini` to match your environment.  
+Launch the script with release number of the source file as argument to build the image.  
+```C
+$ ./build.sh XX
+```
+The resulting image will be tagged: `avsimulation/compute:202X.XrXX`  
+Your image is ready :thumbsup:
 
-:arrow_right: [Follow the Guide: 1. Prepare SCANeR workspace under Windows](../HT_Prepare_SCANeR_workspace_under_Windows.md)
+## Run the Docker container
+
+Using the SCANeR docker image:
+* config    : folder that host the running configuration, will be mounted as docker volume to `config/<your_SCANeR_workspace>` within the container
+* data      : folder that host the data (experiments and system under test): will be mounted as docker volume to `data/<your_SCANeR_workspace>` within the container
+* out       : results ouput folders, will be mounted as docker volume to `/AVSimulation/OUT` within the container
+* launch.sh : script for lauching the container
+
+Copy wanted SCANeR configuration folder in `config` directory.  
+Copy wanted SCANeR data in `data` directory.
+start `launch.sh`
+get results within `out` folder.
+
+The default setup is to launch all scenario of the `<your_SCANeR_workspace>`.
+To customize behaviour, change the `compute.sh` script in `.\SCANeRstudio_202X\APIs\DockerCompute\build`and rebuild.
