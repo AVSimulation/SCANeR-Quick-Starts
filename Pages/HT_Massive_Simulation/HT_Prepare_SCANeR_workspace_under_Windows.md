@@ -2,13 +2,13 @@
 
 # How to? Prepare SCANeR workspace under Windows
 
-To run SCANeR on an HPC/Cloud architecture (or within container solutions as Docker, Kubernetes, etc.) you need to customize SCANeR workspace in order to prepare it to run without server X11.
+To run SCANeR on an HPC/Cloud architecture (or within container solutions as Docker, Kubernetes, etc.) you need to customize the SCANeR workspace in order to prepare it to run without server X11.
 
-Good news we’ve all you need 👍🏻
+Good news we have all you need 👍🏻
 
 You simply need to configure your SCANeR environment to fit your needs and IT infrastructure. 
 
-In this guide you’ll see
+In this guide you will see
 - Step 1.	Setup essentials SCANeR modules for Massive Simulation
 - Step 2.	Activate non-real-time simulation
 
