@@ -39,4 +39,4 @@ E.g.
 python get_results.py ".\EVAL_ADAS_CTRL\Design of Experiment 1\testcases.xtc" results
 ```
 
-:arrow_right: [Already the end: Get back to Home](../../index.md) :arrow_left: 
+:arrow_right: [Already the end: Get back to Home](../../index.md)
