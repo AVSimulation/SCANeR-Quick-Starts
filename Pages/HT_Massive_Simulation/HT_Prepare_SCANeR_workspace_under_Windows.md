@@ -1,6 +1,6 @@
 :arrow_left: [Home of Massive Simulation](HT_Massive_Simulation.md)
 
-# How to prepare a workspace for Massive Simulation under Windows
+# Guide 1. How to prepare a workspace for Massive Simulation under Windows
 
 To run SCANeR on an HPC/Cloud architecture (or within container solutions as Docker, Kubernetes, etc.) you need to customize the SCANeR workspace in order to prepare it to run without server X11 (i.e. without graphical interface).
 
