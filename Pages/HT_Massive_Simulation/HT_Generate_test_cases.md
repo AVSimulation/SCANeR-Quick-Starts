@@ -1,8 +1,8 @@
-:arrow_left: [Guide 1. Prepare SCANeR workspace under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
+:arrow_left: [Guide 1. Prepare a workspace for Massive Simulation under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
 
-# How to generate known and unknown test cases?
+# Guide 2. How to generate known and unknown test cases?
 
-For Massive Simulation application you’ll need a list of scenarios to test and validate your systems under test in known and unknow situations.  
+For Massive Simulation application you will need a list of scenarios to test and validate your systems under test in known and unknow situations.  
 Thanks to SCANeR studio you can prepare template scenario with parameters, criteria of success, failures and so on.  
 These will enable you to automatically generate known and unknown scenarios and measure their performance.  
 
