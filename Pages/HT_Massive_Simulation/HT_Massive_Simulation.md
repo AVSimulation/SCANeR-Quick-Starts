@@ -1,11 +1,6 @@
-# How to? run a massive simulation to test and validate an ADAS
+# How to run a massive simulation to test and validate an ADAS
 
-This Quick Starts will guide you to
-* Step 1. Prepare SCANeR workspace under Windows
-* Step 2. Generate test cases thanks to SCANeR studio, explore under Windows
-* Step 3. Port SCANeR workspace under Linux
-* Step 4. Run test cases thanks to SCANeR compute under Linux
-* Step 5. SCANeR Analytics
+This guide will walk through the Massive Simulation workflow in SCANeR studio.
 
 It requires
 * [Foundation Pack](https://www.avsimulation.com/pack-foundation/)
@@ -14,7 +9,7 @@ It requires
 
 You don't have these already? [Get your Trial version of SCANeR](https://www.avsimulation.com/free-download/).
 
-> Tips, If you do not have yet all of the above content no worries 😉  
+> **Tip:** If you do not have yet all of the above content no worries 😉  
 > You can download and use our prepared one: [AEB test case](https://stockage.scanersimulation.com/Evaluation/2021/Massive_Simulation_Pack.7z)  
 > This is the data we'll use in steps below :thumbsup:
 
@@ -26,4 +21,10 @@ SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on H
 It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).  
 To generate known and unknow test cases use SCANeR explore (it takes as an input a SCANeR studio test case).
 
-:arrow_right: [Follow the Guide 1: Prepare SCANeR workspace under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
+## Let's go !
+
+1. [Prepare the workspace for Massive Simulation under Windows](./HT_Prepare_SCANeR_workspace_under_Windows.md)
+2. [Generate test cases thanks to SCANeR studio, explore under Windows](./HT_Generate_test_cases.md)
+3. [Port SCANeR workspace under Linux](./HT_Port_SCANeR_workspace_under_Linux.md)
+4. [Run test cases thanks to SCANeR compute under Linux](./HT_Validate_test_cases_under_Linux.md)
+5. [SCANeR Analytics](./HT_Analytics.md)
