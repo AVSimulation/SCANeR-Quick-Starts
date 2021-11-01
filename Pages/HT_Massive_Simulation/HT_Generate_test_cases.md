@@ -15,14 +15,19 @@ This guide assumes you’re familiar with SCANeR scenario basis.
 
 ## Step 1. Define template scenario’s parameters and criteria
 
+> * A **parameter** can change in order to create *variability* when generating several versions of a same template scenario.
+> * A **criteria** is a *test* during the simulation to know afterwards what scenario variation succeeded or failed.
+
 When creating a scenario for Massive Simulation it is necessary to make it versatile.  
-To do so we’ll use SCANeR variables.  
-Any type of SCANeR variable can vary: Input, Output or Internal  
-In Step 2 we’ll vary 2 scenario’s parameters: distanceToCollision and rainLevel  
-For this reason, we’ll more focus on those during this Step.  
+To do so we will use script variables. A variable can be Input, Output or Internal  
+In Step 2 we will vary 2 scenario’s parameters: `distanceToCollision` and `rainLevel` 
+
+For this reason, we will more focus on those during this Step.  
 Regarding criteria, it is mandatory to use Output variables.  
-An Output variable makes its content accessible to setup a criteria (e.g. if this Output variable is equal to 1 then it is a success, otherwise it is a failure).  
-In the delivered template scenario, we provide:
+An Output variable makes its content accessible to setup a criteria (e.g. if this Output variable is equal to 1 then it is a success, otherwise it is a failure).
+> `Script Output` > `Scenario Result` > `Scenario Criteria`
+
+In the delivered template scenario `EVAL_ADAS_CTRL.sce`, we provide:
 * 3 Internal variables (`distanceToCollision`, `rainLevel` and `startToBrake`)
 * 2 Output variables (`brakingDistance` and `isCollision`)
 
