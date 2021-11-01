@@ -1,6 +1,6 @@
 :arrow_left: [Guide 2. Generate test cases thanks to SCANeR explore under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
 
-# How to? Port SCANeR workspace under Linux
+# Guide 3. How to port SCANeR workspace under Linux
 
 The SCANeR workspace we made up to now is for Windows (`SAMPLE_COMPUTE_LOCAL`).  
 Use an HPC architecture with a Linux distribution requires to port the Windows SCANeR workspace to Linux.  
