@@ -17,7 +17,7 @@ You don't have these already? [Get your Trial version of SCANeR](https://www.avs
 
 ![](./assets/SCANeRProducts1.png "SCANeR Products")
 
-SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on HPC architecture.  
+SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on HPC (High Performance Computing) architecture.  
 It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).  
 To generate known and unknow test cases use SCANeR explore (it takes as an input a SCANeR studio test case).
 
