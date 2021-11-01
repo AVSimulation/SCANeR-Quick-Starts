@@ -8,10 +8,10 @@ These will enable you to automatically generate known and unknown scenarios and 
 
 In this guide you’ll see how to
 - Step 1.	Define template scenario’s parameters and criteria
-- Step 2.	Design a test plan to vary parameters and generate X scenarios
+- Step 2.	Design a test plan to vary parameters and generate N scenarios
 
 This guide assumes you’re familiar with SCANeR scenario basis.  
-If not, we highly recommend you to check this article first: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+:leftwards_arrow_with_hook: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
 
 ## Step 1. Define template scenario’s parameters and criteria
 
