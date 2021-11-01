@@ -13,6 +13,8 @@ You don't have these already? [Get your Trial version of SCANeR](https://www.avs
 > You can download and use our prepared one: [AEB test case](https://stockage.scanersimulation.com/Evaluation/2021/Massive_Simulation_Pack.7z)  
 > This is the data we'll use in steps below :thumbsup:
 
+You will also need a HPC platform. For the exercise, a simple Linux computer is enough.
+
 ## Principle of operations
 
 ![](./assets/SCANeRProducts1.png "SCANeR Products")
