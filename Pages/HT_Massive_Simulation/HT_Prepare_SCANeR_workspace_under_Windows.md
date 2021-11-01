@@ -15,7 +15,7 @@ In this guide you will see
 ## Step 1. Setup essentials SCANeR modules for Massive Simulation
 
 This guide assumes you know how to create and manage basis of a SCANeR workspace.  
-:arrow_right: [How to create a new workspace](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)
+:leftwards_arrow_with_hook: [How to create a new workspace](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)
 In our case we create a SCANeR workspace named `SAMPLE_COMPUTE_LOCAL`  
 
 The essentials modules are the ones using X11 server as
