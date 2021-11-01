@@ -25,8 +25,8 @@ To generate known and unknow test cases use SCANeR explore (it takes as an input
 
 ## Let's go !
 
-1. [Prepare the workspace for Massive Simulation under Windows](./HT_Prepare_SCANeR_workspace_under_Windows.md)
-2. [Generate test cases thanks to SCANeR studio, explore under Windows](./HT_Generate_test_cases.md)
-3. [Port SCANeR workspace under Linux](./HT_Port_SCANeR_workspace_under_Linux.md)
-4. [Run test cases thanks to SCANeR compute under Linux](./HT_Validate_test_cases_under_Linux.md)
-5. [SCANeR Analytics](./HT_Analytics.md)
+* Guide 1. [Prepare the workspace for Massive Simulation under Windows](./HT_Prepare_SCANeR_workspace_under_Windows.md)
+* Guide 2. [Generate test cases thanks to SCANeR studio, explore under Windows](./HT_Generate_test_cases.md)
+* Guide 3. [Port SCANeR workspace under Linux](./HT_Port_SCANeR_workspace_under_Linux.md)
+* Guide 4. [Run test cases thanks to SCANeR compute under Linux](./HT_Validate_test_cases_under_Linux.md)
+* Guide 5. [SCANeR Analytics](./HT_Analytics.md)
