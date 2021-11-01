@@ -1,8 +1,8 @@
 :arrow_left: [Home of Massive Simulation](HT_Massive_Simulation.md)
 
-# How to? Prepare SCANeR workspace under Windows
+# How to prepare a workspace for Massive Simulation under Windows
 
-To run SCANeR on an HPC/Cloud architecture (or within container solutions as Docker, Kubernetes, etc.) you need to customize the SCANeR workspace in order to prepare it to run without server X11.
+To run SCANeR on an HPC/Cloud architecture (or within container solutions as Docker, Kubernetes, etc.) you need to customize the SCANeR workspace in order to prepare it to run without server X11 (i.e. without graphical interface).
 
 Good news we have all you need 👍🏻
 
@@ -15,8 +15,9 @@ In this guide you will see
 ## Step 1. Setup essentials SCANeR modules for Massive Simulation
 
 This guide assumes you know how to create and manage basis of a SCANeR workspace.  
-Want to learn more about How to create a SCANeR workspace? [Click here](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)  
+:arrow_right: [How to create a new workspace](../HT_Create_A_New_Workspace/HT_Create_A_New_Workspace.md)
 In our case we create a SCANeR workspace named `SAMPLE_COMPUTE_LOCAL`  
+
 The essentials modules are the ones using X11 server as
 * SCANeR `VISUAL` or `URENDERER`: driver view
 * SCANeR `ACQUISITION`: cockpit commands
@@ -25,24 +26,24 @@ The essentials modules are the ones using X11 server as
 ### SCANeR `VISUAL` or `URENDERER`: driver view
 To run SCANeR without X11 server you need to remove SCANeR modules which require X11 server as: `VISUAL`, `URENDERER`  
 Depending of your test case you’ll need to add essentials SCANeR modules as:
-* AD/ADAS: SENSORS, LASERMETER, CAMERASENSOR, GPSSENSOR, etc.
-* Headlights: NIGHTTESTMANAGER, AFSMANAGER, etc.
+* AD/ADAS: `SENSORS`, `LASERMETER`, `CAMERASENSOR`, `GPSSENSOR`, etc.
+* Headlights: `NIGHTTESTMANAGER`, `AFSMANAGER`, etc.
 * Etc.
 
 In this guide we’ll use an AD/ADAS test case, let’s add a `SENSORS` module to `SAMPLE_COMPUTE_LOCAL` workspace (we’ll use it to control a radar).  
-> Tips, `SENSORS` module supports as many functional sensors as the CPU/GPU is able to process.  
+> **Tips:** `SENSORS` module supports as many functional sensors as the CPU/GPU is able to process.  
 > These sensors are: radars, logical cameras (generates logical information, not images), lighting sensors, E-Horizon and ultra-sonic sensors.  
 
 ### SCANeR `ACQUISITION`: cockpit commands
 
 SCANeR `ACQUISITION` module is available in two modes with or without GUI.  
 Let’s make sure than that it is set in non-GUI mode.  
-To do so edit the `ACQUISITION` module and make sure that the following both options are checked: hide window, start without GUI (no X)
+To do so edit the `ACQUISITION` module and make sure that the following both options are checked: hide window, start without GUI (no X)  
 ![](./assets/AcquisitionNoX.png)
 
 ### SCANeR 'OFFLINESCHEDULER': simulation orchestrator
 
-The `OFFLINESCHEDULER` is an orchestrator, it enables to control SCANeR modules’ execution; step by step.  
+The `OFFLINESCHEDULER` is an orchestrator, it enables to control SCANeR modules’ execution step by step.  
 Edit its settings and make sure that the step period and the synchronization is fine.  
 In our case the step period is 50 ms (1/20)  
 ![](./assets/OfflineschedulerIndex.png)
