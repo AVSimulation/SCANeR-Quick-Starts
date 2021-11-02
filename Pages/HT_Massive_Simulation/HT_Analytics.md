@@ -1,4 +1,4 @@
-:arrow_left: [Guide 4. Validate test cases under Linux](HT_Validate_test_cases_under_Linux.md)
+:arrow_left: [Guide 4. Run test cases on Linux](HT_Validate_test_cases_under_Linux.md)
 
 # Guide 5. How to analyse all my results
 
