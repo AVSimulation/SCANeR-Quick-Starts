@@ -1,6 +1,11 @@
 # How to run a massive simulation to test and validate an ADAS
 
-This guide will walk through the Massive Simulation workflow in SCANeR studio.
+This guide will walk through the Massive Simulation workflow in SCANeR:
+* Guide 1. [Prepare the workspace for Massive Simulation under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
+* Guide 2. [Generate test cases thanks to SCANeR studio, explore under Windows](HT_Generate_test_cases.md)
+* Guide 3. [Port SCANeR workspace under Linux](HT_Port_SCANeR_workspace_under_Linux.md)
+* Guide 4. [Run test cases thanks to SCANeR compute under Linux](HT_Validate_test_cases_under_Linux.md)
+* Guide 5. [SCANeR Analytics](HT_Analytics.md)
 
 It requires
 * [Foundation Pack](https://www.avsimulation.com/pack-foundation/)
@@ -23,10 +28,4 @@ SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on H
 It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).  
 To generate known and unknow test cases use SCANeR explore (it takes as an input a SCANeR studio test case).
 
-## Let's go !
-
-* Guide 1. [Prepare the workspace for Massive Simulation under Windows](./HT_Prepare_SCANeR_workspace_under_Windows.md)
-* Guide 2. [Generate test cases thanks to SCANeR studio, explore under Windows](./HT_Generate_test_cases.md)
-* Guide 3. [Port SCANeR workspace under Linux](./HT_Port_SCANeR_workspace_under_Linux.md)
-* Guide 4. [Run test cases thanks to SCANeR compute under Linux](./HT_Validate_test_cases_under_Linux.md)
-* Guide 5. [SCANeR Analytics](./HT_Analytics.md)
+:arrow_right: [Follow the Guide 1: Prepare SCANeR workspace under Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
