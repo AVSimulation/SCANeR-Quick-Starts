@@ -1,6 +1,6 @@
-:arrow_left: [Guide 4. Validate test cases under Linux](HT_Validate_test_cases_under_Linux.md)
+:arrow_left: [Guide 4. Run test cases on Linux](HT_Validate_test_cases_under_Linux.md)
 
-# How to? analyse all my results
+# Guide 5. How to analyse all my results
 
 Once the simulations have been executed, you’ll get all test cases results (60 in our case).  
 To analyze case by case scenario SCANeR’s users can use SCANeR studio standard “dashboard” (Analyzing Tools for familiar users 😉).  
@@ -39,4 +39,4 @@ E.g.
 python get_results.py ".\EVAL_ADAS_CTRL\Design of Experiment 1\testcases.xtc" results
 ```
 
-:arrow_right: [Already the end: Get back to Home](../../index.md) :arrow_left: 
+:arrow_right: [Already the end: Get back to Home](../../index.md)
