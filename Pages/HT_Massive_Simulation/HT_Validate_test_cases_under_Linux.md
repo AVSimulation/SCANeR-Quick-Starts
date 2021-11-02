@@ -1,4 +1,4 @@
-:arrow_left: [Guide 3. Port SCANeR workspace under Linux](HT_Port_SCANeR_workspace_under_Linux.md)
+:arrow_left: [Guide 3. Port SCANeR workspace on Linux](HT_Port_SCANeR_workspace_under_Linux.md)
 
 # Guide 4. How to validate the new SCANeR workspace for Linux before to run it on HPC
 
@@ -26,4 +26,4 @@ Here is a list of the remaining actions on your side, we offer services on deman
 SCANeR Standalone method supports any container solutions (e.g. Docker, Kubernetes).
 Ask us for details 😉
 
-:arrow_right: [Follow the Guide 5: SCANeR Analytics](HT_Analytics.md)
+:arrow_right: [Guide 5: SCANeR Analytics](HT_Analytics.md)
