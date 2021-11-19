@@ -1,4 +1,8 @@
-:arrow_left: [Home of Massive Simulation](HT_Massive_Simulation.md)
+---
+group: Massive Simulation
+short: Windows workspace
+order: 10
+---
 
 # Guide 1. How to prepare a workspace for Massive Simulation under Windows
 
@@ -68,5 +72,3 @@ To do so, from the main GUI of SCANeR studio, click on menu `SIMULATION` and unc
 ![](./assets/NonRealTimeMode.png)
 
 You’re SCANeR workspace is now all set!
-
-:arrow_right: [Follow the Guide 2: Generate test cases thanks to SCANeR explore under Windows](HT_Generate_test_cases.md)
