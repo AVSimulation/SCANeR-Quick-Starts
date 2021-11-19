@@ -1,4 +1,8 @@
-:arrow_left: [Guide 4. Run test cases on Linux](HT_Validate_test_cases_under_Linux.md)
+---
+group: Massive Simulation
+short: Analyze
+order: 50
+---
 
 # Guide 5. How to analyse all my results
 
@@ -38,5 +42,3 @@ E.g.
 ```C
 python get_results.py ".\EVAL_ADAS_CTRL\Design of Experiment 1\testcases.xtc" results
 ```
-
-:arrow_right: [Already the end: Get back to Home](../../index.md)
