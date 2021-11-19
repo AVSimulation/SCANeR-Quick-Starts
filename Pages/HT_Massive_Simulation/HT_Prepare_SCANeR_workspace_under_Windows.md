@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: 1. Windows workspace
+short: Windows workspace
 order: 10
 ---
 
