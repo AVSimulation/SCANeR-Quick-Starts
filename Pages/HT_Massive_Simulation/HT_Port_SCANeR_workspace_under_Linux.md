@@ -1,4 +1,8 @@
-:arrow_left: [Guide 2. Generate test cases on Windows](HT_Generate_test_cases.md)
+---
+group: Massive Simulation
+short: Linux workspace
+order: 30
+---
 
 # Guide 3. How to port SCANeR workspace under Linux
 
@@ -130,5 +134,3 @@ After these steps, you can make sure that you’re all set by editing `SCANeRcon
 You should have the following result if you use the configuration we deliver.  
 
 ![](./assets/SCANeRWorkspaceDone.png)
-
-:arrow_right: [Guide 4: Run test cases on Linux](HT_Validate_test_cases_under_Linux.md)
