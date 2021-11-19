@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: 2. Generate scenarios
+short: Generate scenarios
 order: 20
 ---
 
