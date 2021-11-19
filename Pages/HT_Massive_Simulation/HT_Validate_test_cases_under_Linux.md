@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: 4. Validate workspace
+short: Validate workspace
 order: 40
 ---
 
