@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: 5. Analyze
+short: Analyze
 order: 50
 ---
 
