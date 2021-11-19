@@ -40,11 +40,61 @@
           {% endif %}
         </header>
     </div>
+    
+    <!-- prepare variables -->
+    {% if page.group %}
+      {% assign group_pages = site.html_pages | where:"group",page.group | sort: 'order' %}
+      {% for item in group_pages %}
+        {% if item.short == page.short %}
+          {% unless forloop.first %}
+            {% assign prev = iterator %}
+          {% endunless %}
+          {% unless forloop.last %}
+            {% assign next = group_pages[forloop.index] %}
+          {% endunless %}
+        {% endif %}
+        {% assign iterator = item %}
+      {% endfor %}
+    {% endif %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+      
+      <!-- group nav -->
+      {% if page.group %}
+      <div id="nav_left" class="inner">
+        <h3>{{ page.group }}</h3><br>
+        {% for p in group_pages %}
+          <a href="{{site.baseurl}}/{{ p.url }}" {% if p.url == page.url %}class="current"{% endif %}>
+            {{ p.short }}
+          </a><br>
+        {% endfor %}
+      </div>
+      {% endif %}
+      
       <section id="main_content" class="inner">
+        <!-- prev -->
+        {% if prev %}
+          <p>
+            <img class="emoji" title=":arrow_left:" alt=":arrow_left:" src="https://github.githubassets.com/images/icons/emoji/unicode/2b05.png" height="20" width="20">
+            <a href="{{site.baseurl}}/{{ prev.url }}">
+              {{ prev.short }}
+            </a>
+          </p>
+        {% endif %}
+        
+        <!-- article -->
         {{ content }}
+        
+        <!-- next -->
+        {% if next %}
+          <p>
+            <img class="emoji" title=":arrow_right:" alt=":arrow_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/27a1.png" height="20" width="20">
+            <a href="{{site.baseurl}}/{{ next.url }}">
+              {{ next.short }}
+            </a>
+          </p>
+        {% endif %}
       </section>
     </div>
 
@@ -66,16 +116,5 @@
     {%- if jekyll.environment == 'production' -%}
         <script async defer data-website-id="60b78dc8-9b55-4e12-aa04-417757424f94" src="https://scaner-quick-starts-analytics.herokuapp.com/umami.js"></script>
     {%- endif -%}
-    
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
