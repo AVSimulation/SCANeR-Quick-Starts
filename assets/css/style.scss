@@ -32,6 +32,25 @@
 	text-shadow: none;
 }
 
+#menu {
+        width: 4em;
+	margin-left: auto;
+        margin-right: auto;
+        font-weight:bold;
+	text-align: center;
+	padding: 0.3em 1em;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	letter-spacing: 0px;
+	font-size: 22px;
+	font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	background-color: #6BBCD0;
+}
+
+#menu a {
+	color: #FFFFFF;
+}
+
 #nav {
 	position: absolute;
 	width: 120px;
