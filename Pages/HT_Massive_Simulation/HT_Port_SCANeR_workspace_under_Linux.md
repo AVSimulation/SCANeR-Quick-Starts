@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: 3. Linux workspace
+short: Linux workspace
 order: 30
 ---
 
