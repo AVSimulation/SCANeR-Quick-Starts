@@ -1,3 +1,9 @@
+---
+group: Massive Simulation
+short: Introduction
+order: 0
+---
+
 # How to run a massive simulation to test and validate an ADAS
 
 This guide will walk through the Massive Simulation workflow in SCANeR:
@@ -27,5 +33,3 @@ You will also need a HPC platform. For the exercise, a simple Linux computer is 
 SCANeR compute is SCANeR studio solver, it enables to run SCANeR simulation on HPC (High Performance Computing) architecture.  
 It is compatible with any HPC platform (e.g. Azure, AWS, Alibaba) and supports any container solutions (e.g. Docker, Kubernetes).  
 To generate known and unknow test cases use SCANeR explore (it takes as an input a SCANeR studio test case).
-
-:arrow_right: [Guide 1: Prepare SCANeR workspace on Windows](HT_Prepare_SCANeR_workspace_under_Windows.md)
