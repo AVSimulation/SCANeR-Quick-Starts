@@ -1,4 +1,8 @@
-:arrow_left: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
+---
+group: Intermediate
+short: Driver's inputs
+order: 20
+---
 
 # How to configure driver’s inputs?
 
@@ -90,5 +94,3 @@ Before finishing, you can test the new mapping by clicking on `Test...` in the b
 Once you are happy with the settings, click on `Save`.
 
 Congrats! Have fun with your own steering wheel and pedals configuration! 🚗
-
-:arrow_right: [Define metrics: design your own Key Performance Indicators](../HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md)
