@@ -1,6 +1,6 @@
 ---
-group: Workspace
-short: Create a workspace
+group: First Simulation
+short: Create a road network
 order: 10
 prev: Get Started
 ---
