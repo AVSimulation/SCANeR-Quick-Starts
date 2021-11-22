@@ -1,4 +1,9 @@
-:arrow_left: [Create your workspace](../HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md)
+---
+group: Workspace
+short: Switch workspaces
+order: 20
+next: First Simulation
+---
 
 # How to switch between workspaces
 
@@ -38,5 +43,3 @@ This information is accessible in the main supervisor window of SCANeR studio :p
 ![](./assets/configuration_YouAre.png)
 
 **Congratulations! You know now how to switch to a different work environment in SCANeR :ok_hand:!**
-
-:arrow_right: [Navigate in the user interface](../HT_Navigate/HT_Navigate.md)
