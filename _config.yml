@@ -28,7 +28,7 @@ defaults:
     values:
       prev: "Get Ready"
       next: "First Simulation"
--
+  -
     scope:
       path: ""
       group: "First Simulation"
