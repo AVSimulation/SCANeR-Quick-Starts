@@ -1,5 +1,4 @@
 ---
-group: Home
 short: Home
 ---
 
