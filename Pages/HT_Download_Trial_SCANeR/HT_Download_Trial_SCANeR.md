@@ -1,3 +1,9 @@
+---
+group: Get Ready
+short: Download the Trial
+order: 10
+---
+
 # How to download the evaluation version of SCANeR?
 
 You want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is a first step to achieve this goal 😊
@@ -44,5 +50,3 @@ Simply enter your information, click on `SEND` and you are ready to move to the 
 To install SCANeR, follow the instructions in the following Guide: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
 Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it!
-
-:arrow_right: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
