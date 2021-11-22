@@ -1,4 +1,8 @@
-:arrow_left: [Open an existing scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
+---
+group: Get Started
+short: Run a simulation
+order: 40
+---
 
 # How to run a simulation?
 
@@ -55,5 +59,3 @@ This button close, and kill the SCANeR modules in a clean way. If you stop the s
 > Tips, you do not have to Stop modules between 2 simulations. If you are looking to run another simulation just after that one keep the modules alive and simply click on `Play Scenario` again. Repeat it as many time you need.
 
 We rely on you to run your simulation as it should be 😉
-
-:arrow_right: [Replay a simulation](../HT_Replay_Simulation/HT_Replay_Simulation.md)
