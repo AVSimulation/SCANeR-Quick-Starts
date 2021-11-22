@@ -44,6 +44,18 @@
     <!-- prepare variables -->
     {% if page.group %}
       {% assign group_pages = site.html_pages | where:"group",page.group | sort: 'order' %}
+      
+      <!-- prev/next group (if set in _config.yml) -->
+      {% if page.prev %}
+        {% assign prev_group_pages = site.html_pages | where:"group",page.prev | sort: 'order' %}
+        {% assign prev = prev_group_pages.first %}
+      {% endif %}  
+      {% if page.next %}
+        {% assign next_group_pages = site.html_pages | where:"group",page.next | sort: 'order' %}
+        {% assign next = next_group_pages.first %}
+      {% endif %}
+    
+      <!-- prev/next page (overwrites prev/next group) -->
       {% for item in group_pages %}
         {% if item.short == page.short %}
           {% unless forloop.first %}
