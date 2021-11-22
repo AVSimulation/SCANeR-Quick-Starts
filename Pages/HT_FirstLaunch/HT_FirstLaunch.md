@@ -2,6 +2,7 @@
 group: Get Started
 short: First launch
 order: 10
+prev: Get Ready
 ---
 
 # How to launch SCANeR for the first time?
