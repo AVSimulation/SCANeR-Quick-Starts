@@ -14,30 +14,30 @@ github:
 # When the page does not have a next page in its group, the link "next" will link to the first page of the next group.
 # When the page does not have a prev page in its group, the link "prev" will link to the last page of the previous group.
 # No prev/next page and no prev/next group = no link (that's ok too)
-defaults:
-  -
-    scope:
-      path: ""
-      group: "Get Ready"
-    values:
-      next: "Get Started"
-  -
-    scope:
-      path: ""
-      group: "Get Started"
-    values:
-      prev: "Get Ready"
-      next: "First Simulation"
-  -
-    scope:
-      path: ""
-      group: "First Simulation"
-    values:
-      prev: "Get Ready"
-      next: "Home"
-  -
-    scope:
-      path: ""
-      group: "Massive Simulation"
-    values:
-      next: "Home"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       group: "Get Ready"
+#     values:
+#       next: "Get Started"
+#   -
+#     scope:
+#       path: ""
+#       group: "Get Started"
+#     values:
+#       prev: "Get Ready"
+#       next: "First Simulation"
+#   -
+#     scope:
+#       path: ""
+#       group: "First Simulation"
+#     values:
+#       prev: "Get Ready"
+#       next: "Home"
+#   -
+#     scope:
+#       path: ""
+#       group: "Massive Simulation"
+#     values:
+#       next: "Home"
