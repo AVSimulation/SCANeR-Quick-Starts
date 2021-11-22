@@ -1,4 +1,8 @@
-:arrow_left: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
+---
+group: Get Started
+short: Open a scenario
+order: 30
+---
 
 # How to open an existing scenario?
 
@@ -29,5 +33,3 @@ You're all set and ready to run your first simulation 👍🏻
 
 >Tips, to have a quick overview about scenario storyboard and required modules you can edit the 'Simulation' parameter by double clicking on it. You'll get the following information
 > ![](./assets/ParameterSimulation.png)
-
-:arrow_right: [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
