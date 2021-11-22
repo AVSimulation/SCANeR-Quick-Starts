@@ -1,4 +1,8 @@
-:arrow_left: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+---
+group: First Simulation
+short: Create a scenario
+order: 20
+---
 
 # How to create a scenario based on your road network?
 
@@ -42,6 +46,3 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 Congratulations! You have created your first `Scenario` 👍
 
 Try to execute it by following our tutorial : [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
-
-:arrow_right: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
-
