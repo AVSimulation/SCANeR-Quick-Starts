@@ -48,7 +48,7 @@
       <!-- prev/next group (if set in _config.yml) -->
       {% if page.prev %}
         {% assign prev_group_pages = site.html_pages | where:"group",page.prev | sort: 'order' %}
-        {% assign prev = prev_group_pages.first %}
+        {% assign prev = prev_group_pages.last %}
       {% endif %}  
       {% if page.next %}
         {% assign next_group_pages = site.html_pages | where:"group",page.next | sort: 'order' %}
