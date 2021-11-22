@@ -1,4 +1,8 @@
-:arrow_left: [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
+---
+group: Get Started
+short: Replay a simulation
+order: 50
+---
 
 # How to replay a simulation?
 
@@ -59,5 +63,3 @@ Let's jump into the guide!
    ![Export graph](./assets/Export_Graph.png)
 
 Congratulations! You now know how to record a simulation, replay it, and export data from it! 👍
-
-:arrow_right: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
