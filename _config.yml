@@ -27,20 +27,13 @@ defaults:
       group: "Get Started"
     values:
       prev: "Get Ready"
-      next: "Workspace"
-  -
-    scope:
-      path: ""
-      group: "Workspace"
-    values:
-      prev: "Get Started"
       next: "First Simulation"
 -
     scope:
       path: ""
       group: "First Simulation"
     values:
-      prev: "Workspace"
+      prev: "Get Ready"
       next: "Home"
   -
     scope:
