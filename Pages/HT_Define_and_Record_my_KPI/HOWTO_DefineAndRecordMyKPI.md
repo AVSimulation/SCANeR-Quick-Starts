@@ -1,4 +1,8 @@
-:arrow_left: [Configure driver’s inputs: select your own commands to drive](../HT_Configure_driver_input/Configure_Driver_Input.md)
+---
+group: Intermediate
+short: Measure KPIs
+order: 30
+---
 
 # How to define and record my KPI
 
