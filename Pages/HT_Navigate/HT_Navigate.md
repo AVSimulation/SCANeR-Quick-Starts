@@ -1,4 +1,8 @@
-:arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
+---
+group: Get Started
+short: User Interface
+order: 20
+---
 
 # How to navigate the user interface?
 
@@ -99,5 +103,3 @@ SCANeR official modules are used to define what capabilities the simulator has. 
 # Step 3. Start ~~working~~ playing
 
 **Congratulations!** Now that you know more about the different interfaces and how SCANeR works, it's time to start playing 😊
-
-:arrow_right: [Open an existing scenario](../HT_Open_a_scenario/HT_Open_a_scenario.md)
