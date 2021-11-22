@@ -1,4 +1,8 @@
-:arrow_left: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+---
+group: Get Started
+short: First launch
+order: 10
+---
 
 # How to launch SCANeR for the first time?
 
@@ -47,5 +51,3 @@ The path to the data folder of your `Configuration` will also be found by defaul
 You're all set! You can now run your first simulations.
 
 If you need help to navigate through the basic interfaces of SCANeR studio, read this: [Navigate the user interface](../HT_Navigate/HT_Navigate.md) 😊
-
-:arrow_right: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
