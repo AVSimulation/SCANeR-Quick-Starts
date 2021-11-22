@@ -1,4 +1,9 @@
-:arrow_left: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+---
+group: First Simulation
+short: Script a situation
+order: 10
+next: Intermediate
+---
 
 # How to create a situation?
 
@@ -71,5 +76,3 @@ You can now save your scenario and execute it. If you need help for the executio
 The execution of this Storyboard should look like this:
 
 <video src="./assets/Crossing.mp4" controls="controls" style="max-width: 730px;"></video> 
-
-:arrow_right: [Configure the visual rendering: adjust the set up to best fit your needs](../HT_configure_visual/HT_configure_visual.md)
