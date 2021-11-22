@@ -1,4 +1,9 @@
-:arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
+---
+group: Workspace
+short: Create a workspace
+order: 10
+prev: Get Started
+---
 
 # How to create a new workspace
 
@@ -52,5 +57,3 @@ Enough chatter, let's jump into the guide! 😁
 ​	If you need more help about this step, you can check the guide about this topic [here](../HT_Change_work_environment/HT_Change_work_environment.md).
 
 **Congratulations! You now have your own custom Configuration!**
-
-:arrow_right: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
