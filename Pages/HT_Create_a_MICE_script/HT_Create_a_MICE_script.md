@@ -1,6 +1,6 @@
 ---
 group: First Simulation
-short: Script a situation
+short: Create a story
 order: 30
 next: Intermediate
 ---
