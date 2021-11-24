@@ -1,3 +1,9 @@
+---
+group: Samples Pack
+short: ADAS
+order: 20
+---
+
 # How to? evaluate and validate an ADAS system
 
 This guide explains how to design an experimentation to evaluate and validate an ADAS system with SCANeR studio.
