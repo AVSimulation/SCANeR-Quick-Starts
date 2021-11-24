@@ -2,7 +2,6 @@
 group: Get Started
 short: Replay a simulation
 order: 50
-next: First Simulation
 ---
 
 # How to replay a simulation?
