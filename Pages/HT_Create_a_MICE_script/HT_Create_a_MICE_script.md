@@ -2,7 +2,6 @@
 group: First Simulation
 short: Create a story
 order: 30
-next: Intermediate
 ---
 
 # How to create a situation?
