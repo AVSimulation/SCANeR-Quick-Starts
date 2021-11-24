@@ -25,3 +25,6 @@ groups:
     name: First Simulation
     prev: Get Started
     next: Intermediate
+  -
+    name: Intermediate
+    prev: First Simulation
