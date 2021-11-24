@@ -41,72 +41,17 @@
         </header>
     </div>
     
-    <!-- prepare variables -->
-    {% if page.group %}
-      {% assign group_pages = site.html_pages | where:"group",page.group | sort: 'order' %}
-      
-      <!-- prev/next group (if set in _config.yml) -->
-      {% if page.prev %}
-        {% assign prev_group_pages = site.html_pages | where:"group",page.prev | sort: 'order' %}
-        {% assign prev = prev_group_pages.last %}
-      {% endif %}  
-      {% if page.next %}
-        {% assign next_group_pages = site.html_pages | where:"group",page.next | sort: 'order' %}
-        {% assign next = next_group_pages.first %}
-      {% endif %}
-    
-      <!-- prev/next page (overwrites prev/next group) -->
-      {% for item in group_pages %}
-        {% if item.short == page.short %}
-          {% unless forloop.first %}
-            {% assign prev = iterator %}
-          {% endunless %}
-          {% unless forloop.last %}
-            {% assign next = group_pages[forloop.index] %}
-          {% endunless %}
-        {% endif %}
-        {% assign iterator = item %}
-      {% endfor %}
-    {% endif %}
+    {% include auto_init.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       
-      <!-- group nav -->
-      {% if page.group %}
-      <div id="nav_left" class="inner">
-        <h3>{{ page.group }}</h3><br>
-        {% for p in group_pages %}
-          <a href="{{site.baseurl}}/{{ p.url }}" {% if p.url == page.url %}class="current"{% endif %}>
-            {{ p.short }}
-          </a><br>
-        {% endfor %}
-      </div>
-      {% endif %}
+      {% include auto_nav.html %}
       
       <section id="main_content" class="inner">
-        <!-- prev -->
-        {% if prev %}
-          <p>
-            <img class="emoji" title=":arrow_left:" alt=":arrow_left:" src="https://github.githubassets.com/images/icons/emoji/unicode/2b05.png" height="20" width="20">
-            <a href="{{site.baseurl}}/{{ prev.url }}">
-              {{ prev.short }}
-            </a>
-          </p>
-        {% endif %}
-        
-        <!-- article -->
+        {% include auto_prev.html %}
         {{ content }}
-        
-        <!-- next -->
-        {% if next %}
-          <p>
-            <img class="emoji" title=":arrow_right:" alt=":arrow_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/27a1.png" height="20" width="20">
-            <a href="{{site.baseurl}}/{{ next.url }}">
-              {{ next.short }}
-            </a>
-          </p>
-        {% endif %}
+        {% include auto_next.html %}
       </section>
     </div>
 
@@ -128,5 +73,6 @@
     {%- if jekyll.environment == 'production' -%}
         <script async defer data-website-id="60b78dc8-9b55-4e12-aa04-417757424f94" src="https://scaner-quick-starts-analytics.herokuapp.com/umami.js"></script>
     {%- endif -%}
+    
   </body>
 </html>
