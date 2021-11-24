@@ -9,35 +9,19 @@ github:
   zip_url: https://stockage.scanersimulation.com/Evaluation/2021/Samples-Pack-2021.2r2.zip
   youtube_url: https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA
 
-# FRONT MATTER DEFAULTS
-# Set the links between groups (prev/next)
-# When the page does not have a next page in its group, the link "next" will link to the first page of the next group.
-# When the page does not have a prev page in its group, the link "prev" will link to the last page of the previous group.
-# No prev/next page and no prev/next group = no link (that's ok too)
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       group: "Get Ready"
-#     values:
-#       next: "Get Started"
-#   -
-#     scope:
-#       path: ""
-#       group: "Get Started"
-#     values:
-#       prev: "Get Ready"
-#       next: "First Simulation"
-#   -
-#     scope:
-#       path: ""
-#       group: "First Simulation"
-#     values:
-#       prev: "Get Ready"
-#       next: "Home"
-#   -
-#     scope:
-#       path: ""
-#       group: "Massive Simulation"
-#     values:
-#       next: "Home"
+groups:
+  -
+    name: Get Ready
+    next: Get Started
+  -
+    name: Get Started
+    prev: Get Ready
+    next: First Simulation
+  - 
+    name: Workspace
+    prev: Get Started
+    next: First Simulation
+  -
+    name: First Simulation
+    prev: Get Started
+    next: Intermediate
