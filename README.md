@@ -22,7 +22,7 @@
 
 ### Header
 
-Each page markdown can have a header:
+Each markdown page can have a header:
 ```
 ---
 group: Get Ready
@@ -38,9 +38,9 @@ order: 10
 * `order` is the position of the guide in the group.
   > Advised to go by increments of 10, so it's easier to insert pages later (with `order: 15` for example)
 
+The groups order is defined in `_config.yml`.
 * The last page of a group has a "next" link to the first page of the next group.
 * The first page of a group has a "prev" link to the last page of the previous group.
-The groups order is defined in `_config.yml`.
 
 > The header is optional, but without it the navigation box and previous/next links will not appear.
 
