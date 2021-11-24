@@ -1,4 +1,8 @@
-:arrow_left: [How to install SCANeR studio](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
+---
+group: Samples Pack
+short: Install the Samples Pack
+order: 10
+---
 
 # How to Install the Samples Pack.
 
@@ -47,6 +51,3 @@ To finialize the installation, run the newly extracted `samples-pack-utils/updat
 You have successfully installed the Samples Pack. 🎉
 
 You can launch SCANeR studio and start using the samples. Documentation for each sample can be accessed from the [home page](../../index.md).
-
-:arrow_right: [ADAS test and validation](../HT_ADAS/HT_ADAS_index.md)  
-:arrow_right: [Headlights test and validation](../HT_Evaluate_and_validate_AFS/HT_Evaluate_and_validate_AFS.md)
