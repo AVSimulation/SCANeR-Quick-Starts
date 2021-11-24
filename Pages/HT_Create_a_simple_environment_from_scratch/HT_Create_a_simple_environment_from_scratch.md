@@ -2,7 +2,6 @@
 group: First Simulation
 short: Create a road network
 order: 10
-prev: Get Started
 ---
 
 # How to create a road network from scratch?
