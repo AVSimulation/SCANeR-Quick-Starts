@@ -2,7 +2,6 @@
 group: Workspace
 short: Create a workspace
 order: 10
-prev: Get Started
 ---
 
 # How to create a new workspace
