@@ -28,3 +28,6 @@ groups:
   -
     name: Intermediate
     prev: First Simulation
+  -
+    name: Samples Pack
+    prev: Get Ready
