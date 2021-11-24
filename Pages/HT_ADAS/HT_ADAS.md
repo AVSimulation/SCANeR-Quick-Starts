@@ -262,11 +262,6 @@ int main(int argc, char* argv[])
 
 Congratulations in connecting your ADAS model.
 
-Check the other samples for ADAS:
-* [Lateral control]()
-* [Longitudinal control]()
-* [LKA & ACC]()
-
 Here are some suggestions to customize and enhance the sample:
 * Edit a component of the CALLAS Ego vehicle dynamics: [How to? edit CALLAS dynamics model]()
 * Use an external Edo vehicle dynamic model instead of CALLAS (CarSim, Vi-CRT, CarMaker, etc.): [How to? interface my dynamics model]()
