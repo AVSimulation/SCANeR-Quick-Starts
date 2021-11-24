@@ -2,7 +2,6 @@
 group: Workspace
 short: Switch workspaces
 order: 20
-next: First Simulation
 ---
 
 # How to switch between workspaces
