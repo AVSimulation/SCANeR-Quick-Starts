@@ -2,7 +2,6 @@
 group: Intermediate
 short: Visual configuration
 order: 10
-prev: First Simulation
 ---
 
 # How to configure the visual rendering?
