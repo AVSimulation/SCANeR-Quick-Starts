@@ -1,0 +1,33 @@
+<!-- prepare variables -->
+
+{% if page.group %}
+
+  {% assign group_pages = site.html_pages | where:"group",page.group | sort: 'order' %}
+  {% assign current_group = site.groups | where:"name",page.group | first %}
+
+  <!-- next/prev based on pages order -->
+  {% for item in group_pages %}
+    {% if item.short == page.short %}
+      {% unless forloop.first %}
+        {% assign prev = iterator %}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next = group_pages[forloop.index] %}
+      {% endunless %}
+    {% endif %}
+    {% assign iterator = item %}
+  {% endfor %}
+
+  <!-- if no next/prev page, link to first/last page of next/prev group -->
+  {% unless prev %}
+    {% if current_group.prev %}
+      {% assign prev = site.html_pages | where:"group",current_group.prev | sort: 'order' | last %}
+    {% endif %}
+  {% endunless %}
+  {% unless next %}
+    {% if current_group.next %}
+      {% assign next = site.html_pages | where:"group",current_group.next | sort: 'order' | first %}
+    {% endif %}
+  {% endunless %}
+
+{% endif %}
