@@ -20,19 +20,45 @@
       🖼️ ...
 ```
 
+### Header
+
+Each page markdown can have a header:
+```
+---
+group: Get Ready
+short: Download the Trial
+order: 10
+---
+```
+* `group` is the collection of guides this page belongs to ("Get Ready", "Get Started", etc...)
+  > * For each page of a group, the navigation box appears on the left and lists all member pages.  
+  > * The :arrow_left: "previous page" and :arrow_right: "next page" links are automatically created within a group.
+* `short` is the title of the article.
+  > This is the title used in the navigation box, and "previous/next" links.
+* `order` is the position of the guide in the group.
+  > Advised to go by increments of 10, so it's easier to insert pages later (with `order: 15` for example)
+
+* The last page of a group has a "next" link to the first page of the next group.
+* The first page of a group has a "prev" link to the last page of the previous group.
+The groups order is defined in `_config.yml`.
+
+> The header is optional, but without it the navigation box and previous/next links will not appear.
+
 ### Links
 
 Links between articles can use relative paths.  
-`[How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
-[How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+`[Download the Trial](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+[Download the Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 
-At the beginning of the article, add links to the articles with informations necessary prior.  
-`:arrow_left: [How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
-:arrow_left: [How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+Suggest another article with the hook icon:  
+`:leftwards_arrow_with_hook: [Download the Trial](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+:leftwards_arrow_with_hook: [Download the Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
 
-At the end of the article, add links to the articles that may interest the reader after.  
-`:arrow_right: [How to download the Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
-:arrow_right: [How to download the Trial version of SCANeR](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+Manual previous/next links (in case your page is not in a group):  
+`:arrow_left: [Download the Trial](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+:arrow_left: [Download the Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)  
+`:arrow_right: [Download the Trial](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)`  
+:arrow_right: [Download the Trial](./Pages/HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)  
 
 ### Videos
 
