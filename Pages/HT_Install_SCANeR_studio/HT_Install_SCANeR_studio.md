@@ -2,7 +2,6 @@
 group: Get Ready
 short: Install the Trial
 order: 20
-next: Get Started
 ---
 
 # How to install SCANeR?
