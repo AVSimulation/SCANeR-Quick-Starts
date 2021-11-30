@@ -4,7 +4,7 @@ short: Create a scenario
 order: 20
 ---
 
-# How to create a scenario based on your road network?
+# How to create a scenario based on your road network
 
 In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` takes place on a specific `Terrain` and involves different `Actors`. In this section, you will create your first `Scenario`. 
 
@@ -17,11 +17,11 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 
    ![New Scenario](./assets/New_Scenario.png)
 
-2. Select the `Terrain` on which you want your `Scenario` to take place. In my case, I'm choosing the `Terrain` I have created in the previous step.
+2. Select the `Terrain` on which you want your `Scenario` to take place. In my case, I'm choosing the `Terrain` I created in the previous step.
 
    ![Scenario Terrain](./assets/Scenario_Terrain.png)
 
-   > Do not worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and clicking on `Change Terrain`
+   > Don't worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and clicking on `Change Terrain`
    >
    > ![Change Terrain](./assets/Change_Terrain.png)
 
