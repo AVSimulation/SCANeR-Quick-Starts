@@ -4,13 +4,13 @@ short: Install the Samples Pack
 order: 10
 ---
 
-# How to Install the Samples Pack.
+# How to Install the Samples Pack
 
-The Sample Pack includes specific samples of SCANeR configuration, scenario and dependencies. Once loaded, the sample is *click to run*. In addition the sample manual explains exactly what happens during the scenario. It also explains how it was made, so you can quickly *understand*, and *make changes* to match your own application. The *source code* for API-based samples is included often using several of the programming languages.
+The Sample Pack includes specific samples of SCANeR configurations, scenarios and dependencies. Once loaded, the sample is *click to run*. In addition the sample manual explains exactly what happens during the scenario. It also explains how it was made, so you can quickly *understand*, and *make changes* to suit your own application. The *source code* for API-based samples is included, often using several of the programming languages.
 
 ![Samples Pack teaser](./assets/teaser.PNG)
 
-This guide explains how to get and install the Samples Pack.
+This guide will explain how to get and install the Samples Pack.
 
 * Pre-requisites
 * Step 1. Download
