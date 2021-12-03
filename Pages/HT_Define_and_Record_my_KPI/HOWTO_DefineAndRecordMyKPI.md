@@ -16,7 +16,7 @@ order: 30
 
 ​	In order to measure the driver's reaction time to brake when a pedestrian crosses the road, we need a scenario with a vehicle, a trigger and a pedestrian (Inactive) on the same road. The pedestrian must cross when the vehicle arrives.
 
-We will not explain here how to do it but here are the screenshots of the Top view and the script allowing to make this scenario base.
+We will not explain here how to do it but here are the screenshots of the Top view and the script for this scenario.
 
 ![PedXing TopView](./assets/PedXing_TopView.PNG)
 
@@ -24,7 +24,7 @@ We will not explain here how to do it but here are the screenshots of the Top vi
 
 ##### Define your KPI:
 
-​	To define your KPI in order to be accessible in the `ANALYSIS` mode, you need to send the information you want on an `exportChannel`.
+​	To define your KPI in order to be accessible in the `ANALYSIS` mode, you need to send the information you want through an `exportChannel`.
 > **Note:** An export channel is a range of open channels on SCANeR simulation bus for end-users to easily exchange custom I/O with SCANeR environments.
 
 To do so, you need to create a script:
@@ -33,7 +33,7 @@ To do so, you need to create a script:
 2. Add a `Step`.
 3. Then add a `Mice Script`.
 
-> **Note:** You can as well use a Python Script. All the documentation is available in the SCANeR studio documentation, part 2.20. PYTHON API.
+> **Note:** You can use a Python Script as well. All the documentation is available in the SCANeR studio documentation, part 2.20. PYTHON API.
 
 Once inside your new script, you will need to calculate the time between the moment when the driver brakes and the pedestrian crosses and send it to an `exportChannel`.
 
@@ -44,7 +44,7 @@ For this:
 
 2. Add a second `Variable`.
 
-   > These variables will be your time markers for the beginning of the vehicle braking and the beginning of the pedestrian movement. You can call them `t1` and `t2` for instance.
+   > These variables will be your time markers for the beginning of the vehicle braking and the beginning of the pedestrian movement. You can call them `t1` and `t2` for example.
 
 3. Then right click on `Script` again and insert a rule.
 
@@ -54,9 +54,9 @@ For this:
 
    This condition returns TRUE as soon as the pedestrian leaves the sidewalk and until it reaches the opposite sidewalk. It indicates if the pedestrian is crossing a road due to a `pedestrianCrossRoad` action.
 
-   > **Note:** All the conditions, actions and functions are describe in the Scripting Help.
+   > **Note:** All the conditions, actions and functions are described in the Scripting Help.
 
-5. Once the condition finished, insert a THEN action in the rule. This THEN action will use the function `setVariable` to give a value to one of your variable.
+5. Once the condition is created, insert a THEN action in the rule. This THEN action will use the function `setVariable` to give a value to one of your variable.
 
    ![setVariable](./assets/setVariable.PNG)
 
@@ -66,7 +66,7 @@ For this:
 
    ![addTimeMarker](./assets/addTimeMarker.PNG)
 
-7. You finished your first rule, let's create a second one. 
+7. You finished your first rule, now let's create a second one. 
 
 8. With a right click on this new rule, add a `is >` condition (Type: `BECOMES TRUE`).
    This condition will compare the function `getBrakePedal` with `0`.
@@ -75,7 +75,7 @@ For this:
 
    The `getBrakePedal` function returns the force applied on the brake pedal (0 if released).
 
-9. Associate the `getBrakePedal` function with the car.
+9. Associate the `getBrakePedal` function with the EGO vehicle.
 
    ![getBrakePedal](./assets/getBrakePedal.PNG)
 
@@ -85,13 +85,13 @@ For this:
 
     > **Note:** A `isTrue` condition always returns TRUE.
 
-12. Before adding an action, you must create a new `exportChannel`. To do this, click on `CONFIGURATION` above the toolbar and open the `Export channel Manager`. Thanks to the green **+**, you can add a new `exportChannel`.
+12. Before adding an action, you must create a new `exportChannel`. To do this, click on `CONFIGURATION` above the toolbar and open the `Export channel Manager`. With the green **+**, you can add a new `exportChannel`.
 
     ![ExportChannelsManager](./assets/ExportChannelsManager.PNG)
 
     > **Note:** Don't forget to add a Category and a Name.
 
-13. It is now time to add a THEN action in which we will use the `setExportChannelByName` action and the `exportChannel` you just create.
+13. Now it's time to add a THEN action in which we will use the `setExportChannelByName` action and the `exportChannel` you just create.
 
     ![exportChannel](./assets/exportChannel.PNG)
 
@@ -109,9 +109,9 @@ At the end, the script should look like this:
 
 ### Step 2. Record your simulation
 
-​	Congratulation, you have finished your scenario! It is time to play it, but before you do, make sure you start all the modules you need.
+​	Congratulation, you have finished your scenario! It is time to run it, but before you do, make sure you start all the modules you need.
 
-You will need the `ACQUISITION` and `MODELHANDLER` modules to drive the vehicle, `SCENARIO` to read the scripts, `VISUAL` to find your way in the scene, `WALKERTRAFFIC` to activate the pedestrian's artificial intelligence, and last but not least, the `RECORD` module. The `RECORD` module is used to record all the simulation data like the SCANeR network messages, where you can find your `exportChannel`. If the RECORD module is not run, it will be impossible to analyze the data later.
+You will need the `ACQUISITION` and `MODELHANDLER` modules to drive the vehicle, `SCENARIO` to read the scripts, `VISUAL` to find your way in the scene, `WALKERTRAFFIC` to activate the pedestrian's artificial intelligence, and last but not least, the `RECORD` module. The `RECORD` module is used to record all the simulation data such as the SCANeR network messages, where you can find your `exportChannel`. If the RECORD module is not activated, it will be impossible to analyze the data later.
 
 ![Modules](./assets/Modules.PNG)
 
@@ -119,9 +119,9 @@ You can now run the simulation. Be sure to brake in time! :innocent:
 
 ### Step 3. Access KPI data
 
-​	Once your simulation is complete, you will need to go in the `ANALYSIS` mode and and open the concerned simulation. 
+​	Once your simulation is complete, you will need to go in the `ANALYSIS` mode and and open the corresponding simulation. 
 
-Here you can find the replay of your simulation, your time markers and the graph containing the values of your `exportChannel`. 
+Here you can find the replay data of your simulation, your time markers and the graph containing the values of your `exportChannel`. 
 
 ![Analysis](./assets/Analysis.PNG)
 
@@ -129,9 +129,9 @@ To display the graph, go to `GRAPH` > `New graph...` and select your graph under
 
 ![Graph](./assets/Graph.PNG)
 
-> **Note:** If the graph is not display, check behind the time markers.
+> **Note:** If the graph is not displayed, check behind the time markers.
 
-> **Note:** Once your graph is displayed, you can extract its value into a CSV file. To do this, go to `GRAPH` > `Current graph` > `Export to csv...`
+> **Note:** Once your graph is displayed, you can export its value into a CSV file. To do this, go to `GRAPH` > `Current graph` > `Export to csv...`
 
 To come back to our example, the driver's reaction time to brake when a pedestrian crosses the road is the value available after the T2 time marker. 
 
@@ -141,11 +141,11 @@ Here, the driver brakes after 0.400331s.
 
 ### Conclusion
 
-​	To sum up, thanks to the `SCENARIO` mode and the scripts, you can define your KPI and send it to an `exportChannel`. This will allow you, if the `RECORD` module is started during the simulation, to analyze your KPI in the `ANALYSIS` mode.
+​	To sum up, thanks to the `SCENARIO` mode and the scripts, you can define your KPI and send it to an `exportChannel`. This will allow you, if the `RECORD` module is running during the simulation, to analyze your KPI in the `ANALYSIS` mode.
 
-I hope you enjoy this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
+I hope you enjoyed this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
 
-You've been up to the end of SCANeR User Guides.
-We thank you very much for your interest in our Products!
-To go further go back to the main page and check our **SCANeR Samples Pack** chapter 😊
+You've made it to the end of SCANeR User Guides.
+We thank you very much for your interest in our products!
+To go even further, head back to the main page and check out our **SCANeR Samples Pack** chapter 😊
 :arrow_right: [This way](../../index.md#SCANeRsamplespack)
