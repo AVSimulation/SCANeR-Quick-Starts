@@ -81,8 +81,11 @@ Congratulations, SCANeR is now installed and ready to run!
 ## License
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The SCANeR Trial installer includes an automatic 45 days license.
 =======
+=======
+>>>>>>> 222589ffbc7471fb2d1de99b1ae0bb02fa7bac35
 The SCANeR Trial installer includes an automatic 45 day license.
  
 :arrow_right: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
