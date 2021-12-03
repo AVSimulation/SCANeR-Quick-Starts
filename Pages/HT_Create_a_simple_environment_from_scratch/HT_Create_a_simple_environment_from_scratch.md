@@ -57,4 +57,6 @@ Let's jump into the guide!
 
 ![Export Parameters](./assets/Export_Parameters.png)
 
+> Note: In this menu, be sure NOT to check the box for `3D Objects`. In the simulation, 3D Objects are handled by a different module, and exporting them in the Terrain will cause them to duplicate and overlap.
+
 Congratulations you have created your own `Terrain`! Well done! 👍
