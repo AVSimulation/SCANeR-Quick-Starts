@@ -211,7 +211,9 @@ DataInterface* CabToModelCorrective_0	= Com_declareOutputData(SHM_MODELCABIN_CAB
 
 > *Network* and *Shared Memory* act and are use in the same way. But *Shared Memory* messages are only exchanged on the same computer, when *Network* messages can be exchanged on any computer of the [simulator's network](../HT_multi-machine/HT_multi-machine.md).
 
-* The Radar ID is set to 300000 because this is the default ID of the first radar sensor added to the scenario. To confirm your radar ID in SCANeR, check 
+* The Radar ID is set to 300000 because this is the default ID of the first radar sensor added to the scenario. To confirm your radar ID in SCANeR, check the `Sensors instances and process assignation` menu  
+
+![](./assets/sensorGlobalId.png "Sensor Global Id")
 
 ### Read & write
 
