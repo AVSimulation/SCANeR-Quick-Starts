@@ -31,5 +31,5 @@ You'll get the following result 😊
 
 You're all set and ready to run your first simulation 👍🏻
 
->Tip: to have a quick overview of the scenario storyboard and required modules, you can edit the 'Simulation' parameter by double clicking on it. You'll get the following information
+>Tip: to have a quick overview of the scenario storyboard and required modules, you can edit the 'Simulation' parameter by double clicking on it. You'll get the following information  
 > ![](./assets/ParameterSimulation.png)
