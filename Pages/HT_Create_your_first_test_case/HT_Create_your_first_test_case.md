@@ -21,11 +21,7 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 
    ![Scenario Terrain](./assets/Scenario_Terrain.png)
 
-<<<<<<< HEAD
-   > Don't worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and then clicking on `Change Terrain`
-=======
    > Don't worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and clicking on `Change Terrain`
->>>>>>> 05aa64e833d41a6ffae20d9c1b098a8e594e2c9e
    >
    > ![Change Terrain](./assets/Change_Terrain.png)
 
