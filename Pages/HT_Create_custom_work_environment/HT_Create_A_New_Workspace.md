@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 ---
 group: Workspace
 short: Create a workspace
 order: 10
 ---
-=======
-:arrow_left: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
->>>>>>> 1af8d4b47a7cba0a462e66dc495217cb07626015
 
 # How to create a new workspace
 
@@ -28,11 +24,11 @@ Enough chatter, let's jump into the guide! 😁
 
 ## Step 1. Open the Configuration Manager
 
-​	Click on `"CONFIGURATION" -> "Configuration Manager..."` and a window allowing you to manage you different Configurations will appear.
+Click on `"CONFIGURATION" -> "Configuration Manager..."` and a window allowing you to manage you different Configurations will appear.
 
 ![Configuration Manager Access](./assets/configurationManagerAccess.png)
 
-​	You can see your different available configurations here and switch between them.
+You can see your different available configurations here and switch between them.
 
 ![Configuration Manager](./assets/configurationManager.png)
 > Tip: When a module has its "Selected" checkbox ticked, it'll start when the supervisor clicks on the run simulator button. When a module has its "Auto Start" checkbox ticked, it'll automatically start when the configuration is loaded (click on OK).
@@ -55,10 +51,8 @@ Enough chatter, let's jump into the guide! 😁
 
 ## Step 3. Switch to your Configuration
 
-​	You can now select your newly created Configuration in the list and click on "Apply" in the bottom right corner of the window.
+You can now select your newly created Configuration in the list and click on "Apply" in the bottom right corner of the window.
 
-​	If you need more help about this step, you can check the guide about this topic [here](../HT_Change_work_environment/HT_Change_work_environment.md).
+If you need more help about this step, you can check the guide about this topic [here](../HT_Change_work_environment/HT_Change_work_environment.md).
 
 **Congratulations! You now have your own custom Configuration!**
-
-:arrow_right: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
