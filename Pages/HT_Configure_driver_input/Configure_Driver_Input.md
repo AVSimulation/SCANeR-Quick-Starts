@@ -18,6 +18,7 @@ This guide will explain how to configure driver input in SCANeR.
 - Step 4. Test the new mapping
 
 ## Step 1. Add the driver's acquisition module to your SCANeR workspace
+
 1.1 Open SCANeR on your system and go to `CONFIGURATION/Configuration Manager...`.
 ![](./assets/ConfigurationManager.png)
 
@@ -33,7 +34,8 @@ This guide will explain how to configure driver input in SCANeR.
 You have now the Acquisition module in your configuration ! 💪  
 Let's move on to step 2.
 
-## Step 2. Driver acquisition configuration file 
+## Step 2. Driver acquisition configuration file
+
 AVSimulation provides several driver acquisition configuration files. These are preconfigured in order to work with standard systems (Logitech, Fanatec, Sensodrive steering wheels, etc.). You are able to use these configuration files or tune them to fit your needs. 
 
 1. In order to change the configuration file, go to `CONFIGURATION/Configuration Manager...`.
@@ -53,6 +55,7 @@ If your system is not on the list or if you want to customize the mapping, check
 > AVSimulation can also help you to configure and tune your acquisition system 😀.
 
 ## Step 3. Modify the mapping
+
 In this step we will see how to modify the mappings for the most common driver inputs (Steering wheel, Pedals and Gearbox).
 
 1. In the Process Editor, click on the file icon next to .hdrv file name.
@@ -66,13 +69,14 @@ In this step we will see how to modify the mappings for the most common driver i
 ![](./assets/EditHDRV.png)
 
 3. Modify the mapping.
-  ### Step 3.1. Steering wheel
+
+### Step 3.1. Steering wheel
 
 There are 2 functions for steering (Steer left and Steer right).
 To change the mapping, double click on Steer left (or Steer right), you can then click on `other device...` or `Keyboard` and press the key you want to use to steer left
  ![](./assets/SteerLeft.png)
  
- ### Step 3.2. Pedals
+### Step 3.2. Pedals
  
 You can repeat the above step for Pedal functions (Brake, Gas, Handbrake and Clutch).
 > For Brake, Gas and Clutch, it is possible to use the `smooth` option to have a value that changes smoothly from 0 to 1.
@@ -80,7 +84,7 @@ You can repeat the above step for Pedal functions (Brake, Gas, Handbrake and Clu
 > A good calibration allows a better feeling and immersion for the driver.
 ![](./assets/Calibration.png)
 
- ### Step 3.3. Gearbox
+### Step 3.3. Gearbox
 
 In SCANeR you can choose whether you drive an antomatic gearbox, manual gearbox or sequential gearbox in the `Options` area. Once you have chosen, you can map buttons in the `Function mapping` area to change the mode (e.g. Switch between Automatic and Manual) or to change the gearbox status (e.g. from Drive to Park for an automatic gearbox).
 
