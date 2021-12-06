@@ -50,10 +50,4 @@ The path to the data folder of your `Configuration` will be found automatically 
 
 You're all set! You can now run your first simulation.
 
-<<<<<<< HEAD
-If you need help to navigate through the basic interfaces of SCANeR studio, read this: [Navigate the user interface](../HT_Navigate/HT_Navigate.md) 😊
-=======
 If you need help navigating through the basic interfaces of SCANeR studio, read this: [Navigate the user interface](../HT_Navigate/HT_Navigate.md) 😊
-
-:arrow_right: [Navigate the user interface](../HT_Navigate/HT_Navigate.md)
->>>>>>> f462757dcede1ba53fcb1d6b6c96f9bf9a78dc7d
