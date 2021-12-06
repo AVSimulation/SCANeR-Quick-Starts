@@ -49,7 +49,4 @@ Simply enter your information, click on `SEND` and you are ready to move to the 
 
 To install SCANeR, follow the instructions in the following guide: [Install SCANeR](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md)
 
-<<<<<<< HEAD
-Should you have any technical questions please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight and Trial extension if you need it!
-=======
 Should you have any technical questions, please feel free to contact our technical support at [support-scaner@avsimulation.fr](support-scaner@avsimulation.fr). We will be happy to provide you with additional demo content, technical insight, and if you need, an extension of the Trial!
