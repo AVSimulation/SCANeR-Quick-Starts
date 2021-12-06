@@ -1,3 +1,9 @@
+---
+group: Get Ready
+short: Download the Trial
+order: 10
+---
+
 # How to download the evaluation version of SCANeR
 
 So you want to accelerate and secure the development of tomorrow's mobility solutions? Downloading SCANeR is the first step to achieving this goal 😊
