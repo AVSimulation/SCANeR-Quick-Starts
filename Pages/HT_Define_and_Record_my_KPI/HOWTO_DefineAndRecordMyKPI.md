@@ -6,7 +6,7 @@ order: 30
 
 # How to define and record my KPI
 
-​	In this guide we will see how to define and record a **Key Performance Indicator** (KPI). The KPI we will analyze for this example is the driver's reaction time to brake when a pedestrian crosses the road. To do this, we will follow some simple steps. We will first see how to define the KPI in the `SCENARIO` mode, record the `SIMULATION`, and then analyze it using the `ANALYSIS` mode.
+In this guide we will see how to define and record a **Key Performance Indicator** (KPI). The KPI we will analyze for this example is the driver's reaction time to brake when a pedestrian crosses the road. To do this, we will follow some simple steps. We will first see how to define the KPI in the `SCENARIO` mode, record the `SIMULATION`, and then analyze it using the `ANALYSIS` mode.
 
 * **Step 1.** Setup your scenario
 * **Step 2.** Record your simulation
@@ -14,7 +14,7 @@ order: 30
 
 ### Step 1. Setup your scenario
 
-​	In order to measure the driver's reaction time to brake when a pedestrian crosses the road, we need a scenario with a vehicle, a trigger and a pedestrian (Inactive) on the same road. The pedestrian must cross when the vehicle arrives.
+In order to measure the driver's reaction time to brake when a pedestrian crosses the road, we need a scenario with a vehicle, a trigger and a pedestrian (Inactive) on the same road. The pedestrian must cross when the vehicle arrives.
 
 We will not explain here how to do it but here are the screenshots of the Top view and the script for this scenario.
 
@@ -24,7 +24,7 @@ We will not explain here how to do it but here are the screenshots of the Top vi
 
 ##### Define your KPI:
 
-​	To define your KPI in order to be accessible in the `ANALYSIS` mode, you need to send the information you want through an `exportChannel`.
+To define your KPI in order to be accessible in the `ANALYSIS` mode, you need to send the information you want through an `exportChannel`.
 > **Note:** An export channel is a range of open channels on SCANeR simulation bus for end-users to easily exchange custom I/O with SCANeR environments.
 
 To do so, you need to create a script:
@@ -39,7 +39,7 @@ Once inside your new script, you will need to calculate the time between the mom
 
 For this:
 
-1. Right click on `Script` and insert a `Variable`.
+1. Right click on `Script` and insert a `Variable`.  
    ![Insert Variable](./assets/InsertVariable.PNG)
 
 2. Add a second `Variable`.
@@ -99,7 +99,7 @@ For this:
 
     The Value here uses the `-` (minus) function to subtract the two variables.
 
-​	We are done with the script, we just calculate the time between the moment when the driver brakes and the pedestrian crosses and send it to an `exportChannel`.
+We are done with the script, we just calculate the time between the moment when the driver brakes and the pedestrian crosses and send it to an `exportChannel`.
 
 At the end, the script should look like this:
 
@@ -109,7 +109,7 @@ At the end, the script should look like this:
 
 ### Step 2. Record your simulation
 
-​	Congratulation, you have finished your scenario! It is time to run it, but before you do, make sure you start all the modules you need.
+Congratulation, you have finished your scenario! It is time to run it, but before you do, make sure you start all the modules you need.
 
 You will need the `ACQUISITION` and `MODELHANDLER` modules to drive the vehicle, `SCENARIO` to read the scripts, `VISUAL` to find your way in the scene, `WALKERTRAFFIC` to activate the pedestrian's artificial intelligence, and last but not least, the `RECORD` module. The `RECORD` module is used to record all the simulation data such as the SCANeR network messages, where you can find your `exportChannel`. If the RECORD module is not activated, it will be impossible to analyze the data later.
 
@@ -119,7 +119,7 @@ You can now run the simulation. Be sure to brake in time! :innocent:
 
 ### Step 3. Access KPI data
 
-​	Once your simulation is complete, you will need to go in the `ANALYSIS` mode and and open the corresponding simulation. 
+Once your simulation is complete, you will need to go in the `ANALYSIS` mode and and open the corresponding simulation. 
 
 Here you can find the replay data of your simulation, your time markers and the graph containing the values of your `exportChannel`. 
 
@@ -141,7 +141,7 @@ Here, the driver brakes after 0.400331s.
 
 ### Conclusion
 
-​	To sum up, thanks to the `SCENARIO` mode and the scripts, you can define your KPI and send it to an `exportChannel`. This will allow you, if the `RECORD` module is running during the simulation, to analyze your KPI in the `ANALYSIS` mode.
+To sum up, thanks to the `SCENARIO` mode and the scripts, you can define your KPI and send it to an `exportChannel`. This will allow you, if the `RECORD` module is running during the simulation, to analyze your KPI in the `ANALYSIS` mode.
 
 I hope you enjoyed this tutorial! If you like this kind of content, check out our [SCANER SOFTWARE RESOURCES](https://avsguillaume.github.io/Samples-Pack/) for more. :wink:
 
