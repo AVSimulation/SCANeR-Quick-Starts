@@ -21,9 +21,9 @@ For this SCANeR application we display SCANeR results within point-&-click web i
 
 We deliver with this sample the 60 SCANeR results, so you just have to enjoy the view 😊
 
-* Double click on `.\data\COMPUTE_LOCAL\explore\AEB\resultsAnalysis.bat`
+* Double click on `.\bin\x64\analytics\AEB\resultsAnalysis.bat`  
 
-Principle: it generates a csv file next to him named `results.csv`, it fills it thanks to SCANeR standard results available in `.\data\COMPUTE_LOCAL\explore\AEB\results`. It launches the point-&-click web interface and, load and display the results.
+Principle: it generates a csv file next to him named `results.csv`, it fills it thanks to SCANeR standard results available in `.\bin\x64\analytics\AEB\results`. It launches the point-&-click web interface and, load and display the results.
 
 > Tips,
 > * If necessary do not hesitate to refresh the web interface.
