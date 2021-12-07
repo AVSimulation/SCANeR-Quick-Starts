@@ -22,7 +22,11 @@ You don't have these already? [Get your Trial version of SCANeR](https://www.avs
 
 > **Tip:** If you do not have yet all of the above content no worries 😉  
 > You can download and use our prepared one: [AEB test case](https://stockage.scanersimulation.com/Evaluation/2021/Massive_Simulation_Pack.7z)  
-> This is the data we'll use in steps below :thumbsup:
+> You can get the SCANeR ready-to-use environment from our github space
+> ```C
+> git clone -b 2022 https://github.com/AVSimulation/SCANeR-Quick-Starts.git
+> ```
+> For this guide we'll use `SAMPLE_COMPUTE_LOCAL` and `SAMPLE_COMPUTE_HPC` :thumbsup:
 
 You will also need a HPC platform. For the exercise, a simple Linux computer is enough.
 
