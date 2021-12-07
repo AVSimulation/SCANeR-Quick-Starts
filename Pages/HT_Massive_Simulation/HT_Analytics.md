@@ -17,9 +17,9 @@ For this SCANeR application we display SCANeR results within point-&-click web i
 
 ![](./assets/Analytics.png)
 
-## How to use it?
-
 We deliver with this sample the 60 SCANeR results, so you just have to enjoy the view 😊
+
+## How to use it under Windows?
 
 * Double click on `.\bin\x64\analytics\AEB\resultsAnalysis.bat`  
 
@@ -29,16 +29,18 @@ Principle: it generates a csv file next to him named `results.csv`, it fills it 
 > * If necessary do not hesitate to refresh the web interface.
 > * The web server is by default on [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
-## How to make your own?
+## How to use it under Ubuntu?
 
-* Open in your favorite text editor `resultsAnalysis.bat`
-* Line 2, set the arguments of `get_results.py` to use your data
-
+* Move to `.\bin\Linux\analytics\AEB`
+Execute the following command  
 ```C
-python get_results.py <path of DoE  file> <path of SCANeR results’ folder>
-```
+python3 get_results.py
+``` 
 
-E.g.
+Principle: it generates a csv file next to him named `results.csv`, it fills it thanks to SCANeR standard results available in `.\bin\Linux\analytics\AEB\results`.
+
+* To launch the point-&-click web interface and, load and display the results execute the following command
 ```C
-python get_results.py ".\EVAL_ADAS_CTRL\Design of Experiment 1\testcases.xtc" results
-```
+python3 display.py
+```  
+* To display the results open your favorite web navigator and go to [http://127.0.0.1:8050](http://127.0.0.1:8050)
