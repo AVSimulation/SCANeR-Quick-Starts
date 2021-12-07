@@ -1,6 +1,6 @@
 ---
 group: Massive Simulation
-short: Generate scenarios
+short: Generate test cases
 order: 20
 ---
 
