@@ -21,7 +21,6 @@ It requires
 You don't have these already? [Get your Trial version of SCANeR](https://www.avsimulation.com/free-download/).
 
 > **Tip:** If you do not have yet all of the above content no worries 😉  
-> You can download and use our prepared one: [AEB test case](https://stockage.scanersimulation.com/Evaluation/2021/Massive_Simulation_Pack.7z)  
 > You can get the SCANeR ready-to-use environment from our github space
 > ```C
 > git clone -b 2022 https://github.com/AVSimulation/SCANeR-Quick-Starts.git
