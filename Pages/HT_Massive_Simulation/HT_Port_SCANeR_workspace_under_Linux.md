@@ -119,7 +119,7 @@ In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu
 > ```C
 > ADD_SUBDIRECTORY(<your_project_name>)
 > ```
-> `<your_project_name>` is `SUT_AEB` in our case
+> `<your_project_name>` is `SUT_AEB` in our case  
 > 2. Create in your project a new CMake file `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines  
 > ```C
 > SET(TARGET_NAME “SUT_AEB”)  
