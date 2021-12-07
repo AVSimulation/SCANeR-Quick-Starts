@@ -11,7 +11,7 @@ This guide will walk through the Massive Simulation workflow in SCANeR:
 * [Guide 2. Generate test cases on Windows](HT_Generate_test_cases.md)
 * [Guide 3. Port SCANeR workspace on Linux](HT_Port_SCANeR_workspace_under_Linux.md)
 * [Guide 4. Run test cases on Linux](HT_Validate_test_cases_under_Linux.md)
-* [Guide 5. SCANeR Analytics](HT_Analytics.md)
+* [Guide 5. SCANeR Analytics](HT_Analytics.md)  
 Optional
 * [Guide 6. Run SCANeR within Docker](HT_Docker_build_run.md)
 
