@@ -51,7 +51,11 @@ In our case we
 To make it clear we rename the `SAMPLE_COMPUTE_LOCAL` to `SAMPLE_COMPUTE_HPC` under:
 * `.\APIs`: contains your system under test interface
 * `.\config`: contains your SCANeR environment
-* `.\data`: contains your SCANeR data
+* `.\data`: contains your SCANeR assets
+
+> Tips: Both SCANeR workspaces are identical in terms of environment and assets. Nevertheless as the OS are different each has specificities as:
+> `SAMPLE_COMPUTE_LOCAL`: pathes to SCANeR Windows processes, cpp project's file setup for Windows, SUT built and delivered for Windows.
+> `SAMPLE_COMPUTE_HPC`: pathes to SCANeR Ubuntu processes, cpp project's file setup for Ubuntu, SUT built and delivered for Ubuntu.
 
 ![](./assets/Linux2.png)
 
@@ -89,25 +93,6 @@ In our case the sample we deliver is under: `.\APIs\samples\ScanerAPI\SUT_AEB`
 
 > Tips, all details you need to build up your system under Linux are available into `README-202X.Linux`
 
-To add a project into the compilation list simply:
-1. Edit `.\APIs\samples\ScanerAPI\CMakeLists.txt` and add the line
-```C
-ADD_SUBDIRECTORY(<your_project_name>)
-```
-
-> Tips, `<your_project_name>` is `SUT_AEB` in our case
-
-2. Create in your project a new CMake file `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines
-
-```C
-SET(TARGET_NAME “SUT_AEB”)  
-ADD_EXECUTABLE(${TARGET_NAME}  
-<your_c_file.cpp>  
-)  
-TARGET_LINK_LIBRARIES(${TARGET_NAME}  
-${SCANeR_API_LIB})  
-```
-
 Your system under test is now ready to build under Linux!  
 To compile it, go to `SCANeRstudio_202X/APIs` and execute  
 ```C
@@ -122,13 +107,29 @@ make
 
 ![](./assets/make.png)
 
-The default output of the executable is under `.\APIs\bin\Linux\<distribution>\<version>\`  
-In our case `<distribution>` is ubuntu, `<version>` is 20.04.  
-Copy and paste the executable into your SCANeR workspace  
+The default output of the executable is under `.\data\<your_workspace>\bin\<distribution>\<version>\`  
+In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu, `<version>` is 20.04.  
 
 ![](./assets/executable.png)
 
-> Tips, this architecture is a generic one. As each IT infrastructure is different you can of course decide to implement it in another way 😉 should you have any related question please feel free to ask us! Put the system under test under SCANeR workspace is convenient for later application when running SCANeR in a container. But let’s see that later.
+> Tips, this architecture is a generic one. As each IT infrastructure is different you can of course decide to implement it in another way 😉 should you have any related question please feel free to ask us! Put the system under test under SCANeR workspace is convenient for later application when running SCANeR in a container. But let’s see that later.  
+
+> Tips,to add a project into the compilation list simply:
+> 1. Edit `.\APIs\samples\ScanerAPI\CMakeLists.txt` and add the line
+> ```C
+> ADD_SUBDIRECTORY(<your_project_name>)
+> ```
+> `<your_project_name>` is `SUT_AEB` in our case
+> 2. Create in your project a new CMake file `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines
+> ```C
+> SET(TARGET_NAME “SUT_AEB”)  
+> ADD_EXECUTABLE(${TARGET_NAME}  
+> <your_c_file.cpp>  
+> )  
+> TARGET_LINK_LIBRARIES(${TARGET_NAME}  
+> ${SCANeR_API_LIB})  
+> ```
+> `<your_c_file.cpp>` is `sut_aeb.cpp` in our case
 
 After these steps, you can make sure that you’re all set by editing `SCANeRconfigurator`.  
 You should have the following result if you use the configuration we deliver.  
