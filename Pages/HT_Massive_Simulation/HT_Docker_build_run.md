@@ -12,6 +12,10 @@ With this guide we'll see
 - Step 1.	Build a SCANeR Docker image
 - Step 2.	Run the SCANeR Docker image
 
+**Prerequisite**: Have a valid installation of Docker Engine 😉  
+More information on: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)  
+> Tips, SCANeR is currently compatible with Ubuntu Focal 20.04 (LTS) and Centos 7
+
 ## Step 1. Build a SCANeR Docker image
 
 Great news! SCANeR installer comes with all files you need 😊  
