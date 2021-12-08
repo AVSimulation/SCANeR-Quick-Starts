@@ -1,6 +1,10 @@
-:arrow_left: [Create a road network from scratch](../HT_Create_a_simple_environment_from_scratch/HT_Create_a_simple_environment_from_scratch.md)
+---
+group: First Simulation
+short: Create a scenario
+order: 20
+---
 
-# How to create a scenario based on your road network?
+# How to create a scenario based on your road network
 
 In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` takes place on a specific `Terrain` and involves different `Actors`. In this section, you will create your first `Scenario`. 
 
@@ -13,11 +17,11 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 
    ![New Scenario](./assets/New_Scenario.png)
 
-2. Select the `Terrain` on which you want your `Scenario` to take place. In my case, I'm choosing the `Terrain` I have created in the previous step.
+2. Select the `Terrain` on which you want your `Scenario` to take place. In my case, I'm choosing the `Terrain` I created in the previous step.
 
    ![Scenario Terrain](./assets/Scenario_Terrain.png)
 
-   > Do not worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and clicking on `Change Terrain`
+   > Don't worry, you can always change the `Terrain` by right clicking on `Ground` in the parameters and clicking on `Change Terrain`
    >
    > ![Change Terrain](./assets/Change_Terrain.png)
 
@@ -29,7 +33,7 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 
    > The type of vehicle here is a CALLAS vehicle. This is a vehicle that has a full vehicle dynamics. There are other types of vehicles, and they are all in the resources.
 
-2. Add other actors is your scenario. You can add Cars, Pedestrians, Trucks, Buses, Motorcycles, and many more. Here is the result I get with my `Scenario`:
+2. Add other actors to your scenario. You can add Cars, Pedestrians, Trucks, Buses, Motorcycles, and many more. Here is the result I get with my `Scenario`:
 
    ![Scenario Result](./assets/Scenario_Result.png)
 
@@ -42,6 +46,3 @@ In SCANeR, every test case has to be created as a `Scenario`. Each `Scenario` ta
 Congratulations! You have created your first `Scenario` 👍
 
 Try to execute it by following our tutorial : [Run a simulation](../HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
-
-:arrow_right: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
-

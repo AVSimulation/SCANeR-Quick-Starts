@@ -1,3 +1,7 @@
+---
+short: Home
+---
+
 <table id="welcome">
   <tr>
     <td width="300px">
@@ -6,14 +10,14 @@
       </p>
     </td>
     <td valign="top">
-      Welcome to the SCANeR Quick Starts page. You will find here the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we will accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
+      Welcome to the SCANeR Quick Starts page. Here you will find the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we'll accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
     </td>
   </tr>
 </table>
 
-If you want to go further with SCANeR, register to one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
+If you want to go further with SCANeR, register for one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
-Help us to improve and enrich our content by sending us your feedback and push your own contributions: [View on GitHub](https://github.com/AVSimulation/SCANeR-Quick-Starts)
+Help us improve and enrich our content by sending us your feedback and adding your own contributions: [View on GitHub](https://github.com/AVSimulation/SCANeR-Quick-Starts)
 
 ## SCANeR
 
@@ -30,7 +34,7 @@ Help us to improve and enrich our content by sending us your feedback and push y
 * [Run a simulation](./Pages/HT_Run_a_simulation_good_practices/HT_Run_a_simulation_good_practices.md)
 * [Replay a simulation](./Pages/HT_Replay_Simulation/HT_Replay_Simulation.md)
 
-> Tips, you've already been working with SCANeR and want to know how to switch between SCANeR workspaces?
+> Tips: You've been working with SCANeR and want to know how to switch between SCANeR workspaces? Check out these links.
 > 
 > * [Create a new workspace](./Pages/HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) 
 > * [Switch between workspaces](./Pages/HT_Change_work_environment/HT_Change_work_environment.md)
@@ -44,13 +48,13 @@ Help us to improve and enrich our content by sending us your feedback and push y
 
 ### Intermediate
 
-* [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md): adjust the set up to best fit your needs
+* [Configure the visual rendering](./Pages/HT_configure_visual/HT_configure_visual.md): adjust the setup to best fit your needs
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md): select your own commands to drive
 * [Define metrics](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md): design your own Key Performance Indicators
 
 ## SCANeR Samples Pack
 
-The Samples-Pack contains about 30 ready-to-use SCANeR configurations. Created by our engineers it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
+The Samples-Pack contains about 30 ready-to-use SCANeR configurations. Created by our engineers, it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
 If you would like to see new demonstrations added to the Samples-Pack please contact us or open a request on [GitHub page](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
 
 ### Get ready

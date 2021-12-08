@@ -8,20 +8,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
-    <style>
-      #menu {
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgba(255, 255, 255, 0.5);
-        text-align: center;
-        font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-        font-weight:bold;
-      }
-    </style>
 
-{% seo %}
+    {% seo %}
   </head>
 
   <body>
@@ -36,9 +24,9 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           
-          <p id="menu">
+          <div id="menu">
             <a href="{{site.baseurl}}/">Home</a>
-          </p>
+          </div>
           
           <!--<section id="nav">
             <a class="nav_home" href="{{site.baseurl}}/">Home</a>
@@ -52,11 +40,18 @@
           {% endif %}
         </header>
     </div>
+    
+    {% include auto_init.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+      
+      {% include auto_nav.html %}
+      
       <section id="main_content" class="inner">
+        {% include auto_prev.html %}
         {{ content }}
+        {% include auto_next.html %}
       </section>
     </div>
 
@@ -73,16 +68,11 @@
         {% endif %}
       </footer>
     </div>
-
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+    
+    <!-- Umami analytics  -->
+    {%- if jekyll.environment == 'production' -%}
+        <script async defer data-website-id="60b78dc8-9b55-4e12-aa04-417757424f94" src="https://scaner-quick-starts-analytics.herokuapp.com/umami.js"></script>
+    {%- endif -%}
+    
   </body>
 </html>

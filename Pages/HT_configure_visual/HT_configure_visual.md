@@ -1,8 +1,12 @@
-:arrow_left: [Create a situation](../HT_Create_a_MICE_script/HT_Create_a_MICE_script.md)
+---
+group: Intermediate
+short: Visual configuration
+order: 10
+---
 
-# How to configure the visual rendering?
+# How to configure the visual rendering
 
-SCANeR is able to render the simulated scene on any projection system, including single, multiple screens, projector(s) with or without warping/blending or head-mounted display (VR), flat or curved screens, etc.
+SCANeR is able to render the simulated scene on any projection system, including single or multi-screen displays, projector(s) with or without warping/blending or head-mounted displays (VR), flat or curved monitors, etc.
 
 This guide helps you configure the visual rendering for your display system.
 
@@ -15,12 +19,12 @@ This guide helps you configure the visual rendering for your display system.
 
 ## Rendering engines
 
-In SCANeR it is possible to render using **Open Scene Graph** and/or **Unreal** rendering engines.
-The current guide is based on SCANeR **Open Scene Graph** visual.
-SCANeR visual is defined by one instance of the *Visual.exe* executable which is commonly named VISUAL module.
+In SCANeR it is possible to render using the **Open Scene Graph** and/or **Unreal** rendering engines.
+The current guide is based on SCANeR's **Open Scene Graph** visual.
+SCANeR visual is defined by one instance of the *Visual.exe* executable which is commonly named the VISUAL module.
 > 1 VISUAL module runs on one graphic processing unit (GPU).
-> 1 VISUAL module can be splitted into multiple channels so with 1 GPU you can have multiple displays ([as our SimEASY Driving Simulator for example](https://www.avsimulation.com/simulators/simeasy/)
-> 1 visual license is included with [Foundation Pack](https://www.avsimulation.com/pack-foundation/). We can add as many visual license you need, simply ask us 😉
+> 1 VISUAL module can be split into multiple channels so with 1 GPU you can have multiple displays ([as with our SimEASY Driving Simulator for example](https://www.avsimulation.com/simulators/simeasy/)
+> 1 visual license is included with the [Foundation Pack](https://www.avsimulation.com/pack-foundation/). We can add as many visual licenses as you need, just ask us 😉
 
 ![](./assets/SimEASY.png)
 
@@ -31,10 +35,10 @@ The visual rendering of the simulation is managed by the module "Visual.exe", us
 In order to have your own visual module configuration, start by [adding a new visual module in your configuration](../HT_Add_module/Add_module.md)*.
 * The *executable* of the module should be `${STUDIO_PATH}/SCANeRstudio_2021/bin/x64/visual.exe`
 * The *process name* of the module is your choice.
-  Prefer capitalized names without white space.
+  We recommend capitalized names without white space.
   For clarity, start with "VISUAL_" followed by the name of your simulator, work station or display system.
 * The *configuration file* can be any text file. We recommand using the default name `observer.cfg`, or at least one that starts with `observer...`.
-> **Tip:** In the *Process Editor*, click *VISUAL* in the list of SCANeR modules in order to pre-fill the process parameters. Then adjust to your liking.
+> **Tip:** In the *Process Editor*, click *VISUAL* in the list of SCANeR modules in order to generate the default the process parameters. Then adjust to your liking.
 
 ![Add a new visual module](./assets/v1.png)
 
@@ -52,7 +56,7 @@ The file is divided in sections.
 [VISUAL]
 ; settings that will be applied to the visual module called "VISUAL"
 [VISUAL:1]
-; settings that will be applied to the pipe #1 of "VISUAL"
+; settings that will be applied to pipe #1 of "VISUAL"
 [VISUAL:1.1]
 ; settings that will be applied to the channel #1 of pipe #1 of "VISUAL"
 
@@ -62,7 +66,7 @@ The file is divided in sections.
 Unless a setting is defined in a lower hierarchy level, the value is inherited from higher level of hierarchy.  
 `[Common]` > `[VISUAL]` > `[VISUAL:1]` > `[VISUAL:1.1]`
 
-Below the existing sections, create new sections that matches your own visual module name.
+Below the existing sections, create new sections that match your own visual module name.
 ```
 ; [...]
 
@@ -82,7 +86,7 @@ Here the first settings are added:
 * *VehicleId = 0*: The view will track the "ego" vehicle (of ID 0)
 * *NbChannels = 1*: There is only one channel in the first pipe.
 
-> Tips, the name of a section is case sensitive with the name of the visual into your SCANeR workspace.
+> Note: the name of a section is case sensitive with the name of the visual into your SCANeR workspace.
 
 ## Step 3. View geometry
 
@@ -100,7 +104,7 @@ Resolution  = 1920 1080
 ;[...]
 ```
 
-### Field of view
+### Field of view (FOV)
 
 The *Visual Channel* describes the field of view by the screen geometry relative to the eye:
 * *ScreenDist*: The distance between the human driver's eye and the display.
@@ -110,7 +114,7 @@ The *Visual Channel* describes the field of view by the screen geometry relative
 
 In principle the settings values should be the result of measurement on the actual displays, or from the simulator's CAD.
 
-1. Define the horizontal FOV from measurement or CAD.
+1. Define the horizontal FOV from measurements or CAD.
 2. Compute the vertical FOV to apply.
 
 Doing so ensures that the aspect ratio of the screen (e.g. 16:9) is respected.
@@ -134,7 +138,5 @@ ScreenLeft    = -0.28868
 
 ## Go further
 
-Congratulations for setting your first custom Visual!
+Congratulations on setting your first custom Visual!
 If you want to go further and add mirrors and multi-screens, check the [Advanced visual rendering configuration guide](./HT_configure_visual_advanced.md)
-
-:arrow_right: [Configure driver’s inputs: select your own commands to drive](../HT_Configure_driver_input/Configure_Driver_Input.md)

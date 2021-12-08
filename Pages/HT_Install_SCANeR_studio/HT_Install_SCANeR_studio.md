@@ -1,14 +1,18 @@
-:arrow_left: [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md)
+---
+group: Get Ready
+short: Install the Trial
+order: 20
+---
 
-# How to install SCANeR?
+# How to install SCANeR
 
-This guide walks you through the installation process for SCANeR.
+This guide will walk you through the installation process for SCANeR.
 
 ## Pre-requisites
 
 If you don't have a *SCANeR studio installer* yet, check out [Download the evaluation version of SCANeR](../HT_Download_Trial_SCANeR/HT_Download_Trial_SCANeR.md).
 
-The installation of SCANeR requires full administrator rights.
+The installation of SCANeR requires full administrator privileges.
 
 ## Install SCANeR
 
@@ -26,7 +30,7 @@ The installation of SCANeR requires full administrator rights.
 
 * Leave all components selected
 
-> **Info:** Items include simulation data, configuration files, APIs samples and dependancies for the licensing system, sound and video management.
+> **Info:** Items include simulation data, configuration files, APIs samples and dependencies for the licensing system, sound and video management.
 
 * Click ```Next```
 
@@ -34,15 +38,15 @@ The installation of SCANeR requires full administrator rights.
 
 * Choose the installation folder
 
-> **Note:** We recommend to install SCANeR studio on a different different disk than the system (e.g. ```D:``` instead of ```C:```).
+> **Note:** We recommend installing SCANeR studio on a different disk than the operating system (e.g. ```D:``` instead of ```C:```).
 
 * Click ```Next```
 
 ![Installer: Share Folder](./assets/i5b.png)
 
-* Sharing the installation folder is required in a multi-computer configuration.
+* Sharing the installation folder is required for a multi-computer configuration.
 
-> **Info:** SCANeR studio can work in multi-machine on any architecture (workstation, simulator, HiL, Cloud) as long as all nodes (PC or VM) are on the same local network.
+> **Info:**  SCANeR can utilize a multi-machine configuration on any architecture (workstation, simulator, HiL, Cloud) as long as all nodes (PC or VM) are on the same local network.
 
 * Click ```Next```
 
@@ -76,6 +80,4 @@ Congratulations, SCANeR is now installed and ready to run!
 
 ## License
 
-The SCANeR Trial installer includes an automatic 45 days license.
- 
-:arrow_right: [First launch](../HT_FirstLaunch/HT_FirstLaunch.md)
+The SCANeR Trial installer includes an automatic 45 day license.

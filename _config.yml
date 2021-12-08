@@ -6,5 +6,28 @@ plugins:
   - jemoji
 github:
   repository_url: https://github.com/AVSimulation/SCANeR-Quick-Starts/tree/Published
-  zip_url: https://github.com/AVSimulation/SCANeR-Samples-Pack/releases/download/2021.2r1/Samples-Pack-2021.2r1.zip
+  zip_url: https://stockage.scanersimulation.com/Evaluation/2021/Samples-Pack-2021.2r2.zip
   youtube_url: https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA
+
+groups:
+  -
+    name: Get Ready
+    next: Get Started
+  -
+    name: Get Started
+    prev: Get Ready
+    next: First Simulation
+  - 
+    name: Workspace
+    prev: Get Started
+    next: First Simulation
+  -
+    name: First Simulation
+    prev: Get Started
+    next: Intermediate
+  -
+    name: Intermediate
+    prev: First Simulation
+  -
+    name: Samples Pack
+    prev: Get Ready
