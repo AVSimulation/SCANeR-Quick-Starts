@@ -4,7 +4,7 @@ short: Analyze
 order: 50
 ---
 
-# Guide 5. How to analyse all my results
+# How to analyse all my results
 
 Once the simulations have been executed, you’ll get all test cases results (60 in our case).  
 To analyze case by case scenario SCANeR’s users can use SCANeR studio standard “dashboard” (Analyzing Tools for familiar users 😉).  
