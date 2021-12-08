@@ -4,7 +4,7 @@ short: Validate workspace
 order: 40
 ---
 
-# Guide 4. How to validate the new SCANeR workspace for Linux before to run it on HPC
+# How to validate the new SCANeR workspace for Linux before to run it on HPC
 
 Perform local test enables you to make sure that you did not miss anything before to run Massive Simulation.  
 It’s easy, simply run your test cases with SCANeR compute. To do so run  
