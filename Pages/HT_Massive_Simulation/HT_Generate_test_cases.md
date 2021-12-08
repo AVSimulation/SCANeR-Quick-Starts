@@ -4,7 +4,7 @@ short: Generate test cases
 order: 20
 ---
 
-# Guide 2. How to generate known and unknown test cases?
+# How to generate known and unknown test cases?
 
 For Massive Simulation application you will need a list of scenarios to test and validate your systems under test in known and unknow situations.  
 Thanks to SCANeR studio you can prepare template scenario with parameters, criteria of success, failures and so on.  
