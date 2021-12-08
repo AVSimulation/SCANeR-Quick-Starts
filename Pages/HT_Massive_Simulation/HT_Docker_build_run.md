@@ -16,7 +16,7 @@ With this guide we'll see
 
 Great news! SCANeR installer comes with all files you need 😊  
 
-To build the SCANeR image read: `$STUDIO_PATH\SCANeRstudio_202X\APIs\DockerCompute\build\**README.txt**`  
+To build the SCANeR image read: `$STUDIO_PATH\SCANeRstudio_202X\APIs\DockerCompute\build\README.txt`  
 
 To use the SCANeR environment we made within previous steps follow specific steps below:  
 1. Rename `.\APIs\DockerCompute\run\sample` to `.\APIs\DockerCompute\run\sample_old`
