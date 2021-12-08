@@ -4,7 +4,7 @@ short: Linux workspace
 order: 30
 ---
 
-# Guide 3. How to port SCANeR workspace under Linux
+# How to port SCANeR workspace under Linux
 
 The SCANeR workspace we made up to now is for Windows (`SAMPLE_COMPUTE_LOCAL`).  
 Use an HPC architecture with a Linux distribution requires to port the Windows SCANeR workspace to Linux.  
