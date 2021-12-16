@@ -13,7 +13,7 @@ To process Big Data, a traditional “dashboard” is not enough. You’ll need 
 As any user, test case, IT infrastructure are unique, we offer the possibility to deploy and scale SCANeR results within your favorite apps, so scientists and engineers can put complex analytics in the hands of business decision makers and operators.  
 For this SCANeR application we display SCANeR results within a point-&-click web interface to models written in Python.  
 
-> Note: a standard installation of Python is required asit uses specific libraries, namely dash, plotly, pandas.
+> Note: a standard installation of Python is required as it uses specific libraries, namely dash, plotly, pandas.
 
 ![](./assets/Analytics.png)
 
