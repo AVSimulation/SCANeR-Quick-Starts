@@ -4,43 +4,43 @@ short: Linux workspace
 order: 30
 ---
 
-# How to port SCANeR workspace under Linux
+# How to port SCANeR a workspace in Linux
 
 The SCANeR workspace we made up to now is for Windows (`SAMPLE_COMPUTE_LOCAL`).  
-Use an HPC architecture with a Linux distribution requires to port the Windows SCANeR workspace to Linux.  
-The goal of this guide is to give you the procedure to do it.  
+Using an HPC architecture with a Linux distribution requires porting the Windows SCANeR workspace to Linux.  
+The goal of this guide is to explain this procedure
 
-- Step 1.	Install SCANeR under Linux using the Standalone method
+- Step 1.	Install SCANeR in Linux using the Standalone method
 - Step 2.	Port the Windows SCANeR workspace to Linux
-- Step 3.	Compile your system under test under Linux
+- Step 3.	Compile your system under test in Linux
 
-## Step 1. Install SCANeR under Linux using the Standalone method
+## Step 1. Install SCANeR in Linux using the Standalone method
 
 Two kinds of Linux installations are available:
 * Hybrid: supervise SCANeR simulation from Windows and distribute SCANeR execution on Linux and/or Windows. It comes as a Windows Add-on installer.
-* Standalone: runtime method, to run SCANeR studio or compute without server X11. Used to distribute SCANeR on HPC/Cloud, it and supports any container solutions (e.g. Docker, Kubernetes).
+* Standalone: runtime method, to run SCANeR studio or compute without server X11. Used to distribute SCANeR on HPC/Cloud, and it supports container solutions (e.g. Docker, Kubernetes).
 
-For Massive Simulation application we’ll use the Standalone one.  
-To install SCANeR in Standalone mode you’ll the Standalone package: `SCANeRstudio_202X.X-rXX.tar.bz2`  
-If you do not have it simply ask us 😊  
-Once you get it extract the contents of the tar archive and follow steps in the delivered [`README-202X.Linux`](./assets/README-2022.Linux)
+For Massive Simulation applications we’ll use the Standalone method.  
+To install SCANeR in Standalone mode you’ll need the Standalone package: `SCANeRstudio_202X.X-rXX.tar.bz2`  
+If you don't have it just ask us 😊  
+Once you have it, extract the contents of the tar archive and follow the steps in the  [`README-202X.Linux`](./assets/README-2022.Linux)
 
-> Tips, it is available under: `.\SCANeRstudio_202X.X-rX.tar.bz2\SCANeRstudio_202X.X-rX.tar\AVSimulation\`
+> Note: it is available under: `.\SCANeRstudio_202X.X-rX.tar.bz2\SCANeRstudio_202X.X-rX.tar\AVSimulation\`
 
 In this README you’ll learn:
-* How to do a SCANeR installation under Linux
+* How to do a SCANeR installation in Linux
 * SCANeR dependencies you’ll need to install
 * SCANeR license installation and setup
-* Execute SCANeR under Linux
-* Compile SCANeR SDK under Linux
-* Use SCANeR in headless mode
+* How to execute SCANeR under Linux
+* How to compile the SCANeR SDK in Linux
+* How to use SCANeR in headless mode
 
 ## Step 2. Port the Windows SCANeR workspace to Linux
 
-Once the installation of SCANeR is done under Linux you have to make accessible your SCANeR Windows workspace.  
+Once the installation of SCANeR in Linux is finished, you have to make your SCANeR Windows workspace accessible.  
 As each IT infrastructure is different there is no specific method, choose your favorite one.  
 
-In our case we’ll simply share the Windows drive with Linux and copy/paste the Windows SCANeR workspace under Linux before to customize it.  
+In our case we’ll simply share the Windows drive with Linux and copy/paste the Windows SCANeR workspace in Linux before customizing it.  
 We use Ubuntu 20.04 LTS x64.  
 In our case we
 
@@ -48,52 +48,52 @@ In our case we
 
 ![](./assets/Linux1.png)
 
-To make it clear we rename the `SAMPLE_COMPUTE_LOCAL` to `SAMPLE_COMPUTE_HPC` under:
+To avoid confusion we'll rename the `SAMPLE_COMPUTE_LOCAL` to `SAMPLE_COMPUTE_HPC` under:
 * `.\APIs`: contains your system under test interface
 * `.\config`: contains your SCANeR environment
 * `.\data`: contains your SCANeR assets
 
-> Tips: Both SCANeR workspaces are identical in terms of environment and assets. Nevertheless as the OS are different each has specificities as:
-> `SAMPLE_COMPUTE_LOCAL`: pathes to SCANeR Windows processes, cpp project's file setup for Windows, SUT built and delivered for Windows.
-> `SAMPLE_COMPUTE_HPC`: pathes to SCANeR Ubuntu processes, cpp project's file setup for Ubuntu, SUT built and delivered for Ubuntu.
+> Tip: Both SCANeR workspaces are identical in terms of environment and assets. However as the OS are different each has specificities:
+> `SAMPLE_COMPUTE_LOCAL`: paths to SCANeR Windows processes, cpp project's file setup for Windows, SUT built and delivered for Windows.
+> `SAMPLE_COMPUTE_HPC`: paths to SCANeR Ubuntu processes, cpp project's file setup for Ubuntu, SUT built and delivered for Ubuntu.
 
 ![](./assets/Linux2.png)
 
-2. We add its name and path into `configurations.cfg`
+2. We add its name and path to `configurations.cfg`
 
 ![](./assets/Linux3.png)
 
-3. Let’s edit our new SCANeR workspace `SAMPLE_COMPUTE_HPC` under Linux and update SCANeR process paths: from your shell call `SCANeRconfigurator`
+3. Let’s edit our new SCANeR workspace `SAMPLE_COMPUTE_HPC` in Linux and update SCANeR process paths: call `SCANeRconfigurator` from your shell 
 
 ![](./assets/Linux4.png)
 
-It gives your access to SCANeRconfigurator HMI
+It gives you access to the SCANeRconfigurator HMI
 
 ![](./assets/Linux5.png)
 
-For each SCANeR module available into your SCANeR workspace update its executable path:  
+For each SCANeR module available in your SCANeR workspace, update its executable path:  
 In `SAMPLE_COMPUTE_LOCAL` you had  
 
 ![](./assets/Linux6.png)
 
-Update it into `SAMPLE_COMPUTE_HPC` to  
+Update it to `SAMPLE_COMPUTE_HPC` to  
 
 ![](./assets/Linux7.png)
 
-Repeat it for all your SCANeR modules 👍🏻
+Repeat for all your SCANeR modules 👍🏻
 
-> Tips, to do so do not forget to setup your shell environment for SCANeR by calling the SCANeR setenv (more details are available into the `README-202X.Linux`)
+> Note: do not forget to setup your shell environment for SCANeR by calling the SCANeR setenv (more details are available in the `README-202X.Linux`)
 > ![](./assets/Linux8.png)
 
-## Step 3. Compile your system under test under Linux
+## Step 3. Compile your system under test in Linux
 
-> Tips, SCANeR SDK is the same between Windows and Linux. So what? That’s good news, you do not have to modify your existing System Under Test’s software interface with SCANeR, you simply have to rebuild it 👍🏻
+> Tip: The SCANeR SDK is the same between Windows and Linux. So? That’s good news, as you do not have to modify your existing System Under Test’s software interface with SCANeR, you simply have to rebuild it 👍🏻
 
 In our case the sample we deliver is under: `.\APIs\samples\ScanerAPI\SUT_AEB`
 
-> Tips, all details you need to build up your system under Linux are available into `README-202X.Linux`
+> Note: all details you need to build up your system under Linux are available into `README-202X.Linux`
 
-Your system under test is now ready to build under Linux!  
+Your system under test is now ready to build in Linux!  
 To compile it, go to `SCANeRstudio_202X/APIs` and execute  
 ```C
 cmake .
@@ -108,19 +108,19 @@ make
 ![](./assets/make.png)
 
 The default output of the executable is under `.\data\<your_workspace>\bin\<distribution>\<version>\`  
-In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu, `<version>` is 20.04.  
+In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu, and `<version>` is 20.04.  
 
 ![](./assets/executable.png)
 
-> Tips, this architecture is a generic one. As each IT infrastructure is different you can of course decide to implement it in another way 😉 should you have any related question please feel free to ask us! Put the system under test under SCANeR workspace is convenient for later application when running SCANeR in a container. But let’s see that later.  
+> Tip: this architecture is a generic one. As each IT infrastructure is different you can of course decide to implement it another way 😉 if you have any questions please feel free to ask us! Putting the system under test in the SCANeR workspace is convenient for later applications such as when running SCANeR in a container. But we'll see that later.  
 
-> Tips,to add a project into the compilation list simply:
+> Tip: to add a project to the compilation list simply:
 > 1. Edit `.\APIs\samples\ScanerAPI\CMakeLists.txt` and add the line
 > ```C
 > ADD_SUBDIRECTORY(<your_project_name>)
 > ```
 > `<your_project_name>` is `SUT_AEB` in our case  
-> 2. Create in your project a new CMake file `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines  
+> 2. Create a new CMake file in your project `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines  
 > ```C
 > SET(TARGET_NAME “SUT_AEB”)  
 > ADD_EXECUTABLE(${TARGET_NAME}  
