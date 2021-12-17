@@ -64,6 +64,7 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 ### Get started
 
 * [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
+* [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
 ## Support or Contact
 
