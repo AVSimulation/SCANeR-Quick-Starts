@@ -65,6 +65,8 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 
 * [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
 * [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
+* [Headlights simulation: connect your AFS model](https://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf)
+* [Capture images from a Camera Sensor](https://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf)
 
 ## Support or Contact
 
