@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 title: SCANeR Quick Starts
 description : Resources for SCANeR users
-show_downloads: true
+show_downloads: false
 plugins:
   - jemoji
 github:
