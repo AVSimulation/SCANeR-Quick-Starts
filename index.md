@@ -54,12 +54,11 @@ Help us improve and enrich our content by sending us your feedback and adding yo
 
 ## SCANeR Samples Pack
 
-The Samples-Pack contains about 30 ready-to-use SCANeR configurations. Created by our engineers, it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
-If you would like to see new demonstrations added to the Samples-Pack please contact us or open a request on [GitHub page](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
+The Samples-Pack contains ready-to-use SCANeR configurations. Created by our engineers, it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
 
-### Get ready
+> **Get the samples pack on Github: [AVSimulation/SCANeR-Samples-Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack)**.
 
-* [Download and install the Samples Pack](./Pages/HT_InstallSamplesPack/HT_InstallSamplesPack.md)
+If you would like to see new demonstrations added to the Samples-Pack please contact us or [open a request on GitHub](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
 
 ### Get started
 
