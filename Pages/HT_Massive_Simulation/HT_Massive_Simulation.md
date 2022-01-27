@@ -24,10 +24,8 @@ It requires
 Don't have these already? [Get your Trial version of SCANeR](https://www.avsimulation.com/free-download/).
 
 > **Tip:** If you do not have yet all of the above content, no worries 😉  
-> You can get the SCANeR ready-to-use environment from our github space
-> ```C
-> git clone -b 2022 https://github.com/AVSimulation/SCANeR-Quick-Starts.git
-> ```
+> You can get the SCANeR ready-to-use environment from our github space  
+> For further information check out our [Samples-Pack README](https://github.com/AVSimulation/SCANeR-Samples-Pack/blob/2022/README.md)  
 > For this guide we'll use `SAMPLE_COMPUTE_LOCAL` and `SAMPLE_COMPUTE_HPC` :thumbsup:
 
 You will also need an HPC platform. For the exercise, a simple Linux computer is enough.
