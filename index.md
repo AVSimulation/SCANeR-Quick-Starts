@@ -67,6 +67,6 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 * [Headlights simulation: connect your AFS model](https://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_EVAL_HEADLIGHTS_Tutorial.pdf)
 * [Capture images from a Camera Sensor](https://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_EVAL_CAMERACAPTURE_Manual.pdf)
 
-## Support or Contact
+## Help
 
-Having trouble? Check out our [FAQ](http://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_Evaluation_FAQ.pdf) or [contact support](support-scaner@avsimulation.fr) and we’ll help you sort it out.
+Having trouble? Reach out to us for [technical support](https://www.avsimulation.com/technical-support/).
