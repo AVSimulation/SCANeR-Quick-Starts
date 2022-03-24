@@ -1,6 +1,6 @@
 ---
-group: Samples Pack
-short: ADAS
+group: ADAS
+short: Tutorial
 order: 20
 ---
 
