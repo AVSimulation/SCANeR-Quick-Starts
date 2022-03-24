@@ -41,8 +41,6 @@ Simply enter your information, click on `SEND` and you are ready to move to the 
 3. The download begins!
 ![](./assets/Download_Begins.png)
 
-> **Note:** In addition, the email also includes a link to our [Samples Pack](../HT_InstallSamplesPack/HT_InstallSamplesPack.html).
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joE1Fi09eEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step 3. Install the Trial
