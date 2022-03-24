@@ -20,8 +20,8 @@ This sample demonstrates the use of ScanerAPI and other SCANeR features to conne
 It may be used as the template for your own experiments.
 
 Two simplified algorithms are used:
-*	ADAS_LKA (lane keeping assist, available in C only)
-*	ADAS_ACC (active cruise control, available in C and Simulink)
+* ADAS_LKA (lane keeping assist, available in C only)
+* ADAS_ACC (active cruise control, available in C and Simulink)
 
 During the simulation, both functions can be activated independently using the keyboard. Effects can be observed on the main visual. A separate window displays the current status of ADAS the functions.
 
@@ -29,13 +29,11 @@ During the simulation, both functions can be activated independently using the k
 
 ## How to use
 
-1. [Load the SCANeR configuration](../HT_Change_work_environment/HT_Change_work_environment.md) SAMPLE_2022_ADAS_LKA_ACC.  
+1. Load the SCANeR configuration SAMPLE_2022_ADAS_LKA_ACC ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).  
 
    *The required modules start automatically.*  
-   ![Modules](assets/modules.png)  
+   ![Modules](assets/Modules.png)  
    > Notice the custom modules `ADAS_ACC` and `ADAS_LKA`.
-
-   
 
 2. Open the scenario `straight_lka_acc.sce`.
 
@@ -53,7 +51,7 @@ During the simulation, both functions can be activated independently using the k
 
 5. Toggle LKA with `F1`  .
 
-   *The state of the LKQ is in the Controlpad Viewer.  
+   *The state of the LKA is in the Controlpad Viewer.  
    The steering wheel turns towards the middle of the lane when the car diverges.*
    
    ![LKA active](assets/lka_active.png)
@@ -98,19 +96,19 @@ A Simulink model is provided that does the same as the compiled C module ADAS_AC
    
    ![Simulink module](assets/simulink_module.png)
   
- 4. Start the simulation
+4. Start the simulation
 
     *From there the behaviour is the same as with the compiled module `ADAS_ACC`.*
  
- ## Explanation
+## Explanation
  
- * General principle
- * Sensors
- * Driver command
- * Vehicle control
- * Simulink
+* General principle
+* Sensors
+* Driver command
+* Vehicle control
+* Simulink
  
- ### General principle
+### General principle
  
 The custom modules `ADAS_LKA` and `ADAS_ACC` are developed in C. Using the ScanerAPI, they get access to the simulation data shared on the SCANeR Network.
 
@@ -149,14 +147,14 @@ The other options include the more generic Export Channels or VEN messages, pref
 
 ![Custom Inputs](assets/custom_inputs.png)
 
--	Module `ACQUISITION` assigns the `Fn` keys to the custom inputs by default.  
+- Module `ACQUISITION` assigns the `Fn` keys to the custom inputs by default.  
   `FnX` → `Custom Input X`  
   A hit on the `F1` or `F2` keys will change the value of the Custom Inputs 1 and 2.  
--	The MICE script accesses and modifies the Custom Inputs.  
+- The MICE script accesses and modifies the Custom Inputs.  
   While `ACQUISITION` only set binary states, the script adds more states in Custom Input 3.
--	Modules `ADAS_LKA` and `ADAS_ACC` read the values of the Custom Inputs using the SCANeR API.  
+- Modules `ADAS_LKA` and `ADAS_ACC` read the values of the Custom Inputs using the SCANeR API.  
   The ADAS functions are activated depending of the Custom inputs 1 and 3.
--	Module `CONTROLPAD` reads the Custom Inputs to display their values.
+- Module `CONTROLPAD` reads the Custom Inputs to display their values.
 
 ![Data Flow](assets/data_flow.png)
 
@@ -187,5 +185,3 @@ It reads and write the exact same messages; hence it behaves the same.
 - In Simulink, the “Controller” block materialize the link to SCANeR.
 
 > In SCANeR's User Manual: `2.3.5. Co-simulation`.
-
- 
