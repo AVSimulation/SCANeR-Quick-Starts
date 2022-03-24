@@ -6,9 +6,14 @@ order: 20
 
 # How to evaluate and validate an ADAS system
 
-This guide will explain how to design an experimentation to evaluate and validate an ADAS system with SCANeR studio.
+This guide explains how to interface your ADAS system with SCANeR studio.
 
 This tutorial requires the [Foundation](https://www.avsimulation.com/pack-foundation/) and [AD/ADAS](https://www.avsimulation.com/pack-ad-adas/) packs. If you don't have them already, [get your Trial version of SCANeR](../HT_Download_Trial_SCANeR/HT_Install_Trial_SCANeR.md) and follow this walk-through.
+
+> The [Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack) includes example ADAS already interfaced to SCANeR:
+> * **SAMPLE_ADAS_AEB**: *I recommend this one for an easy to understand example to refer to along this guide.*
+> * **SAMPLE_ADAS_LKA_ACC**: *A more comprehensive example with driver inputs and dashboard.*
+> * **SAMPLE_LATERAL_CTRL** &* **SAMPLE_LONGI_CTRL**: *Focus on each available level of control: speed, acceleration, pedals, steering wheel.*
 
 # Principle
 
@@ -265,6 +270,5 @@ int main(int argc, char* argv[])
 Congratulations on connecting your ADAS model.
 
 Here are some suggestions to customize and enhance the sample:
-* Edit a component of the CALLAS Ego vehicle dynamics: [How to? edit CALLAS dynamics model]()
-* Use an external Ego vehicle dynamic model instead of CALLAS (CarSim, Vi-CRT, CarMaker, etc.): [How to? interface my dynamics model]()
-* Set key performance indicators & metrics to use in post analysis: [How to? configure KPI & metrics]()
+* [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md): select your own commands to drive
+* [Define metrics](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md): design your own Key Performance Indicators
