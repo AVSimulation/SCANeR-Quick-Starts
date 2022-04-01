@@ -31,8 +31,10 @@ During the simulation, both functions can be activated independently using the k
 
 1. Load the SCANeR configuration SAMPLE_2022_ADAS_LKA_ACC ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).  
 
-   *The required modules start automatically.*  
-   ![Modules](assets/Modules.png)  
+   *The required modules start automatically.*
+   
+   ![Modules](assets/Modules.png)
+   
    > Notice the custom modules `ADAS_ACC` and `ADAS_LKA`.
 
 2. Open the scenario `straight_lka_acc.sce`.
