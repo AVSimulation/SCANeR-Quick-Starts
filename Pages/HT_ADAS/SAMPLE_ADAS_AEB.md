@@ -33,12 +33,11 @@ This one is as simple as it gets for you to practice or to start from for your o
 
 3. Start the simulation.
 
-   *Set the default AEB trigger distance.
-   At the said distance to collision*  
+   *Set the default AEB trigger distance.*  
       
    > This is an interactive variable set in the MICE script.
 
-4. *The Ego vehicle drives itself thanks to a Virtual Driver.*
+   *The Ego vehicle drives itself thanks to a Virtual Driver.*
 
    *When Ego reaches the trigger object (in red), the pedestrian starts crossing the road.*
    
@@ -61,9 +60,7 @@ This one is as simple as it gets for you to practice or to start from for your o
 
 3. Start the `ADAS_PY` module instead.  
    (`Right Click > Start process`, or simply double-click on it)
-   
-   > Here the python installation delivered with SCANeR is launched behind the scene.
-  
+     
 4. Start the simulation
 
     *From there the behaviour is the same as with the compiled module `ADAS_ACC`.*
