@@ -52,8 +52,7 @@ If you want to go further with SCANeR, register for one of our online [technical
 They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
 To accelerate and secure the beginning of your project we offer on demand "Startup assistance" and/or "Training" services.  
-Thanks to these you will benefit of a real transfer of skills and support that guarantees your ability to implement, from the beginning, good practices and good architecture setup.  
-Find more information on:  
+Thanks to these you will benefit of a real transfer of skills and support that guarantees your ability to implement, from the beginning, good practices and good architecture setup. Find more information on:  
 [Startup assistance](https://www.avsimulation.com/start-up-assistance/)  
 [Trainings](https://www.avsimulation.com/training/)  
 
