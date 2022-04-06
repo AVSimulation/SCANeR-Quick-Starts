@@ -15,7 +15,7 @@ short: Home
 
           <a href="https://avsimulation.github.io/SCANeR-Quick-Starts/">
             <title>You are here</title>
-            <polygon points="120, 0, 180, 100, 60, 100" fill=#FFEF00></polygon>
+            <polygon points="120, 0, 180, 100, 60, 100" fill="#FFEF00"></polygon>
             <text x="120" y="70" text-anchor="middle">
               <tspan x="120">Articles</tspan>
               <tspan x="120" dy="15" font-weight="bold">Quick Starts</tspan>
@@ -24,7 +24,7 @@ short: Home
 
           <a href="https://www.youtube.com/watch?v=joE1Fi09eEY&list=PLkaKWDRLGrSacxV-4e-EmGLGHbr-w09_5">
             <title>to Youtube...</title>
-            <polygon points="60, 100, 120, 200, 0, 200" fill=#FFEF00></polygon>
+            <polygon points="60, 100, 120, 200, 0, 200" fill="#FFEF00"></polygon>
             <text x="60" y="170" text-anchor="middle">
               <tspan x="60">Videos</tspan>
               <tspan x="60" dy="15" font-weight="bold">Get Started</tspan>
@@ -33,7 +33,7 @@ short: Home
 
           <a href="https://github.com/AVSimulation/SCANeR-Samples-Pack">
             <title>to Github...</title>
-            <polygon points="180, 100, 240, 200, 120, 200" fill=#FFEF00></polygon>
+            <polygon points="180, 100, 240, 200, 120, 200" fill="#FFEF00"></polygon>
             <text x="180" y="170" text-anchor="middle">
               <tspan x="180">Demos</tspan>
               <tspan x="180" dy="15" font-weight="bold">Samples Pack</tspan>
