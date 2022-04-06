@@ -2,49 +2,51 @@
 short: Home
 ---
 
-<table id="welcome">
-  <tr>
-    <td width="300px">
-      <svg width="240" height="200">
-        <style>
-          polygon:hover {fill: #FFDF00;}
-          a:hover {text-decoration: none;}
-          text {pointer-events : none;}
-        </style>
+<div>
+  <table id="welcome">
+    <tr>
+      <td width="300px">
+        <svg width="240" height="200">
+          <style>
+            polygon:hover {fill: #FFDF00;}
+            a:hover {text-decoration: none;}
+            text {pointer-events : none;}
+          </style>
 
-        <a href="https://avsimulation.github.io/SCANeR-Quick-Starts/">
-          <title>You are here</title>
-          <polygon points="120, 0, 180, 100, 60, 100" fill=#FFEF00></polygon>
-          <text x="120" y="70" text-anchor="middle">
-            <tspan x="120">Articles</tspan>
-            <tspan x="120" dy="15" font-weight="bold">Quick Starts</tspan>
-          </text>
-        </a>
+          <a href="https://avsimulation.github.io/SCANeR-Quick-Starts/">
+            <title>You are here</title>
+            <polygon points="120, 0, 180, 100, 60, 100" fill=#FFEF00></polygon>
+            <text x="120" y="70" text-anchor="middle">
+              <tspan x="120">Articles</tspan>
+              <tspan x="120" dy="15" font-weight="bold">Quick Starts</tspan>
+            </text>
+          </a>
 
-        <a href="https://www.youtube.com/watch?v=joE1Fi09eEY&list=PLkaKWDRLGrSacxV-4e-EmGLGHbr-w09_5">
-          <title>to Youtube...</title>
-          <polygon points="60, 100, 120, 200, 0, 200" fill=#FFEF00></polygon>
-          <text x="60" y="170" text-anchor="middle">
-            <tspan x="60">Videos</tspan>
-            <tspan x="60" dy="15" font-weight="bold">Get Started</tspan>
-          </text>
-        </a>
+          <a href="https://www.youtube.com/watch?v=joE1Fi09eEY&list=PLkaKWDRLGrSacxV-4e-EmGLGHbr-w09_5">
+            <title>to Youtube...</title>
+            <polygon points="60, 100, 120, 200, 0, 200" fill=#FFEF00></polygon>
+            <text x="60" y="170" text-anchor="middle">
+              <tspan x="60">Videos</tspan>
+              <tspan x="60" dy="15" font-weight="bold">Get Started</tspan>
+            </text>
+          </a>
 
-        <a href="https://github.com/AVSimulation/SCANeR-Samples-Pack">
-          <title>to Github...</title>
-          <polygon points="180, 100, 240, 200, 120, 200" fill=#FFEF00></polygon>
-          <text x="180" y="170" text-anchor="middle">
-            <tspan x="180">Demos</tspan>
-            <tspan x="180" dy="15" font-weight="bold">Samples Pack</tspan>
-          </text>
-        </a>
-      </svg>
-    </td>
-    <td valign="top">
-      Welcome to the SCANeR Quick Starts page. Here you will find the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we'll accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
-    </td>
-  </tr>
-</table>
+          <a href="https://github.com/AVSimulation/SCANeR-Samples-Pack">
+            <title>to Github...</title>
+            <polygon points="180, 100, 240, 200, 120, 200" fill=#FFEF00></polygon>
+            <text x="180" y="170" text-anchor="middle">
+              <tspan x="180">Demos</tspan>
+              <tspan x="180" dy="15" font-weight="bold">Samples Pack</tspan>
+            </text>
+          </a>
+        </svg>
+      </td>
+      <td valign="top">
+        Welcome to the SCANeR Quick Starts page. Here you will find the resources to get started with the SCANeR software: advice, best practices, tips and tricks... Follow the guide we'll accompany you step by step.<br/><br/>Everything described here can be done with the evaluation version of SCANeR. If you have not already done so, use the following link to request a copy: <a href="https://www.avsimulation.com/scaner-studio-trial/">Get a Trial version</a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 If you want to go further with SCANeR, register for one of our online [technical events](https://www.avsimulation.com/events/). They are 45 minutes long, hosted by our engineers, cover a wide range of topics (...) and are available on our [YouTube channel](https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA).
 
