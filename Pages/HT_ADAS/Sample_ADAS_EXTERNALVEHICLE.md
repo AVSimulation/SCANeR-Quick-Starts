@@ -4,7 +4,7 @@ This guide explains how to use the Sample "ADAS_EXTERNALVEHICLE" available in th
 
 ## Goal
 
-This sample shows how to synchronize a Simulink dynamic vehicle model with an ADAS within SCANeR studio in non-real time running at 2000 hz.
+This sample shows how to synchronize an external vehicle dynamics model embedded within Simulink equiped with an ADAS to SCANeR.
 
 ## How to use it
 
@@ -14,7 +14,7 @@ Once in the SAMPLE_ADAS_EXTERNALVEHICLE configuration:
 
 ![scenario](./assets/sce.PNG)
 
-* Open MathLab and run “\SCANeRstudio_20xx\APIs\ setupSCANeR.m”,
+* Open MATLAB and run “\SCANeRstudio_20xx\APIs\ setupSCANeR.m”,
 
 > This step is necessary only on first time installation. It will add necessary pathes to the MATLAB Set Path and prepare Simulink libraries according to current MATLAB version.
 
@@ -28,11 +28,11 @@ Once in the SAMPLE_ADAS_EXTERNALVEHICLE configuration:
 
 ### During the simulation
 
-You will then be able to visualize that the simulink model with ADAS is synchronised with SCANeR.
+You will be able to visualize that the simulink model with ADAS is synchronised with SCANeR.
 
 > Due to the S-function, the vehicle will start after few seconds.
 
-The SCANeR API is accessible in Simulink within the Vehicle Dynamics ComUDP API through RT Gateway and its filter.
+SCANeR I/O are accessible in Simulink thanks to RT Gateway and its filter.
 
 > In SCANeR’s User Manual: `2.16. UDP RTGateway protocol`
 
