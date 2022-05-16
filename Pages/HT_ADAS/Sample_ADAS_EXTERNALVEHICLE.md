@@ -4,7 +4,7 @@ This guide explains how to use the Sample "ADAS_EXTERNALVEHICLE" available in th
 
 ## Goal
 
-This sample shows how to synchronize a Simulink dynamic vehicle model with an ADAS with SCANeR studio in non-real time running at 2000 hz.
+This sample shows how to synchronize a Simulink dynamic vehicle model with an ADAS within SCANeR studio in non-real time running at 2000 hz.
 
 ## How to use it
 
