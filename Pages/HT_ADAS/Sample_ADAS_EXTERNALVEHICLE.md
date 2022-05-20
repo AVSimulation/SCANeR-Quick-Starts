@@ -4,35 +4,37 @@ This guide explains how to use the Sample "ADAS_EXTERNALVEHICLE" available in th
 
 ## Goal
 
-This sample shows how to synchronize an external vehicle dynamics model embedded within Simulink equiped with an ADAS to SCANeR.
+This sample shows how to synchronize a Simulink dynamic vehicle model with an ADAS with SCANeR studio in non-real time running at 2000 hz.
 
 ## How to use it
 
 Once in the SAMPLE_ADAS_EXTERNALVEHICLE configuration:
 
+> Tip: [How to switch between workspaces](https://avsimulation.github.io/SCANeR-Quick-Starts/Pages/HT_Change_work_environment/HT_Change_work_environment.html)
+
 * Open the scenario “EVAL_ADAS_EXTERNALVEHICLE.sce”,
 
 ![scenario](./assets/sce.PNG)
 
-* Open MATLAB and run “\SCANeRstudio_20xx\APIs\ setupSCANeR.m”,
+* Open MATLAB and the Simulink model “\SCANeR-Samples-Pack-20xx\APIs\samples\VehicleDynamics\RemoteVehicleModel\EVAL_ADAS_EXTERNALVEHICLE\RemoteVehicleModel_Callas.slx”,
 
-> This step is necessary only on first time installation. It will add necessary pathes to the MATLAB Set Path and prepare Simulink libraries according to current MATLAB version.
+> If it's your first time using MATLAB with SCANeR, an additional step is required. You will find more information in SCANeR’s User Manual, chapter `2.3.3.3.1. First time installation`. This step will add necessary pathes to the MATLAB Set Path and prepare Simulink libraries according to current MATLAB version.
 
-> In SCANeR’s User Manual: `2.3.3.3.1. First time installation`
-
-* Open the Simulink model “\SCANeR-Samples-Pack-20xx\APIs\samples\VehicleDynamics\RemoteVehicleModel\EVAL_ADAS_EXTERNALVEHICLE\RemoteVehicleModel_Callas.slx”,
-
-* Run the Simulink model and all the needed module,
+* Run the Simulink model and configuration modules,
 
 * Play the scenario.
 
+> In this scenario, the UDP communication port used for the remote model is 8842. Using a firewall/antivirus may block the communication. To prevent this, you may simply allow it or modify it in the sample.
+>
+> ![UDPremoteModel](./assets/UDPremoteModel.PNG)
+
 ### During the simulation
 
-You will be able to visualize that the simulink model with ADAS is synchronised with SCANeR.
+You will then be able to visualize that the simulink model with ADAS is synchronised with SCANeR.
 
 > Due to the S-function, the vehicle will start after few seconds.
 
-SCANeR I/O are accessible in Simulink thanks to RT Gateway and its filter.
+The SCANeR API is accessible in Simulink within the Vehicle Dynamics ComUDP API through RT Gateway and its filter.
 
 > In SCANeR’s User Manual: `2.16. UDP RTGateway protocol`
 
