@@ -100,7 +100,7 @@ We want to force our Virtual Driver to follow a straight line at a speed of 50 k
 * From sub-tab `Steering wheel control` set `Steering input` field to `Straight line`.
 * From sub-tab `Longitudinal control` set `Pedals control` field to `Follow a speed target specified in the command data`.
 * From sub-tab `Command data` section `Command type/Point by point` click on `Edit`.
-* Fill-in the command table as follow
+* Fill-in the command table as follow  
   |     | Time(s) | Speed (km/h) | Gearbox ratio |
   | --- | ------- | ------------ | ------------- |
   | 1   | 0       | 50           | 1             |
