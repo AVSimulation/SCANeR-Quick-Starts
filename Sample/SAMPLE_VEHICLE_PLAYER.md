@@ -55,13 +55,24 @@ Pre-requisites:
 
    > *Use the provided terrain `example` in the list.*
 
-7. In the RESSOURCE panel, look for the converted vehicle `hostvehicle`.
+7. In the RESOURCES panel, look for the converted vehicle `hostvehicle`.
 
    ![hostvehicle](assets/hostvehicle.png)
 
 8. Start the simulation
 
    *The vehicle moves according to the input data.*
+
+   > The error below may appear in the log.  
+   > They are the result of a known bug, but they do not prevent correct simulation.
+   > ```
+   > ERROR 1: Missing BASEGEODCRS / BASEGEOGCRS / GEOGCS node 
+   > ERROR 1: PROJ: proj_create: unrecognized format / unknown name 
+   > ERROR 6: Cannot find coordinate operations from `' to `EPSG:4326' 
+   > ERROR 1: PROJ: proj_create: unrecognized format / unknown name 
+   > ERROR 6: Cannot find coordinate operations from `EPSG:4326' to `' 
+   > ```
+   > You can ignore those.
 
 ## Explanation
 
