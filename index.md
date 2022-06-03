@@ -104,7 +104,7 @@ The Samples-Pack contains ready-to-use SCANeR configurations. Created by our eng
 
 If you would like to see new demonstrations added to the Samples-Pack please contact us or [open a request on GitHub](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
 
-## Documentation
+### Documentation
 
 * [SAMPLE_ADAS_AEB](./Pages/HT_ADAS/SAMPLE_ADAS_AEB.md)
 * [SAMPLE_ADAS_LKA_ACC](./Pages/HT_ADAS/SAMPLE_ADAS_LKA_ACC.md)
