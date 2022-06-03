@@ -20,6 +20,9 @@ Vehicle Player uses its own data format. Data acquired from measurements or thir
 
 The source data contains the position of one or several vehicles over time.
 
+The positions should be in the cartesian referential.
+Although it is possible to convert from geodesic to cartesian, as shown here.
+
 This sample shows how to convert the source data using a Python script.
 The input format is XML, but the script can be adapted to take other formats as an input.
 
