@@ -108,7 +108,7 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 
 * [SAMPLE_ADAS_AEB](./Pages/HT_ADAS/SAMPLE_ADAS_AEB.md)
 * [SAMPLE_ADAS_LKA_ACC](./Pages/HT_ADAS/SAMPLE_ADAS_LKA_ACC.md)
-* [SAMPLE_VEHICLE_PLAYER](./Samples/SAMPLE_VEHICLE_PLAYER.md)
+* [SAMPLE_VEHICLE_PLAYER](./Sample/SAMPLE_VEHICLE_PLAYER.md)
 * [SAMPLE_MASSIVE_SIMULATION](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
 ## Help
