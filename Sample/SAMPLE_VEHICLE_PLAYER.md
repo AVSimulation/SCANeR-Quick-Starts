@@ -100,7 +100,7 @@ Once drag & dropped into your scenario, you’ll have them in the hierarchy.
 
 Each vehicle will need its own ACQUISITION and MODELHANDLER modules.
 
-![Multiple Vehicles Modules](assets/multi_veh_modules.png)
+![Multiple Vehicles Modules](assets/mult_veh_modules.png)
 
 Finally, each vehicle instance can be linked to its dedicated modules in the Vehicle Instance Setup window.
 
