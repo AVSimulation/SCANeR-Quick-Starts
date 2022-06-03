@@ -47,7 +47,7 @@ Pre-requisites:
 
    ![Data Hierarchy](assets/data_hierarchy.png)
 
-5. In SCANeR studio, load the configuration SAMPLE_2022_ADAS_AEB ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).
+5. In SCANeR studio, load the configuration SAMPLE_2022_VEHICLE_PLAYER ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).
 
    > :point_right: Just to be sure, refresh the file index with `menu TOOLS > Update resources`.
 
