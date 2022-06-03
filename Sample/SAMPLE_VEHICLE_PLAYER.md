@@ -51,9 +51,9 @@ Pre-requisites:
 
    > :point_right: Just to be sure, refresh the file index with `menu TOOLS > Update resources`.
 
-6. Create a new scenario
+6. Create a new scenario `menu FILE > New Scenario`
 
-   `menu FILE > New Scenario`
+   > *Use the provided terrain `example` in the list.*
 
 7. In the RESSOURCE panel, look for the converted vehicle `hostvehicle`.
 
