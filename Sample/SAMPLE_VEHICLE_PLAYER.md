@@ -29,10 +29,12 @@ The input format is XML, but the script can be adapted to take other formats as 
 ## How to use
 
 Pre-requisites:
-* [Python 2.7](https://www.python.org/downloads/release/python-2716/)
-* [Pyproj 1.9.6](https://pypi.org/project/pyproj/1.9.6/)
+* [Python 3](https://www.python.org/downloads/)
+* [Pyproj 3](https://pypi.org/project/pyproj/) → `pip install pyproj`
 
 ### Step 1. Convert the vehicle trajectory data
+
+The source data is in geodesic referential (lat, long). Let's convert it to cartesian (x, y).
 
 1. Move to the workspace folder `SCANeR-Samples-Pack-2022\APIs\samples\VehiclePlayer\ConvertFromXML`.
 
@@ -81,7 +83,7 @@ Pre-requisites:
 
 ### Projection System
 
-The input geographic coordinates will become projected coordinates.
+The source coordinates are in geodesic referential (lat, long). A projection allows to get them in cartesian referential (x, y).
 
 ![Projection Schematic](assets/projection_schematic.png)
 
