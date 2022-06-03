@@ -91,6 +91,11 @@ Help us improve and enrich our content by sending us your feedback and adding yo
 * [Configure driver's inputs](./Pages/HT_Configure_driver_input/Configure_Driver_Input.md): select your own commands to drive
 * [Define metrics](./Pages/HT_Define_and_Record_my_KPI/HOWTO_DefineAndRecordMyKPI.md): design your own Key Performance Indicators
 
+### Advanced
+
+* [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
+* [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
+
 ## SCANeR Samples Pack
 
 The Samples-Pack contains ready-to-use SCANeR configurations. Created by our engineers, it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
@@ -99,16 +104,12 @@ The Samples-Pack contains ready-to-use SCANeR configurations. Created by our eng
 
 If you would like to see new demonstrations added to the Samples-Pack please contact us or [open a request on GitHub](https://github.com/AVSimulation/SCANeR-Samples-Pack/issues). We may have some scenarios that we can share, or we may take your comments into account in the next revision of the SCANeR Samples-Pack
 
-### Get started
-
-* [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
-* [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
-
-### Sample Documentation
+## Documentation
 
 * [SAMPLE_ADAS_AEB](./Pages/HT_ADAS/SAMPLE_ADAS_AEB.md)
 * [SAMPLE_ADAS_LKA_ACC](./Pages/HT_ADAS/SAMPLE_ADAS_LKA_ACC.md)
 * [SAMPLE_VEHICLE_PLAYER](./Samples/SAMPLE_VEHICLE_PLAYER.md)
+* [SAMPLE_MASSIVE_SIMULATION](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
 ## Help
 
