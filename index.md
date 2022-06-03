@@ -104,6 +104,12 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 * [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
 * [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
+### Sample Documentation
+
+* [SAMPLE_ADAS_AEB](./Pages/HT_ADAS/SAMPLE_ADAS_AEB.md)
+* [SAMPLE_ADAS_LKA_ACC](./Pages/HT_ADAS/SAMPLE_ADAS_LKA_ACC.md)
+* [SAMPLE_VEHICLE_PLAYER](./Samples/SAMPLE_VEHICLE_PLAYER.md)
+
 ## Help
 
 Having trouble? Reach out to us for [technical support](https://www.avsimulation.com/technical-support/).
