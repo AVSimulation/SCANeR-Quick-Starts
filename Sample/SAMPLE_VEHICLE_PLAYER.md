@@ -47,13 +47,13 @@ Pre-requisites:
 
    ![Data Hierarchy](assets/data_hierarchy.png)
 
-5. In SCANeR studio, load the configuration SAMPLE_2022_ADAS_AEB ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).
+5. In SCANeR studio, load the configuration SAMPLE_2022_VEHICLE_PLAYER ([how?](../HT_Change_work_environment/HT_Change_work_environment.md)).
 
    > :point_right: Just to be sure, refresh the file index with `menu TOOLS > Update resources`.
 
-6. Create a new scenario
+6. Create a new scenario `menu FILE > New Scenario`
 
-   `menu FILE > New Scenario`
+   > *Use the provided terrain `example` in the list.*
 
 7. In the RESSOURCE panel, look for the converted vehicle `hostvehicle`.
 
@@ -100,7 +100,7 @@ Once drag & dropped into your scenario, you’ll have them in the hierarchy.
 
 Each vehicle will need its own ACQUISITION and MODELHANDLER modules.
 
-![Multiple Vehicles Modules](assets/multi_veh_modules.png)
+![Multiple Vehicles Modules](assets/mult_veh_modules.png)
 
 Finally, each vehicle instance can be linked to its dedicated modules in the Vehicle Instance Setup window.
 
