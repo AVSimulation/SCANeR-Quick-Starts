@@ -4,7 +4,7 @@ short: Docker run
 order: 60
 ---
 
-# How to run SCANeR within Docker
+# Run SCANeR within Docker
 
 SCANeR Standalone method supports any container solutions (e.g. Docker, Kubernetes).  
 
