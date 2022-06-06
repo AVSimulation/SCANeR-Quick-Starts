@@ -1,10 +1,10 @@
 ---
 group: Massive Simulation
-short: Linux workspace
+short: 3. Linux workspace
 order: 30
 ---
 
-# How to port SCANeR a workspace in Linux
+# Port SCANeR a workspace in Linux
 
 The SCANeR workspace we made up to now is for Windows (`SAMPLE_COMPUTE_LOCAL`).  
 Using an HPC architecture with a Linux distribution requires porting the Windows SCANeR workspace to Linux.  
@@ -22,8 +22,11 @@ Two kinds of Linux installations are available:
 
 For Massive Simulation applications we’ll use the Standalone method.  
 To install SCANeR in Standalone mode you’ll need the Standalone package: `SCANeRstudio_202X.X-rXX.tar.bz2`  
-If you don't have it just ask us 😊  
-Once you have it, extract the contents of the tar archive and follow the steps in the  [`README-202X.Linux`](./assets/README-2022.Linux)
+
+> AVS customers will find the Linux Standalone installer on the [Support Website](https://support.avsimulation.fr/en/).  
+> If you don't have it just ask us 😊  
+
+Extract the contents of the tar archive and follow the steps in the  [`README-202X.Linux`](./assets/README-2022.Linux)
 
 > Note: it is available under: `.\SCANeRstudio_202X.X-rX.tar.bz2\SCANeRstudio_202X.X-rX.tar\AVSimulation\`
 
