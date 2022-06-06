@@ -1,10 +1,10 @@
 ---
 group: Massive Simulation
-short: Analyze
+short: 5. Analyze
 order: 50
 ---
 
-# How to analyze your results
+# Analyze your results
 
 Once the simulations have been executed, you’ll get all of the test case results (60 in our case).  
 To analyze test cases individually, you can use SCANeR studio's standard “dashboard” (Analyzing Tools for familiar users 😉).  
