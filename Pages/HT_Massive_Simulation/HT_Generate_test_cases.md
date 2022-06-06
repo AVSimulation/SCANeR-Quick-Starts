@@ -1,10 +1,10 @@
 ---
 group: Massive Simulation
-short: Generate test cases
+short: 2. Generate test cases
 order: 20
 ---
 
-# How to generate known and unknown test cases
+# Generate known and unknown test cases
 
 For Massive Simulation applications you will need a list of scenarios to test and validate your systems in known and unknown situations.  
 Thanks to SCANeR studio you can prepare template scenarios with parameters, criteria for success, failures and so on.  
@@ -14,8 +14,8 @@ In this guide you’ll see how to
 - Step 1.	Define template scenario parameters and criteria
 - Step 2.	Design a test plan to vary parameters and generate N scenarios
 
-This guide assumes you’re familiar with SCANeR scenario basics.  
-:leftwards_arrow_with_hook: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
+> This guide assumes you’re familiar with SCANeR scenario basics.  
+>  :leftwards_arrow_with_hook: [Create a scenario based on your road network](../HT_Create_your_first_test_case/HT_Create_your_first_test_case.md)
 
 ## Step 1. Define template scenario parameters and criteria
 
