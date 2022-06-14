@@ -72,5 +72,7 @@ This samples shows an example of formatted import data, and the process to get a
 ### Go further
 
 * Learn about the input format: `7.1.3.2.4.5.4. DATA FORMAT`.
-* The imported vehicles are driven by Virtual Driver: `6.7.2.1.3.3. Virtual driver (automatic)`
 * Use ScenarioImporter in command line: `7.1.3.2.4.5.2.1. Command line`.
+* The imported vehicles are driven by Virtual Driver: `6.7.2.1.3.3. Virtual driver (automatic)`.
+* Get the road layout from anywhere on the globe: `4.10.2.2.1.3. Importing OpenStreetMap`.
+* Import elevation data: `4.10.2.2.3. Road Surface Import`.
