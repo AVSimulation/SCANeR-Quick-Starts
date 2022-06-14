@@ -1,3 +1,9 @@
+---
+group: Import records
+short: SCENARIO_IMPORTER
+order: 20
+---
+
 # SAMPLE_SCENARIO_IMPORTER
 
 This is a description and user manual of the sample included in the [Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack).
