@@ -1,3 +1,9 @@
+---
+group: Import records
+short: VEHICLE_PLAYER
+order: 10
+---
+
 # SAMPLE_VEHICLE_PLAYER
 
 This is a description and user manual of the sample included in the [Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack).
