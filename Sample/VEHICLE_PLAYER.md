@@ -2,6 +2,8 @@
 
 This is a description and user manual of the sample included in the [Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack).
 
+> See also: [SAMPLE_SCENARIO_IMPORTER](./SCENARIO_IMPORTER.md).
+
 Contents:
 * **Goal** of the sample.
 * **How to use** the sample.
@@ -10,13 +12,13 @@ Contents:
 
 ## Goal
 
-Vehicle Player is a feature of SCANeR™ that allows simulated vehicles to follow exactly a recorded trajectory. 
+"Vehicle Player" is a feature of SCANeR that allows a simulated vehicle to follow exactly a recorded trajectory. 
 
 > In the User Manual: `5.5.10. Player model`.
 
 Vehicle Player uses its own data format. Data acquired from measurements or third-party software must be converted.
 
-`📄 Source data file` → `📄📄📄 SCANeR™ Vehicle Player files`
+`📄 Source data file` → `📄📄📄 SCANeR Vehicle Player files`
 
 The source data contains the position of one or several vehicles over time.
 
@@ -127,7 +129,7 @@ Finally, each vehicle instance can be linked to its dedicated modules in the Veh
 
 ### Replay GUI
 
-The Replay GUI is a SCANeR™ module that helps the use of Vehicle Player.
+The Replay GUI is a SCANeR module that helps the use of Vehicle Player.
 
 ![Replay GUI](assets/replay_gui.png)
 
