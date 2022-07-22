@@ -26,7 +26,7 @@ When creating a scenario for Massive Simulation it is necessary to make it versa
 To do so we will use script variables. A variable can be an Input, Output or Internal  
 In Step 2 we will vary 2 scenario parameters: `distanceToCollision` and `rainLevel` 
 
-For this reason, we will focus mostly on those during this Step.  
+For this reason, we will focus mostly on those during Step 1.  
 Regarding criteria, it is mandatory to use Output variables.  
 An Output variable makes its content accessible to setup a criteria (e.g. if this Output variable is equal to 1 then it is a success, otherwise it is a failure).
 > `Script Output` > `Scenario Result` > `Scenario Criteria`
@@ -79,7 +79,7 @@ In this step we’ll see how to design a basic test plan to make our scenario pa
 
 3. Now that the test plan is created let’s create an `Exploration` (a test plan may have several Exporations): Select the SCANeR workspace you want, `SAMPLE_COMPUTE_LOCAL` in our case, and the desired scenario, `EVAL_ADAS_CTRL.sce` in our case. You’ll have an overview of the scenario content and its available Output variables. You can add/edit as many parameters, constraints, etc. as you want. Once ready let’s Design the Experiment!
 
-> Tip: Output variables are automatically defined to vary, nevertheless, if you would like to add another variable to the list of variation, you can 😉
+> Tip: Output variables are automatically defined as varying parameters. Nevertheless, you can add other varying parameters manually. 😉
 
 ![](./assets/ScenarioSelection.png)
 ![](./assets/NewExploration.png)
