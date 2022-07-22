@@ -131,9 +131,9 @@ In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu
 > )  
 > TARGET_LINK_LIBRARIES(${TARGET_NAME}  
 > ${SCANeR_API_LIB})  
-> ```
-> 
-> `<your_c_file.cpp>` is `sut_aeb.cpp` in our case
+> ```  
+>  
+> ``<your_c_file.cpp>`` is ``sut_aeb.cpp`` in our case
 
 After these steps, you can make sure that you’re all set by editing `SCANeRconfigurator`.  
 You should have the following result if you use the configuration we deliver.  
