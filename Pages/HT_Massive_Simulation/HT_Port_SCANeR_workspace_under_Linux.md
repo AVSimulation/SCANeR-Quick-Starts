@@ -123,16 +123,16 @@ In our case `<your_workspace>` is SAMPLE_COMPUTE_HPC, `<distribution>` is ubuntu
 > ADD_SUBDIRECTORY(<your_project_name>)
 > ```
 > `<your_project_name>` is `SUT_AEB` in our case  
-> 2. Create a new CMake file in your project `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines  
+> 2. Create a new CMake file in your project `.\APIs\samples\ScanerAPI\SUT_AEB\CMakeLists.txt` and add the following lines
 > ```C
 > SET(TARGET_NAME “SUT_AEB”)
 > ADD_EXECUTABLE(${TARGET_NAME}
 > <your_c_file.cpp>
 > )
 > TARGET_LINK_LIBRARIES(${TARGET_NAME}
-> ${SCANeR_API_LIB})
+> 	                 ${SCANeR_API_LIB})
 > ```
-> `<your_c_file.cpp>` is `sut_aeb.cpp` in our case
+> `<your_c_file.cpp>` is `sut_aeb.cpp` in our case  
 
 After these steps, you can make sure that you’re all set by editing `SCANeRconfigurator`.  
 You should have the following result if you use the configuration we deliver.  
