@@ -9,8 +9,9 @@ order: 40
 Performing local tests will confirm that you did not miss anything before running Massive a Simulation.  
 It’s easy, simply run your test cases with SCANeR compute. 
 To do so, run  
-
-![](./assets/SCANeRcompute.png)
+```
+SCANeRcompute -c COMPUTE_HPC -s out -d ADAS --slice 1/60
+```
 
 We add the `--slice` argument to run only 1 test case, if one is running, that means that our SCANeR workspace is set up.  
 Here are the results you should get:  
