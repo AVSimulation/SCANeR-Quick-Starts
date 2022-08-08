@@ -42,7 +42,7 @@ The operating frequencies of the modules are orchestrated by the Offline Schedul
 
 > More information in SCANeR’s User Manual: `7.28.1. Offline Scheduler`
 
-![Capture](./assets/Capture.PNG)
+![Capture](./assets/Article_GitHub_Sample-EVAL-ADAS-EXTERNALVEHICLE.PNG)
 
 _______________________________________________
 
