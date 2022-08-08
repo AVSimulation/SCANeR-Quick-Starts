@@ -1,3 +1,8 @@
+---
+group: ADAS
+short: SAMPLE_ADAS_AEB
+order: 40
+---
 # Sample_ADAS_EXTERNALVEHICLE
 
 This guide explains how to use the Sample "ADAS_EXTERNALVEHICLE" available in the [Samples Pack](https://github.com/AVSimulation/SCANeR-Samples-Pack).
