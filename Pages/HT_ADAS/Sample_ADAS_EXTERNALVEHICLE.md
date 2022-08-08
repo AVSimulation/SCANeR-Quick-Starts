@@ -24,7 +24,7 @@ Once in the SAMPLE_ADAS_EXTERNALVEHICLE configuration:
 
 * Play the scenario.
 
-> In this scenario, the UDP communication port used for the remote model is 8842. Using a firewall/antivirus may block the communication. To prevent this, you may simply allow it or modify it in the sample.
+> In this scenario, the UDP communication port used for the remote model is 8842. Using a firewall/antivirus may block the communication. To prevent this, you may simply allow it or modify it in the sample. ("right click/Edit model..." on the EGO vehicle to display the vehicle in the VEHICLE mode and edit it.)
 >
 > ![UDPremoteModel](./assets/UDPremoteModel.PNG)
 
