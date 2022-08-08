@@ -1,6 +1,6 @@
 ---
 group: ADAS
-short: SAMPLE_ADAS_AEB
+short: SAMPLE_ADAS_EXTERNALVEHICLE
 order: 40
 ---
 # Sample_ADAS_EXTERNALVEHICLE
