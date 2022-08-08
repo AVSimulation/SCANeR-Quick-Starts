@@ -36,11 +36,11 @@ You will then be able to visualize that the simulink model with ADAS is synchron
 
 The SCANeR API is accessible in Simulink within the Vehicle Dynamics ComUDP API through RT Gateway and its filter.
 
-> In SCANeR’s User Manual: `2.16. UDP RTGateway protocol`
+> More information in SCANeR’s User Manual: `2.16. UDP RTGateway protocol`
 
 The operating frequencies of the modules are orchestrated by the Offline Scheduler.
 
-> In SCANeR’s User Manual: `7.28.1. Offline Scheduler`
+> More information in SCANeR’s User Manual: `7.28.1. Offline Scheduler`
 
 ![Capture](./assets/Capture.PNG)
 
