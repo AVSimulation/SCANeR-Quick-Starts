@@ -144,12 +144,27 @@
 	margin-left: 10px
 }
 
+.avs_link {
+	display: block;
+	float: right;
+	width: 570px;
+	height: 70px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(./sprite_avs.png) no-repeat bottom left;
+	margin-left: 10px
+}
+
 .events_link:hover {
 	background: url(./sprite_links.png) no-repeat top right
 }
 
 .youtube_link:hover {
 	background: url(./sprite_links.png) no-repeat top left
+}
+
+.avs_link:hover {
+	background: url(./sprite_avs.png) no-repeat top left
 }
 
 #main_content_wrap {

@@ -6,6 +6,7 @@ plugins:
   - jemoji
 github:
   repository_url: https://github.com/AVSimulation/SCANeR-Quick-Starts/tree/Published
+  avs_url: https://www.avsimulation.com
   events_url: https://www.avsimulation.com/events/
   youtube_url: https://www.youtube.com/channel/UCYNNe9SaA3LjCFb2qXmhkoA
 
