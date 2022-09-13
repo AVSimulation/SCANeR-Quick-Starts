@@ -12,6 +12,7 @@
 	max-width: 1080px;
 	padding-top: 0;
 	padding-bottom: 0;
+	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -34,6 +35,33 @@
 
 #menu_ribbon {
 	background-color: white;
+	height: 100px;
+}
+
+#menu_ribbon button {
+	border-radius: 10px;
+	background-color: white;
+	border: none;
+}
+
+#menu_ribbon button #avs {
+	background-color: white;
+}
+
+#menu_ribbon button #youtube {
+	background-color: #BB242A;
+}
+
+#menu_ribbon button #github {
+	background-color: #0090FF;
+}
+
+#menu_ribbon button #events {
+	background-color: grey;
+}
+
+#menu_ribbon button #trial {
+	background-color: grey;
 }
 
 #title_ribbon {
