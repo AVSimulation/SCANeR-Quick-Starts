@@ -8,7 +8,7 @@
 }
 
 .centered {
-	width: 60%;
+	width: 100%;
 	max-width: 1080px;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -39,28 +39,35 @@
 }
 
 #menu_ribbon button {
+	width: 200px;
+	height: 40px;
+	margin-right: 50px;
 	border-radius: 10px;
 	background-color: white;
 	border: none;
 }
 
-#menu_ribbon button .avs {
+#menu_ribbon button:hover{
+	text-color: #666;
+}
+
+#menu_ribbon button.avs {
 	background-color: white;
 }
 
-#menu_ribbon button .youtube {
+#menu_ribbon button.youtube {
 	background-color: #BB242A;
 }
 
-#menu_ribbon button .github {
+#menu_ribbon button.github {
 	background-color: #0090FF;
 }
 
-#menu_ribbon button .events {
+#menu_ribbon button.events {
 	background-color: grey;
 }
 
-#menu_ribbon button .trial {
+#menu_ribbon button.trial {
 	background-color: grey;
 }
 
