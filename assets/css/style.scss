@@ -41,10 +41,13 @@
 #menu_ribbon button {
 	width: 200px;
 	height: 40px;
+	margin-top: 30px;
 	margin-right: 50px;
 	border-radius: 10px;
 	background-color: white;
 	border: none;
+	font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 700;
 }
 
 #menu_ribbon button:hover{
@@ -57,18 +60,22 @@
 
 #menu_ribbon button.youtube {
 	background-color: #BB242A;
+	color: white;
 }
 
 #menu_ribbon button.github {
 	background-color: #0090FF;
+	color: white;
 }
 
 #menu_ribbon button.events {
 	background-color: grey;
+	color: white;
 }
 
 #menu_ribbon button.trial {
 	background-color: grey;
+	color: white;
 }
 
 #title_ribbon {
