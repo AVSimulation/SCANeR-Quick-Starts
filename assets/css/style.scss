@@ -48,34 +48,32 @@
 	border: none;
 	font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 	font-weight: 700;
+	color: white;
 }
 
 #menu_ribbon button:hover{
-	color: #666;
+	color: #AAA !important;
 }
 
 #menu_ribbon button.avs {
 	background-color: white;
+	color: black;
 }
 
 #menu_ribbon button.youtube {
 	background-color: #BB242A;
-	color: white;
 }
 
 #menu_ribbon button.github {
 	background-color: #0090FF;
-	color: white;
 }
 
 #menu_ribbon button.events {
-	background-color: grey;
-	color: white;
+	background-color: #666;
 }
 
 #menu_ribbon button.trial {
-	background-color: grey;
-	color: white;
+	background-color: #666;
 }
 
 #title_ribbon {
