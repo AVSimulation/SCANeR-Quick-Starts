@@ -7,12 +7,38 @@
 	max-width: 1080px;
 }
 
-#header_wrap {
+.centered {
+	width: 60%;
+	max-width: 1080px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ribbon {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	background: none;
-	background-image:url(https://www.avsimulation.com/wp-content/uploads/2018/06/degrade_bleu_rose_small.jpg);
-	background-size: cover;
 	border: none;
 	color: none;
+}
+
+#header_wrap {
+	background: none;
+	border: none;
+	color: none;
+}
+
+#menu_ribbon {
+	background-color: white;
+}
+
+#title_ribbon {
+	background-image:url(https://www.avsimulation.com/wp-content/uploads/2018/06/degrade_bleu_rose_small.jpg);
+	background-size: cover;
 }
 
 #project_title {
