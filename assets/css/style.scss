@@ -58,8 +58,9 @@
 }
 
 #menu_ribbon button.avs {
-	background-color: white;
-	color: black;
+	background-image: url(avs_logo.png);
+    background-size: contain;
+    background-position-y: center;
 }
 
 #menu_ribbon button.youtube {
