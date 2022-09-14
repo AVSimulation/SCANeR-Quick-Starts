@@ -54,14 +54,14 @@
 }
 
 #menu_ribbon button:hover{
-	color: #AAA !important;
+	color: #AAA;
 }
 
 #menu_ribbon button.avs {
 	background-image: url(avs_logo.png);
     background-size: contain;
     background-position-y: center;
-	color: transparent;
+	color: transparent !important;
 }
 
 #menu_ribbon button.youtube {
