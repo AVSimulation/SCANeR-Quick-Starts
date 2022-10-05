@@ -52,19 +52,6 @@ This samples shows an example of formatted import data, and the process to get a
 
 4. Hit `Apply`.
 
-   *SCANeR makes the projections and create the scenario file.*
-
-   > The error below may appear in the log.  
-   > They are the result of a known bug, but they do not prevent correct simulation.
-   > ```
-   > ERROR 1: Missing BASEGEODCRS / BASEGEOGCRS / GEOGCS node 
-   > ERROR 1: PROJ: proj_create: unrecognized format / unknown name 
-   > ERROR 6: Cannot find coordinate operations from `' to `EPSG:4326' 
-   > ERROR 1: PROJ: proj_create: unrecognized format / unknown name 
-   > ERROR 6: Cannot find coordinate operations from `EPSG:4326' to `' 
-   > ```
-   > You can ignore those.
-
 5. Open the newly created scenario `menu File > Open Scenario > result_scenario-importer_Sce.sce`.
 
    *The scenario shows two vehicles. When the simulation is played, both vehicles will follow the trajectory specified in the CSV.*
