@@ -113,7 +113,7 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 * [SAMPLE_SCENARIO_IMPORTER](./Sample/SCENARIO_IMPORTER.md)
 * [SAMPLE_MASSIVE_SIMULATION](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
-# Video Tutorials
+## Video Tutorials
 
 {% include carousel.html %}
 
