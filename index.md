@@ -58,7 +58,7 @@ Thanks to these you will benefit of a real transfer of skills and support that g
 
 Help us improve and enrich our content by sending us your feedback and adding your own contributions: [View on GitHub](https://github.com/AVSimulation/SCANeR-Quick-Starts)
 
-## SCANeR
+## <i style="color:#ffef00;">▲</i> SCANeR
 
 ### Get ready
 
@@ -96,7 +96,7 @@ Help us improve and enrich our content by sending us your feedback and adding yo
 * [ADAS test and validation: create your test case to validate your ADAS](./Pages/HT_ADAS/HT_ADAS.md)
 * [How to run a massive simulation to test and validate an ADAS](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
-## SCANeR Samples Pack
+## <i style="color:#ffef00;">▲</i> SCANeR Samples Pack
 
 The Samples-Pack contains ready-to-use SCANeR configurations. Created by our engineers, it is a great source of inspiration and an opportunity to study best practices. Avoid the anxiety of a blank page and use these examples as starting points for your own projects.
 
@@ -113,7 +113,7 @@ If you would like to see new demonstrations added to the Samples-Pack please con
 * [SAMPLE_SCENARIO_IMPORTER](./Sample/SCENARIO_IMPORTER.md)
 * [SAMPLE_MASSIVE_SIMULATION](./Pages/HT_Massive_Simulation/HT_Massive_Simulation.md)
 
-## Video Tutorials
+## <i style="color:#ffef00;">▲</i> Video Tutorials
 
 {% include carousel.html %}
 
