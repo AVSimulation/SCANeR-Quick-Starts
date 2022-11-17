@@ -4,7 +4,7 @@
   <div id="nav_left" class="inner">
     <a href="{{site.baseurl}}/" id="parent">Home</a>
     
-    <h3>{{ page.group }}</h3><br>
+    <h3>{{ page.group }}</h3>
     
     {% for p in group_pages %}
       <a href="{{site.baseurl}}/{{ p.url }}" {% if p.url == page.url %}class="current"{% endif %}>
