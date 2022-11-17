@@ -147,9 +147,9 @@
 #nav_left {
 	position: absolute;
 	width: 14%;
-	max-width: 200px;
+	max-width: 250px;
 	left: 1.5%;
-	padding: 1.5%;
+	padding: 1%;
 	top: 332px;
 	background-color: #FAFAFA;
 	border-radius: 10px;
@@ -160,8 +160,15 @@
 		position: static;
 		width: auto;
 		max-width: none;
-		padding: 20px;
+		padding: 10px;
 	}
+}
+
+#nav_left a {
+ 	max-width: 100%;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;	
 }
 
 #nav_left #parent {
