@@ -20,15 +20,15 @@ The installation of SCANeR requires full administrator privileges.
 
 * Launch SCANeR installer ```SCANeRstudio-2022.1rXX_Trial.exe ```
 
-![Installer: Welcome](./assets/i1.PNG)
+![Installer: Welcome](./assets/Welcome_to_SCAneR.png)
 
 * Click ```Next```
 
-![Installer: License agreement](./assets/i2.PNG)
+![Installer: License agreement](./assets/license_agreement.png)
 
 * Click ```I Agree```
 
-![Installer: Choose Components](./assets/i3.PNG)
+![Installer: Choose Components](./assets/choose_components.png)
 
 * Leave all components selected
 
@@ -36,7 +36,7 @@ The installation of SCANeR requires full administrator privileges.
 
 * Click ```Next```
 
-![Installer: Install Location](./assets/i4.PNG)
+![Installer: Install Location](./assets/install_location.png)
 
 * Choose the installation folder
 
@@ -44,7 +44,7 @@ The installation of SCANeR requires full administrator privileges.
 
 * Click ```Next```
 
-![Installer: Share Folder](./assets/i5b.png)
+![Installer: Share Folder](./assets/installation_type.png)
 
 * Sharing the installation folder is required for a multi-computer configuration.
 
@@ -52,7 +52,7 @@ The installation of SCANeR requires full administrator privileges.
 
 * Click ```Next```
 
-![Installer: Environment Variable](./assets/i6.PNG)
+![Installer: Environment Variable](./assets/studio_path.png)
 
 > The environment variable is required for SCANeR studio to work.
 
@@ -60,17 +60,17 @@ The installation of SCANeR requires full administrator privileges.
 
 * Click ```Next```
 
-![Installer: Start Menu](./assets/i7.PNG)
+![Installer: Start Menu](./assets/start_menu.png)
 
 * Click ```Next```
 
-![Installer: Installing](./assets/i8.PNG)
+![Installer: Installing](./assets/installing.png)
 
 * Wait for the completion of the installation
 
 * Click ```Install```
 
-![Installer: Complete](./assets/i9.PNG)
+![Installer: Complete](./assets/complete.png)
 
 > Installation is finished
 
