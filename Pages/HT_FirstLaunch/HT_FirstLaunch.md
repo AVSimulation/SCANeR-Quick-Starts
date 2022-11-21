@@ -20,7 +20,7 @@ After installing SCANeR studio, double-click on the shortcut available on your d
 
 If you're unsure how to install, everything you need is here: [Install SCANeR.](../HT_Install_SCANeR_studio/HT_Install_SCANeR_studio.md) 😊
 
-![IconDesktop](./assets/IconDesktop.PNG)
+![IconDesktop](./assets/shortcut.png)
 
 Once launched, a GUI will appear asking you to select a `Configuration` to begin.
 
@@ -30,19 +30,19 @@ In order to avoid modifying the DEFAULT `Configuration`, which will be used as a
 
 ## Step 2. Create a new `Configuration`
 
-![CreateNewConfig](./assets/CreateNewConfig.PNG)
+![CreateNewConfig](./assets/source_config.png)
 
 A new `Configuration` is a copy of an existing one. The DEFAULT `Configuration` is used as a basis for creating your first `Configuration`.
 
 Here, your only choice will be the DEFAULT `Configuration`. Click on "Next".
 
-![NameConfig](./assets/NameConfig.PNG)
+![NameConfig](./assets/new_config.png)
 
 Now choose a name for your new `Configuration`. It can be useful to name your `Configurations` according to their purpose. For example, here I'll call mine FirstLaunch.
 
 After naming your `Configuration`, Click on "Next".
 
-![DataPath](./assets/DataPath.PNG)
+![DataPath](./assets/config_path.png)
 
 The path to the data folder of your `Configuration` will be found automatically with the data from other `Configurations` folders. Click on "Finish".
 
