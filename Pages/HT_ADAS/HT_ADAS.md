@@ -189,11 +189,11 @@ Such module uses the *SCANeR API* to read from and write to the SCANeR simulatio
 SCANeR API projects should be compiled with **Microsoft Visual Studio C++ 2019**
 
 You can initialize the C++ project with the following SDK package.
-* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/bin/x64/vs2019/**SCANeR_API_C.2021.dll**`
-* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/lib/x64/vs2019/**SCANeR_API_C.lib**`
-* `%STUDIO_PATH%\SCANeRstudio_2021/APIs/include/ScanerAPI/**scanerAPI_DLL_C.h**`
+* `%STUDIO_PATH%\SCANeRstudio_2023/APIs/bin/x64/vs2019/**SCANeR_API_C.2023.dll**`
+* `%STUDIO_PATH%\SCANeRstudio_2023/APIs/lib/x64/vs2019/**SCANeR_API_C.lib**`
+* `%STUDIO_PATH%\SCANeRstudio_2023/APIs/include/ScanerAPI/**scanerAPI_DLL_C.h**`
 
-> **Note:** For ease of use, we recommend to clone the SCANeR API sample projects that can be found in `%STUDIO_PATH%/SCANeRstudio_2021/APIs/samples/complete.sln` with Visual Studio 2019. For the current purpose, `%STUDIO_PATH%/SCANeRstudio_2021/APIs/samples/ScanerAPI/SampleCom/Radar/scanerAPISampleRadar.vcxproj` is a good candidate to duplicate and start modifying.
+> **Note:** For ease of use, we recommend to clone the SCANeR API sample projects that can be found in `%STUDIO_PATH%/SCANeRstudio_2023/APIs/samples/complete.sln` with Visual Studio 2019. For the current purpose, `%STUDIO_PATH%/SCANeRstudio_2023/APIs/samples/ScanerAPI/SampleCom/Radar/scanerAPISampleRadar.vcxproj` is a good candidate to duplicate and start modifying.
 
 > **Note:** For demonstration purpose, we will include the simulation data interface and the simple AEB algorithm in the same project code. But for a larger project, we recommend dividing the project in two parts: the interface (SCANeR API) and the algorithm.
 
