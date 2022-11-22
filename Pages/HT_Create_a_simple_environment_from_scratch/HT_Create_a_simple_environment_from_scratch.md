@@ -6,9 +6,9 @@ order: 10
 
 # How to create a road network from scratch
 
-In SCANeR, the simulation is composed of `actors` performing actions according to a `scenario` that has been created by the user. This `scenario` takes place in an environement we call the `terrain` of the `scenario`. There are default environments present in SCANeR default data set that you can use, but you can also create your own.
+In SCANeR, a simulation is composed of `actors` performing actions according to a `scenario` that has been created by the user. This `scenario` takes place in an environement we call the `terrain`. SCANeR comes loaded with default environments you can use for your simulations, but you can also use the `TERRAIN` mode to design your own.
 
-> Note: If you already have specific environments, you can directly import these in SCANeR, or we can help you to replicate these as a service on demand. We also offer off-the-shelf complete and realistic environments such as the [N118 around Paris](https://www.avsimulation.com/a86-n118/) or [the Europe 2.0 environment](https://www.avsimulation.com/europe-2-0/). More information on: [https://www.avsimulation.com/content-creation/](https://www.avsimulation.com/content-creation/).
+> Note: If you already have your own environments, you can import them into SCANeR, or we can help you to replicate them as a service on demand. We also offer off-the-shelf complete and realistic environments such as the [N118 around Paris](https://www.avsimulation.com/a86-n118/) or [the Europe 2.0 environment](https://www.avsimulation.com/europe-2-0/). More information on: [https://www.avsimulation.com/content-creation/](https://www.avsimulation.com/content-creation/).
 
 A `terrain` is composed of road logical content, used by the actors to make their own decisions (thanks to SCANeR Traffic A.I.), and of a 3D representation of the roads, intersections and decorative elements.
 
@@ -35,9 +35,8 @@ Let's jump into the guide!
 
 ## Step 2. Create the road network and the 3D representation
 1. Click on the `Roads` tab to bring up the menu for inserting segments. Here you can click on any of the buttons in the `Insert Road Curves` sub-menu to select the road type, and then drag your mouse in the editor to lay down a segment. If you create two intersecting segments, the `Detect` button in the `Intersection` sub-menu becomes available. Click this button to create an intersection at the point where the two segments cross. 
-<video src="https://user-images.githubusercontent.com/22998298/127977584-23603bda-3850-4720-bc1d-3eef40cb08a5.mp4" controls="controls" style="max-width: 730px;"></video> 
-
-<video src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/detect_intersection.mp4" controls="controls" style="max-width: 730px;"></video> 
+   >Video to be added
+<!-- <video src="https://user-images.githubusercontent.com/22998298/127977584-23603bda-3850-4720-bc1d-3eef40cb08a5.mp4" controls="controls" style="max-width: 730px;"></video> -->
 
    >Note: SCANeR veterans will recall it was necessary to enable to `Intersection 3D Generation` layer to see an intersection. New in version 2023, this layer is enabled by default while in the `Roads` tab.
 
@@ -47,7 +46,7 @@ Let's jump into the guide!
    
    In this menu, first select `Traffic Light` to start editing your signal. At the bottom of the `Signal Options` section, click the drop down menu in the `Traffic Light Group`, and add a name for your group. This group will be associated with all of the signals in this intersection to ensure their animation and logical instructions for traffic are in sync.
 
-   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/edit_signals.png?" width="70%"/>
+   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/edit_signals.png" width="70%"/>
  
    Click `OK` when you are done configuring and you will see the traffic light has been placed on the track. Now you just have drag and drop it on the right spot on the sidewalk. Repeat this step for as many traffic lights as you want in your Terrain. I recommend four, one for each road in your intersection. Be sure to add them all to the same animation group!
 <!-- <video src="https://user-images.githubusercontent.com/22998298/127977612-ba466420-2367-4e43-b754-901f318521f5.mp4" controls="controls" style="max-width: 730px;"></video> -->
@@ -61,11 +60,15 @@ Let's jump into the guide!
 
 ## Step 3. Export the 3D
 
-1. In order to see the environment in the simulation, we need to generate the 3D file representing it. But before doing this, let's make sure our Traffic Lights are oriented correctly. You can switch to the `Perspective View` by clicking on the `Camera` button on the top right corner and by selecting `Perspective View`.
+1. In order to see the environment in a simulation, we need to generate the 3D file which represents it. But first, let's make sure our traffic lights are oriented correctly. You can switch to the `Free Perspective View` by clicking on the `Camera` button on the top right corner and by selecting `Free Perspective View`. You can also use the keyboard shortcut, in this case `P`.
 
-![Perspective View](./assets/Perspective_View.png)
+![View Menu](./assets/view_menu.png)
 
-   You can now see how the traffic lights are oriented and correct them if needed. In my case, the only one that was not oriented correctly was the one named `Traffic Light 2`. To correct the orientation just select the Traffic Light and in the `SELECTION` window search for `Heading`, then change its angle. 
+   You can now see how the traffic lights are oriented and correct them if needed. To correct the orientation just select the Traffic Light and in the `SELECTION` window search for `Heading`. You can use the slider to see the orientation or type in the angle in degress. 
+
+   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/selection_menu_heading.png" width="40%"/>
+
+   >Tip: When changing camera views, the camera will zoom out and capture the whole network. If you wan to focus on a certain area or object, select it just before changing views. The new view will focus on the selected object so you dont have to search for it. Also, you can hold `alt`+`middle click` while moving your mouse to rotate the camera around a selected object.
 
 <!-- <video src="https://user-images.githubusercontent.com/22998298/127978181-6b1fe79d-f04c-4110-99da-50fae408c954.mp4" controls="controls" style="max-width: 730px;"></video> -->
 
