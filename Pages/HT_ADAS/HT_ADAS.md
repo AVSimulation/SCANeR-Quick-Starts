@@ -28,8 +28,8 @@ The brakes should be activated when a pedetrian is detected too close in front o
 
 We will need
 * Step 1. A sensor model
-* Step 3. A scenario with Ego car and pedestrian
-* Step 2. The ADAS model
+* Step 2. A scenario with Ego car and pedestrian
+* Step 3. The ADAS model
 
 Before starting, [create a dedicated workspace](HT_Create_custom_work_environment/HT_Create_A_New_Workspace.md) called `TUTO_ADAS` for instance.
 
@@ -68,7 +68,7 @@ During the simulation, the radar sensor model is managed by the module `SENSORS`
 * Add the module to your configuration with `menu CONFIGURATION` > `Configuration manager` > `Add Process` > `SENSORS` > `Add`.
 * Then `Close` the *Add Process* window, `Apply` the new configuration settings and leave with `OK`.
 
-## Step 3. Scenario
+## Step 2. Scenario
 
 In this step, we will design our experiment by defining the environment (the proving ground), the actors, the sensors, the story and the KPI/Metrics we would like to get for post-analysis.
 
@@ -177,7 +177,7 @@ If you want to try the scenario at this stage, launch the MODELHANDLER (for Ego)
 
 Now by connecting the AEB, we can avoid the collision.
 
-## Step 2. ADAS model
+## Step 3. ADAS model
 
 To implement the ADAS model, we will develop a *SCANeR custom module*.
 Such module uses the *SCANeR API* to read from and write to the SCANeR simulation data buses: *Network* and *Shared Memory*.
