@@ -16,9 +16,9 @@ The installation of SCANeR requires full administrator privileges.
 
 ## Install SCANeR
 
-* Unzip SCANeR archive ```SCANeRstudio-2022.1rXX_Trial.zip ``` 
+* Unzip SCANeR archive ```SCANeRstudio-2023.1rXX_Trial.zip ``` 
 
-* Launch SCANeR installer ```SCANeRstudio-2022.1rXX_Trial.exe ```
+* Launch SCANeR installer ```SCANeRstudio-2023.1rXX_Trial.exe ```
 
 ![Installer: Welcome](./assets/Welcome_to_SCAneR.png)
 
