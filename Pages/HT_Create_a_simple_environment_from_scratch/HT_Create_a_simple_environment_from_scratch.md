@@ -35,8 +35,12 @@ Let's jump into the guide!
 
 ## Step 2. Create the road network and the 3D representation
 1. Click on the `Roads` tab to bring up the menu for inserting segments. Here you can click on any of the buttons in the `Insert Road Curves` sub-menu to select the road type, and then drag your mouse in the editor to lay down a segment. If you create two intersecting segments, the `Detect` button in the `Intersection` sub-menu becomes available. Click this button to create an intersection at the point where the two segments cross. 
-   >Video to be added
-<!-- <video src="https://user-images.githubusercontent.com/22998298/127977584-23603bda-3850-4720-bc1d-3eef40cb08a5.mp4" controls="controls" style="max-width: 730px;"></video> -->
+
+ <video src="https://user-images.githubusercontent.com/94562216/203463454-2a25c7ff-5b19-42c4-8538-5d8ce87034ac.mp4" controls="controls" style="max-width: 730px;"></video>
+
+
+
+
 
    >Note: SCANeR veterans will recall it was necessary to enable to `Intersection 3D Generation` layer to see an intersection. New in version 2023, this layer is enabled by default while in the `Roads` tab.
 
