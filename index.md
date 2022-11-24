@@ -26,7 +26,7 @@ short: Home
             <title>to Youtube...</title>
             <polygon points="60, 100, 120, 200, 0, 200" fill="#FFEF00"></polygon>
             <text x="60" y="170" text-anchor="middle">
-              <tspan x="60">Videos</tspan>
+              <tspan x="60">Video</tspan>
               <tspan x="60" dy="15" font-weight="bold">Tutorials</tspan>
             </text>
           </a>
