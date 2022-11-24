@@ -20,9 +20,9 @@ Let's jump into the guide!
 
 ## Step 1. Create the scenario and prepare the situation
 
-1. First of all, we have to add a `Step` to our `Scenario`. To do this, right click on `StoryBoard` and select `Add Step`. Then, in the `Step` you have just created, right click on `Scripts` and select `Add MICE script`.
+1. First of all, we have to add a `Script` to our `Scenario`. To do this, right click on `Scripts` under `StoryBoard`\`Background Task` and select `Add MICE script`
 
-![Add step](./assets/New_Step.png) ![Add script](./assets/New_Script.png)
+![Add script](./assets/New_Script.png)
 
 2. Before editing the script, we'll first place a `Trigger`. Such tool enables us to detect a position of a specific actor and trigger an action, here we'll use it to make the pedestrian cross the road. To do this, go in the `TrafficTools` tab in the `Resources` dock, and drag and drop the `Trigger` object in front of the EGO vehicle.
 
