@@ -22,12 +22,12 @@ short: Home
             </text>
           </a>
 
-          <a href="https://www.youtube.com/watch?v=joE1Fi09eEY&list=PLkaKWDRLGrSacxV-4e-EmGLGHbr-w09_5">
+          <a href="https://www.youtube.com/@avsimulation7046/playlists">
             <title>to Youtube...</title>
             <polygon points="60, 100, 120, 200, 0, 200" fill="#FFEF00"></polygon>
             <text x="60" y="170" text-anchor="middle">
               <tspan x="60">Videos</tspan>
-              <tspan x="60" dy="15" font-weight="bold">Get Started</tspan>
+              <tspan x="60" dy="15" font-weight="bold">Tutorials</tspan>
             </text>
           </a>
 
