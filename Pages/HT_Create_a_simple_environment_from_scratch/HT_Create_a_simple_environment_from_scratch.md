@@ -58,7 +58,8 @@ Let's jump into the guide!
 
 3. Now let's synchronize our Traffic Lights. Double click on one of your trafic lights to open the menu, and then click the `Edit` button in the `Animation` section. A new GUI appears where you can configure the color of your lights and the amount of time between every step. Click the cells with lights in them to change thei state between `on`, `off`, or `blink`. Change the time each state is active by clicking on the time at the top of the light's table. In my case, I want the east and west groups to be in sync with each other, and the north and south lights will have a corresponding pattern. You can use the slider at the bottom to preview the animation and confirm the state of each light at specific points in your cycle.
 
-   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/light_group.png" width="60%"/>
+   
+![Light Group](./assets/light_group.png)
 
 <!-- <video src="https://user-images.githubusercontent.com/22998298/127977645-df7f1664-7ed8-40ae-a5db-6cab2a4a9e0f.mp4" controls="controls" style="max-width: 730px;"></video> -->
 
