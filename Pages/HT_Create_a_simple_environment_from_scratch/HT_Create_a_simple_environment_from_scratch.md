@@ -46,7 +46,7 @@ Let's jump into the guide!
 
 2. In this step we will add realism to the terrain we just created by adding traffic lights. Using the `Select` tool, left click the axis a road(in this case the green line) to select it, then right click to bring up the menu. Click `Insert Signal` to open the `Edit Signals` menu.
 
-   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/insert_signal.png" width="60%"/>
+   ![Edit signals](./assets/edit_signals.png) 
    
    In this menu, first select `Traffic Light` to start editing your signal. At the bottom of the `Signal Options` section, click the drop down menu in the `Traffic Light Group`, and add a name for your group. This group will be associated with all of the signals in this intersection to ensure their animation and logical instructions for traffic are in sync.
 
