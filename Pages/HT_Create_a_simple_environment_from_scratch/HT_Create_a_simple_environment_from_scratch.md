@@ -41,16 +41,15 @@ Let's jump into the guide!
 
 
 
-
    >Note: SCANeR veterans will recall it was necessary to enable to `Intersection 3D Generation` layer to see an intersection. New in version 2023, this layer is enabled by default while in the `Roads` tab.
 
 2. In this step we will add realism to the terrain we just created by adding traffic lights. Using the `Select` tool, left click the axis a road(in this case the green line) to select it, then right click to bring up the menu. Click `Insert Signal` to open the `Edit Signals` menu.
 
-   ![Edit signals](./assets/edit_signals.png) 
+   ![Insert signal](./assets/insert_signal.png) 
    
    In this menu, first select `Traffic Light` to start editing your signal. At the bottom of the `Signal Options` section, click the drop down menu in the `Traffic Light Group`, and add a name for your group. This group will be associated with all of the signals in this intersection to ensure their animation and logical instructions for traffic are in sync.
 
-   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/edit_signals.png" width="60%"/>
+   ![Edit signals](./assets/edit_signals.png)
  
    Click `OK` when you are done configuring and you will see the traffic light has been placed on the track. Now you just have drag and drop it on the right spot on the sidewalk. Repeat this step for as many traffic lights as you want in your Terrain. I recommend four, one for each road in your intersection. Be sure to add them all to the same animation group!
 <!-- <video src="https://user-images.githubusercontent.com/22998298/127977612-ba466420-2367-4e43-b754-901f318521f5.mp4" controls="controls" style="max-width: 730px;"></video> -->
@@ -70,8 +69,8 @@ Let's jump into the guide!
    ![View Menu](./assets/view_menu.png)
 
    You can now see how the traffic lights are oriented and correct them if needed. To correct the orientation just select the Traffic Light and in the `SELECTION` window search for `Heading`. You can use the slider to see the orientation or type in the angle in degress. 
-
-   <img src="https://github.com/AVSimulation/SCANeR-Quick-Starts/blob/Published/Pages/HT_Create_a_simple_environment_from_scratch/assets/selection_menu_heading.png" width="30%"/>
+   
+   ![Selection Menu Heading](./assets/selection_menu_heading.png)
 
    >Tip: When changing camera views, the camera will zoom out and capture the whole network. If you wan to focus on a certain area or object, select it just before changing views. The new view will focus on the selected object so you dont have to search for it. Also, you can hold `alt`+`middle click` while moving your mouse to rotate the camera around a selected object.
 
